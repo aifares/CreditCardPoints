@@ -1,0 +1,203 @@
+[
+  {
+    "id": 3,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 37500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T10:00:00-04:00",
+    "arrivalTime": "2025-08-09T13:20:00+09:00",
+    "duration": 860,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 4,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 42500,
+    "seatsRemaining": 4,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T15:35:00-04:00",
+    "arrivalTime": "2025-08-10T04:45:00+09:00",
+    "duration": 1450,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 5,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 42500,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T16:25:00-04:00",
+    "arrivalTime": "2025-08-10T04:45:00+09:00",
+    "duration": 1400,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 6,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 42500,
+    "seatsRemaining": 3,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T17:29:00-04:00",
+    "arrivalTime": "2025-08-10T04:45:00+09:00",
+    "duration": 1336,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 7,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 42500,
+    "seatsRemaining": 4,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T19:30:00-04:00",
+    "arrivalTime": "2025-08-10T04:45:00+09:00",
+    "duration": 1215,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 8,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 42500,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T21:00:00-04:00",
+    "arrivalTime": "2025-08-10T04:45:00+09:00",
+    "duration": 1125,
+    "airlines": [
+      "American Airlines"
+    ]
+  },
+  {
+    "id": 2,
+    "route": "JFK → HND",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 79000,
+    "seatsRemaining": 7,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T09:05:00-04:00",
+    "arrivalTime": "2025-08-09T19:25:00+09:00",
+    "duration": 1280,
+    "airlines": [
+      "Hawaiian Airlines"
+    ]
+  },
+  {
+    "id": 0,
+    "route": "JFK → NRT",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 95000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T07:00:00-04:00",
+    "arrivalTime": "2025-08-09T16:00:00+09:00",
+    "duration": 1200,
+    "airlines": [
+      "Alaska Airlines",
+      "Hawaiian Airlines"
+    ]
+  },
+  {
+    "id": 1,
+    "route": "EWR → NRT",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 115000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T07:19:00-04:00",
+    "arrivalTime": "2025-08-09T16:00:00+09:00",
+    "duration": 1181,
+    "airlines": [
+      "Alaska Airlines",
+      "Hawaiian Airlines"
+    ]
+  },
+  {
+    "id": 0,
+    "route": "JFK → NRT",
+    "classType": "REFUNDABLE_PARTNER_BUSINESS",
+    "milesPoints": 300000,
+    "seatsRemaining": 7,
+    "cabinTypes": [
+      "FIRST",
+      "BUSINESS"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T07:00:00-04:00",
+    "arrivalTime": "2025-08-09T16:00:00+09:00",
+    "duration": 1200,
+    "airlines": [
+      "Alaska Airlines",
+      "Hawaiian Airlines"
+    ]
+  },
+  {
+    "id": 1,
+    "route": "EWR → NRT",
+    "classType": "REFUNDABLE_PARTNER_BUSINESS",
+    "milesPoints": 300000,
+    "seatsRemaining": 7,
+    "cabinTypes": [
+      "FIRST",
+      "BUSINESS"
+    ],
+    "refundable": true,
+    "departureTime": "2025-08-08T07:19:00-04:00",
+    "arrivalTime": "2025-08-09T16:00:00+09:00",
+    "duration": 1181,
+    "airlines": [
+      "Alaska Airlines",
+      "Hawaiian Airlines"
+    ]
+  }
+]
