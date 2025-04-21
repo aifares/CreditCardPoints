@@ -1,0 +1,964 @@
+{
+  "alaska": [
+    {
+      "id": 7,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T08:05:00-04:00",
+      "arrivalTime": "2025-08-08T20:17:00-07:00",
+      "duration": 912,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 17,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 5,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T14:50:00-04:00",
+      "arrivalTime": "2025-08-08T21:20:00-07:00",
+      "duration": 570,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 18,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T14:50:00-04:00",
+      "arrivalTime": "2025-08-08T22:50:00-07:00",
+      "duration": 660,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 21,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:25:00-04:00",
+      "arrivalTime": "2025-08-08T22:53:00-07:00",
+      "duration": 568,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 22,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:25:00-04:00",
+      "arrivalTime": "2025-08-08T23:54:00-07:00",
+      "duration": 629,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 25,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T17:00:00-04:00",
+      "arrivalTime": "2025-08-08T22:50:00-07:00",
+      "duration": 530,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 26,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 22500,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "COACH",
+        "COACH"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T17:15:00-04:00",
+      "arrivalTime": "2025-08-08T21:56:00-07:00",
+      "duration": 461,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 30,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 25000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:29:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 845,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 31,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 25000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:29:00-04:00",
+      "arrivalTime": "2025-08-09T10:47:00-07:00",
+      "duration": 1038,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 9,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 30000,
+      "seatsRemaining": 6,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T17:32:00-07:00",
+      "duration": 542,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 10,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 30000,
+      "seatsRemaining": 5,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T20:43:00-07:00",
+      "duration": 733,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 11,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 30000,
+      "seatsRemaining": 8,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T23:44:00-07:00",
+      "duration": 914,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 23,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 30000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:39:00-04:00",
+      "arrivalTime": "2025-08-08T23:44:00-07:00",
+      "duration": 605,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 24,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 30000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:39:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 1075,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 27,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 35000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T17:29:00-04:00",
+      "arrivalTime": "2025-08-08T23:59:00-07:00",
+      "duration": 570,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 0,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "BUSINESS",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T06:29:00-04:00",
+      "arrivalTime": "2025-08-08T12:39:00-07:00",
+      "duration": 550,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 1,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "BUSINESS",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T06:29:00-04:00",
+      "arrivalTime": "2025-08-08T14:56:00-07:00",
+      "duration": 687,
+      "airlines": [
+        "American Airlines",
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 8,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 3,
+      "cabinTypes": [
+        "BUSINESS",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T08:39:00-04:00",
+      "arrivalTime": "2025-08-08T17:32:00-07:00",
+      "duration": 713,
+      "airlines": [
+        "American Airlines",
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 12,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 40000,
+      "seatsRemaining": 6,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T12:10:00-04:00",
+      "arrivalTime": "2025-08-08T20:32:00-07:00",
+      "duration": 682,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 16,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 40000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T14:00:00-04:00",
+      "arrivalTime": "2025-08-08T20:05:00-07:00",
+      "duration": 545,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 19,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 40000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T14:55:00-04:00",
+      "arrivalTime": "2025-08-08T19:51:00-07:00",
+      "duration": 476,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 20,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 40000,
+      "seatsRemaining": 6,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T15:20:00-04:00",
+      "arrivalTime": "2025-08-08T20:32:00-07:00",
+      "duration": 492,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 28,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 40000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T18:53:00-04:00",
+      "arrivalTime": "2025-08-09T08:50:00-07:00",
+      "duration": 1017,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 29,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 40000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:29:00-04:00",
+      "arrivalTime": "2025-08-09T07:52:00-07:00",
+      "duration": 863,
+      "airlines": [
+        "Alaska Airlines",
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 32,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "BUSINESS",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:30:00-04:00",
+      "arrivalTime": "2025-08-09T07:52:00-07:00",
+      "duration": 862,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 33,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "BUSINESS",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:30:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 844,
+      "airlines": [
+        "American Airlines",
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 34,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_PARTNER_BUSINESS",
+      "milesPoints": 40000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "FIRST",
+        "BUSINESS"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T23:00:00-04:00",
+      "arrivalTime": "2025-08-09T10:19:00-07:00",
+      "duration": 859,
+      "airlines": [
+        "American Airlines"
+      ]
+    },
+    {
+      "id": 2,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 50000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T14:54:00-07:00",
+      "duration": 654,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 3,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 50000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T16:58:00-07:00",
+      "duration": 778,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 4,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 50000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T19:05:00-07:00",
+      "duration": 905,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 5,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 50000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T20:00:00-07:00",
+      "duration": 960,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 6,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 50000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T21:00:00-07:00",
+      "duration": 1020,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 30,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 50000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:29:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 845,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 31,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 50000,
+      "seatsRemaining": 8,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:29:00-04:00",
+      "arrivalTime": "2025-08-09T10:47:00-07:00",
+      "duration": 1038,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 33,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 52500,
+      "seatsRemaining": 1,
+      "cabinTypes": [
+        "FIRST",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T20:30:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 844,
+      "airlines": [
+        "American Airlines",
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 13,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 55000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T20:00:00-07:00",
+      "duration": 600,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 14,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 55000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T21:00:00-07:00",
+      "duration": 660,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 15,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_MAIN",
+      "milesPoints": 55000,
+      "seatsRemaining": 9,
+      "cabinTypes": [
+        "MAIN",
+        "MAIN"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T22:46:00-07:00",
+      "duration": 766,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 3,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T16:58:00-07:00",
+      "duration": 778,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 4,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T19:05:00-07:00",
+      "duration": 905,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 5,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T20:00:00-07:00",
+      "duration": 960,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 6,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T21:00:00-07:00",
+      "duration": 1020,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 9,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T17:32:00-07:00",
+      "duration": 542,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 10,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T20:43:00-07:00",
+      "duration": 733,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 11,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T11:30:00-04:00",
+      "arrivalTime": "2025-08-08T23:44:00-07:00",
+      "duration": 914,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 13,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T20:00:00-07:00",
+      "duration": 600,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 14,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T21:00:00-07:00",
+      "duration": 660,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 15,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 2,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T13:00:00-04:00",
+      "arrivalTime": "2025-08-08T22:46:00-07:00",
+      "duration": 766,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 23,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 8,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:39:00-04:00",
+      "arrivalTime": "2025-08-08T23:44:00-07:00",
+      "duration": 605,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 24,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 8,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T16:39:00-04:00",
+      "arrivalTime": "2025-08-09T07:34:00-07:00",
+      "duration": 1075,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 27,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 4,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T17:29:00-04:00",
+      "arrivalTime": "2025-08-08T23:59:00-07:00",
+      "duration": 570,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 28,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 70000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T18:53:00-04:00",
+      "arrivalTime": "2025-08-09T08:50:00-07:00",
+      "duration": 1017,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    },
+    {
+      "id": 2,
+      "route": "JFK → LAX",
+      "classType": "REFUNDABLE_FIRST",
+      "milesPoints": 125000,
+      "seatsRemaining": 7,
+      "cabinTypes": [
+        "FIRST",
+        "FIRST"
+      ],
+      "refundable": true,
+      "departureTime": "2025-08-08T07:00:00-04:00",
+      "arrivalTime": "2025-08-08T14:54:00-07:00",
+      "duration": 654,
+      "airlines": [
+        "Alaska Airlines"
+      ]
+    }
+  ],
+  "american": []
+}
