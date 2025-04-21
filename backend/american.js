@@ -1,11 +1,12 @@
+#!/usr/bin/env node
+
 const axios = require("axios");
 const fs = require("fs");
 
-// Prepare the data exactly as in your working Postman request
-const data = {
+let data = JSON.stringify({
   metadata: {
     selectedProducts: [],
-    tripType: "RoundTrip",
+    tripType: "OneWay",
     udo: {},
   },
   passengers: [
@@ -21,21 +22,11 @@ const data = {
     {
       allCarriers: true,
       cabin: "",
-      departureDate: "2025-04-24",
-      destination: "LAX",
+      departureDate: "2025-04-30",
+      destination: "MIA",
       destinationNearbyAirports: false,
       maxStops: null,
       origin: "NYC",
-      originNearbyAirports: false,
-    },
-    {
-      allCarriers: true,
-      cabin: "",
-      departureDate: "2025-04-30",
-      destination: "NYC",
-      destinationNearbyAirports: false,
-      maxStops: null,
-      origin: "LAX",
       originNearbyAirports: false,
     },
   ],
@@ -43,6 +34,7 @@ const data = {
     corporateBooking: false,
     fareType: "Lowest",
     locale: "en_US",
+    pointOfSale: null,
     searchType: "Award",
   },
   loyaltyInfo: null,
@@ -54,10 +46,11 @@ const data = {
     solutionId: "",
     sort: "CARRIER",
   },
-};
+});
 
-const config = {
+let config = {
   method: "post",
+  maxBodyLength: Infinity,
   url: "https://www.aa.com/booking/api/search/itinerary",
   headers: {
     accept: "application/json, text/plain, */*",
@@ -66,7 +59,7 @@ const config = {
     origin: "https://www.aa.com",
     priority: "u=1, i",
     referer:
-      "https://www.aa.com/booking/choose-flights/1?sid=3c8367c5-1e21-4567-9a61-b96d2ab9259e",
+      "https://www.aa.com/booking/choose-flights/1?sid=3e9004de-c76a-45bf-afc2-8af095206a83",
     "sec-ch-ua":
       '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
     "sec-ch-ua-mobile": "?0",
@@ -76,122 +69,156 @@ const config = {
     "sec-fetch-site": "same-origin",
     "user-agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
-    "x-cid": "a533ffcf-d161-42d1-b2e8-7ff30f07f4c5",
+    "x-cid": "8ecad508-11fa-4aec-8713-a84142192b53",
     "x-dtpc":
-      "12$327736059_674h28vJMFTHKPFCPIRAMIMFGPIQNDBMPMFFFQL-0e0, 12$327736059_674h28vJMFTHKPFCPIRAMIMFGPIQNDBMPMFFFQL-0e0",
-    "x-xsrf-token": "92042bb1-3fd1-4dab-88c0-e3a2ef6f2b29",
+      "7$477016779_493h29vIULEAUKPLGCIFFBTERLAENMAPKALUEHE-0e0, 7$477016779_493h29vIULEAUKPLGCIFFBTERLAENMAPKALUEHE-0e0",
+    "x-xsrf-token": "3537b023-09e0-406d-b3e1-662a6d622f0d",
     Cookie:
-      "_abck=87C098369FA74CA01191D52A9951C2D8~-1~YAAQjQLEF+oV0UGWAQAAZ4XWVA2I89aHKFs2DaLOHj0NmGUAMrFOnvZRrA7CPEd9qr2lfDjYTiAcKi/qYyvyFGccXfnj2uWgMW2D2R1c2JzZU00o0WsL255o4V9pbDd2Slw/mm3uXDmT46P272O8GYsafBH/pME3aYQPAO1XfMvIFEq+ejscpe1bfP+FpKRG7XBF2DEwVSlGr7IlH9+zxwi0uu+netmPJ4oVV4/fB0YgYl1WzBKen5TGj6b0irswW+cUhEkSs08q4S+Jj5x0vFkiS1gDvgpuSO5sHMN5M+T5K+1+ekPB7mAFKDXR04F/3mLkjmOHGeHsfZS0ntrh2Xh64uBrjQ0391wHJ8KMf+VbsHliA8W1bEu6wPJN3n8AC4CKXtCfG/P3c4fGQpbztvJMCtxCSeLT6CFf2iIa1lcxEM/Ya4e6~-1~-1~-1; bm_s=YAAQEpM2F6KzsE2WAQAAYdjwVAN/mskf4ODlYP9nPhBHH3WtQOS/qHIj4lADXBnu509yzd8o3r9VOGNiIDQ8Es7s7rv2g7NUA8u/wvNenq00pH0DJx5fykwNVHPmGy8xNTgOMKFabN9LihCE2WtSMe2VQxZW+LdcgU1lhKF5o8XF+kantwqy74RXUHKgHygBolgjLrB+6UKymB6b2Gw1oWPfsR/E+STOmrj1dQw9asMWsydem86ZhLjkttFe7kU7AurSfkKP7ooXAQUKImMLT4+7W62jaSpnYgrAuHPZR7pXxcjje8IRfv8P808l7imSb/HEfsLrQHCeeM7bh7UJqU+qwyJOyxLwaNc9Yyjt7UQVHbd5oLyRR+pOmD3QFpseCFo8DoGYoksUsyhdc8tK9OPc0NiE1rtkIvP8SmxojOJXM5I5411l6VZRiFhUgfu8qmKjhkQ=; bm_ss=ab8e18ef4e; bm_sz=1604985A9AAB7E1F1F654A1D96E97C0D~YAAQEpM2F6OzsE2WAQAAYdjwVBs7dQBGRW/KA+wzuhdYY+KR28Ae44a0aCFmAWa1dy+LjlTYSRi40CwEHnVSYx93AC9bjkEprdY7ZO9WkTvZFKt0K0g7C+3JJR+37QxxIWx5jebK/hlzDv3Hx4Upz2A32Uv1oZ+dIEEx0ENTuRmwLbx03th2dJBBsmEllBKk+QpZvG9Cpi/kKWsSnP5Xu2yWkMj39QmiQLauwB3jL4I64yQs/wd1bFbWyAmJcMjjRHO4eEjTFpjlKA13u9Cvc8ImcqQ94amTR12Jdd+94KpsNky5HEPbDg3Qp96auAFFoZxG6znwRbS1ghBTKN1wVHljvOpu3O/61EIMLcsDiz2K/VeWDKNw8NvO/P4REzym3L9bIazH1HkqL/ixWgFCOG2Z~4604469~4535876; aka_cr_code=US-NY; aka_lc_code=ML; aka_state_code=NY; akavpau_www_aafullsite=1745182092~id=898d6ced16ec1e55807a6d895fbf0c9c",
+      "_abck=87C098369FA74CA01191D52A9951C2D8~-1~YAAQkALEF/FKWEmWAQAAl5CJWg3EbXDUmLhnmsyVlDIwTFQy90vvQiWyOfY0jubo7MZ69WQ0kNHSNdFHyY0LmvV7TlkobKXZSmrbkh5D/Tmf3wuhnuqWT/XXNFGHc/tvrCkB8SZ+ki83rR1zdlXIFt2mv1E3pHFVVk3xdcY9iyZh7v9ouSR3A/f1SqlxuzDB6tpRqlFIHxqMTjGP4O7xIYeFxUvQLdbVDaq9yii3PjUSMRi4Y1tY/Tm7tY2FgazPnHStWJiA6uejKNL5Orpo4tsU1MgJPv0o/OmqwWNp/Z2Jn3hoH4e7IsGju+0t+Ob200KENRI4gEVyha6sNpEoYM7mTGKc0QDgqmcknLVcowBCADIaZou9EtoTnvI35IzofuKn3vnxGj5eSyVJZz+C0qqL5xH2dCbH8mMQ9oO74CBG1MW+BnVn~-1~-1~-1; bm_s=YAAQuQTSF9z7gUiWAQAA/kGeWgO+4rR9rRrWaq2TG2a0ynSLIEa1I/V+4cQ2PXMjjtapG6Ivsfbw4Ij0FQhuT953wBMy05l5GDtQVjETQ2DyB3Tv8ruWNguXWNN8ukarkD6NzKgaDUa9P56HTaDiTkofjrbU1tQlmeYc5jYBPaSBHqfG/4h+v2+WYuDeby+3gXYWPe1od1m1+oKEB7olC1hpbDFO++JCo0/mNnQQtKEcBfRtnT8y77eBMavzzK5ngXNvCfMdUPjoy7KarNcV3M5UuCQtlgESfE9i9AUuFFqsbqkCuLxhuLA0CyU+fW9ZH7lbTUk/RvtM7FrVzwg/yMSU/5clT3uqB6lcw8w/KdIhyFUExUEdj0KwiaAM2GjNjMqc4/9DS9pObP8YeEHb3RB/mAAvVO/qkXXukfSuwHpYG5tyb3lnpg6DnQmtducz1BlHNc0=; bm_ss=e919a75364; bm_sz=0857E556AFE43BB402C9AB53754FB5B5~YAAQuQTSF937gUiWAQAA/kGeWhuXC57GY4s7Z757tVVotCWOUkanWGvI8gmqoJCFa5i7MaHtc45gmh7IFadmIQe9wYaAXzNHXz1CJ5Xc6nLOudmcKDBZqG4nbl6NudL0f0AOyHuIICPPr7YZzlESARiY5fCWwpyf3JmoXQzSW2IdXXVWKnUziCPdjKyW7t8BL+3i5ITQpGfbalfkpK9hQjBuHA2le6bV6UQBv1gmeFCvi6JPsGBG6NlDm0plR7kcy67j986L+ldBDjT7BerjrIqPKWNg481TxOOz1Xw0pPg8m+V5JAnPpKphd74uIt1zepRNx97XvbSWd66NcLFEIKczyDQWML14El12wlfm0zhAOvz+3CnJ18iGJjzcZWBFfii92lPXWIgopyc=~3487800~4535618; aka_cr_code=US-NY; aka_lc_code=ML; aka_state_code=NY; akavpau_www_aafullsite=1745277343~id=fcea587b67c2a2c1f7e7cb5bb926258d",
   },
-  data: data, // Send as object, let axios handle it
+  data: data,
 };
 
 axios
   .request(config)
   .then((response) => {
-    console.log("Status code:", response.status);
-    console.log("Response data type:", typeof response.data);
-
-    // Save the raw response to inspect
+    // Save the raw API response for debugging
     fs.writeFileSync(
-      "rawResponse.json",
+      "american-raw.json",
       JSON.stringify(response.data, null, 2)
     );
-    console.log("✅ Saved raw response to rawResponse.json");
+    console.log("API Response saved to american-raw.json");
 
-    // Check if there are itinerary groups in the response
-    if (response.data && response.data.itineraryGroups) {
-      console.log(
-        "Number of itinerary groups:",
-        response.data.itineraryGroups.length
-      );
-
-      // Process with your formatting function
-      const formatted = formatAmericanResults(response.data);
-      console.log("Formatted results count:", formatted.length);
-
-      if (formatted.length > 0) {
-        fs.writeFileSync("aaResults.json", JSON.stringify(formatted, null, 2));
-        console.log("✅ Saved to aaResults.json");
-      } else {
-        console.log("❌ No valid results found after formatting");
-      }
-    } else {
-      console.log("❌ No itinerary groups found in response");
-      // Log a sample of the response to see its structure
-      console.log(
-        "Response preview:",
-        JSON.stringify(response.data).substring(0, 300) + "..."
-      );
+    // Check if we can access slices
+    if (!response.data) {
+      console.log("No response data");
+      return;
     }
+
+    // Log important properties from the response
+    console.log("Response keys:", Object.keys(response.data));
+
+    const formattedResults = formatAmericanResults(response.data);
+    console.log(`Formatted ${formattedResults.length} results`);
+
+    fs.writeFileSync(
+      "american.json",
+      JSON.stringify(formattedResults, null, 2)
+    );
   })
   .catch((error) => {
-    console.log("❌ Request failed:");
+    console.log("Error:", error.message);
     if (error.response) {
-      // The request was made and the server responded with a status code
-      // that falls out of the range of 2xx
-      console.log("Status:", error.response.status);
-      console.log("Data:", error.response.data);
-      console.log("Headers:", error.response.headers);
-    } else if (error.request) {
-      // The request was made but no response was received
-      console.log("No response received:", error.request);
-    } else {
-      // Something happened in setting up the request that triggered an Error
-      console.log("Error message:", error.message);
+      console.log("Response status:", error.response.status);
+      console.log("Response data:", error.response.data);
     }
   });
 
 // Your formatting function
+/**
+ * Given the raw AA search response, returns an array of award options
+ * formatted like the Alaska example:
+ * [
+ *   { id, route, classType, milesPoints, seatsRemaining, cabinTypes,
+ *     refundable, departureTime, arrivalTime, duration, airlines },
+ *   …
+ * ]
+ */
 function formatAmericanResults(apiData) {
   const results = [];
   let idCounter = 0;
 
-  if (!Array.isArray(apiData?.itineraryGroups)) return [];
+  // Loop through every slice in the response
+  (apiData.slices || []).forEach((slice) => {
+    // Build common fields for this slice
+    const depSeg = slice.segments[0];
+    const arrSeg = slice.segments[slice.segments.length - 1];
+    const origin = depSeg.legs[0].origin.code;
+    const destination = arrSeg.legs[arrSeg.legs.length - 1].destination.code;
+    const departureTime = depSeg.legs[0].departureDateTime;
+    const arrivalTime = arrSeg.legs[arrSeg.legs.length - 1].arrivalDateTime;
+    const duration = slice.durationInMinutes;
 
-  for (const group of apiData.itineraryGroups) {
-    for (const itinerary of group.itineraries || []) {
-      const slices = itinerary.slices || [];
-      const airlines = new Set();
-      const cabinTypes = [];
+    // Collect unique airlines and cabin types on this slice
+    const airlines = Array.from(
+      new Set(slice.segments.map((seg) => seg.flight.carrierName))
+    );
+    const cabinTypes = Array.from(
+      new Set(
+        slice.segments.flatMap((seg) =>
+          seg.legs.flatMap((leg) =>
+            leg.productDetails.map((pd) => pd.cabinType)
+          )
+        )
+      )
+    );
 
-      const depSegment = slices[0]?.segments?.[0];
-      const arrSegment = slices.at(-1)?.segments?.at(-1);
-
-      const origin = depSegment?.origin?.code;
-      const destination = arrSegment?.destination?.code;
-      const departureTime = depSegment?.departureDateTime;
-      const arrivalTime = arrSegment?.arrivalDateTime;
-
-      let duration = 0;
-      slices.forEach((slice) => {
-        duration += slice.durationMinutes || 0;
-        slice.segments.forEach((seg) => {
-          if (seg.marketingCarrier?.description)
-            airlines.add(seg.marketingCarrier.description);
-          if (seg.cabin) cabinTypes.push(seg.cabin);
-        });
+    // Push one result per pricingDetail entry
+    (slice.pricingDetail || []).forEach((detail) => {
+      results.push({
+        id: idCounter++,
+        route: `${origin} → ${destination}`,
+        classType: detail.productType,
+        milesPoints: detail.perPassengerAwardPoints,
+        seatsRemaining: detail.seatsRemaining ?? null,
+        cabinTypes,
+        refundable: (detail.refundableProducts || []).length > 0,
+        departureTime,
+        arrivalTime,
+        duration,
+        airlines,
       });
+    });
+  });
 
-      for (const option of itinerary.pricingOptions || []) {
-        results.push({
-          id: idCounter++,
-          route: `${origin} → ${destination}`,
-          classType: option.productType || "UNKNOWN",
-          milesPoints: option.perPassengerAwardPoints ?? null,
-          seatsRemaining: option.seatsRemaining ?? null,
-          cabinTypes,
-          refundable: option.isRefundable ?? false,
-          departureTime,
-          arrivalTime,
-          duration,
-          airlines: Array.from(airlines),
-        });
-      }
-    }
-  }
+  // Sort all flights by award points ascending
+  return results.sort((a, b) => a.milesPoints - b.milesPoints);
+}
+function formatAmericanResults(apiData) {
+  const results = [];
+  let idCounter = 0;
 
-  return results
-    .filter((r) => r.milesPoints !== null)
-    .sort((a, b) => a.milesPoints - b.milesPoints);
+  (apiData.slices || []).forEach((slice) => {
+    const depSeg = slice.segments[0];
+    const arrSeg = slice.segments[slice.segments.length - 1];
+    const origin = depSeg.legs[0].origin.code;
+    const destination = arrSeg.legs[arrSeg.legs.length - 1].destination.code;
+    const departureTime = depSeg.legs[0].departureDateTime;
+    const arrivalTime = arrSeg.legs[arrSeg.legs.length - 1].arrivalDateTime;
+    const duration = slice.durationInMinutes;
+    const airlines = Array.from(
+      new Set(slice.segments.map((s) => s.flight.carrierName))
+    );
+    const cabinTypes = Array.from(
+      new Set(
+        slice.segments.flatMap((seg) =>
+          seg.legs.flatMap((leg) =>
+            leg.productDetails.map((pd) => pd.cabinType)
+          )
+        )
+      )
+    );
+
+    (slice.pricingDetail || []).forEach((detail) => {
+      results.push({
+        id: idCounter++,
+        route: `${origin} → ${destination}`,
+        classType: detail.productType,
+        milesPoints: detail.perPassengerAwardPoints,
+        seatsRemaining: detail.seatsRemaining ?? null,
+        cabinTypes,
+        refundable: (detail.refundableProducts || []).length > 0,
+        departureTime,
+        arrivalTime,
+        duration,
+        airlines,
+
+        // ← here’s what was missing:
+        taxAmount: detail.perPassengerTaxesAndFees?.amount ?? 0,
+        taxCurrency: detail.perPassengerTaxesAndFees?.currency ?? "USD",
+      });
+    });
+  });
+
+  return results.sort((a, b) => a.milesPoints - b.milesPoints);
 }
