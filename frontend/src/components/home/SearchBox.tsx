@@ -16,12 +16,15 @@ interface FlightResult {
   airlines: string[];
 }
 
+type AirlineOption = "all" | "alaska" | "american";
+
 export default function SearchBox() {
   const [origin, setOrigin] = useState<string>("");
   const [destination, setDestination] = useState<string>("");
   const [departureDate, setDepartureDate] = useState<string>("");
   const [returnDate, setReturnDate] = useState<string>("");
   const [cabin, setCabin] = useState<string>("Economy");
+  const [airline, setAirline] = useState<AirlineOption>("all");
   const [flights, setFlights] = useState<FlightResult[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
@@ -37,7 +40,15 @@ export default function SearchBox() {
       setLoading(true);
       setError("");
       
-      const response = await axios.post("http://localhost:5000/api/search", {
+      // Determine which endpoint to call based on the selected airline
+      let endpoint = "http://localhost:5000/api/search";
+      if (airline === "alaska") {
+        endpoint = "http://localhost:5000/api/search/alaska";
+      } else if (airline === "american") {
+        endpoint = "http://localhost:5000/api/search/american";
+      }
+      
+      const response = await axios.post(endpoint, {
         origin,
         destination,
         departureDate,
@@ -130,6 +141,41 @@ export default function SearchBox() {
               <option>Business</option>
               <option>First</option>
             </select>
+          </div>
+        </div>
+        <div className="mb-4">
+          <label className="label">Airline Program</label>
+          <div className="flex flex-wrap gap-2">
+            <label className="label cursor-pointer gap-2">
+              <input 
+                type="radio" 
+                name="airline" 
+                className="radio radio-primary" 
+                checked={airline === "all"}
+                onChange={() => setAirline("all")} 
+              />
+              <span className="label-text">All Airlines</span>
+            </label>
+            <label className="label cursor-pointer gap-2">
+              <input 
+                type="radio" 
+                name="airline" 
+                className="radio radio-primary" 
+                checked={airline === "alaska"}
+                onChange={() => setAirline("alaska")} 
+              />
+              <span className="label-text">Alaska Airlines</span>
+            </label>
+            <label className="label cursor-pointer gap-2">
+              <input 
+                type="radio" 
+                name="airline" 
+                className="radio radio-primary" 
+                checked={airline === "american"}
+                onChange={() => setAirline("american")} 
+              />
+              <span className="label-text">American Airlines</span>
+            </label>
           </div>
         </div>
         {error && <div className="alert alert-error mb-4">{error}</div>}

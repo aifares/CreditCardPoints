@@ -1,6 +1,7 @@
 const axios = require("axios");
 const express = require("express");
 const cors = require("cors");
+const americanApi = require("./american-api");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -174,10 +175,10 @@ function extractAndSortFlights(rows) {
   return allFares.sort((a, b) => a.milesPoints - b.milesPoints);
 }
 
-// Create API endpoint for flight search
-app.post("/api/search", async (req, res) => {
+// Create API endpoint for Alaska Air flight search
+app.post("/api/search/alaska", async (req, res) => {
   try {
-    console.log("Received search request:", req.body);
+    console.log("Received Alaska Airlines search request:", req.body);
     const { origin, destination, departureDate, returnDate, numAdults = 1 } = req.body;
     
     // Validate required fields
@@ -188,7 +189,7 @@ app.post("/api/search", async (req, res) => {
       });
     }
     
-    console.log("Searching flights with parameters:", { origin, destination, departureDate, returnDate, numAdults });
+    console.log("Searching Alaska Airlines flights with parameters:", { origin, destination, departureDate, returnDate, numAdults });
     const rows = await searchFlights({
       origin,
       destination,
@@ -208,7 +209,105 @@ app.post("/api/search", async (req, res) => {
     console.log(`Returning ${sortedFlights.length} sorted flights`);
     res.json(sortedFlights);
   } catch (error) {
-    console.error("Error processing flight search:", error);
+    console.error("Error processing Alaska Airlines flight search:", error);
+    console.error("Error stack:", error.stack);
+    res.status(500).json({ error: "Failed to process flight search" });
+  }
+});
+
+// Create API endpoint for American Airlines flight search
+app.post("/api/search/american", async (req, res) => {
+  try {
+    console.log("Received American Airlines search request:", req.body);
+    const { origin, destination, departureDate, returnDate, numAdults = 1 } = req.body;
+    
+    // Validate required fields
+    if (!origin || !destination || !departureDate || !returnDate) {
+      console.log("Missing required fields:", { origin, destination, departureDate, returnDate });
+      return res.status(400).json({ 
+        error: "Missing required fields: origin, destination, departureDate, and returnDate are required" 
+      });
+    }
+    
+    console.log("Searching American Airlines flights with parameters:", { origin, destination, departureDate, returnDate, numAdults });
+    const apiResponse = await americanApi.searchFlights({
+      origin,
+      destination,
+      departureDate,
+      returnDate,
+      numAdults,
+    });
+    
+    const sortedFlights = americanApi.formatResults(apiResponse);
+    console.log(`Returning ${sortedFlights.length} sorted American Airlines flights`);
+    res.json(sortedFlights);
+  } catch (error) {
+    console.error("Error processing American Airlines flight search:", error);
+    console.error("Error stack:", error.stack);
+    res.status(500).json({ error: "Failed to process American Airlines flight search" });
+  }
+});
+
+// Create API endpoint that searches both airlines and combines results
+app.post("/api/search", async (req, res) => {
+  try {
+    console.log("Received combined search request:", req.body);
+    const { origin, destination, departureDate, returnDate, numAdults = 1 } = req.body;
+    
+    // Validate required fields
+    if (!origin || !destination || !departureDate || !returnDate) {
+      console.log("Missing required fields:", { origin, destination, departureDate, returnDate });
+      return res.status(400).json({ 
+        error: "Missing required fields: origin, destination, departureDate, and returnDate are required" 
+      });
+    }
+    
+    console.log("Searching flights on multiple airlines:", { origin, destination, departureDate, returnDate, numAdults });
+    
+    // Search flights from both airlines in parallel
+    const [alaskaRows, americanResponse] = await Promise.allSettled([
+      searchFlights({
+        origin,
+        destination,
+        departureDate,
+        returnDate,
+        numAdults,
+      }),
+      americanApi.searchFlights({
+        origin,
+        destination,
+        departureDate,
+        returnDate,
+        numAdults,
+      })
+    ]);
+    
+    // Process Alaska Airlines results
+    let alaskaFlights = [];
+    if (alaskaRows.status === 'fulfilled' && Array.isArray(alaskaRows.value)) {
+      alaskaFlights = extractAndSortFlights(alaskaRows.value);
+      console.log(`Found ${alaskaFlights.length} Alaska Airlines flights`);
+    } else {
+      console.log('Alaska Airlines search failed or returned no results');
+    }
+    
+    // Process American Airlines results
+    let americanFlights = [];
+    if (americanResponse.status === 'fulfilled') {
+      americanFlights = americanApi.formatResults(americanResponse.value);
+      console.log(`Found ${americanFlights.length} American Airlines flights`);
+    } else {
+      console.log('American Airlines search failed or returned no results');
+    }
+    
+    // Combine and sort all flights by miles
+    const allFlights = [...alaskaFlights, ...americanFlights]
+      .sort((a, b) => a.milesPoints - b.milesPoints);
+    
+    console.log(`Returning ${allFlights.length} combined flights from all airlines`);
+    res.json(allFlights);
+  } catch (error) {
+    console.error("Error processing combined flight search:", error);
     console.error("Error stack:", error.stack);
     res.status(500).json({ error: "Failed to process flight search" });
   }
@@ -222,14 +321,20 @@ app.get("/api/health", (req, res) => {
 // Start the server
 const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log(`API endpoint: http://localhost:${PORT}/api/search`);
+  console.log(`API endpoints:`);
+  console.log(`  - Alaska Airlines: http://localhost:${PORT}/api/search/alaska`);
+  console.log(`  - American Airlines: http://localhost:${PORT}/api/search/american`);
+  console.log(`  - Combined search: http://localhost:${PORT}/api/search`);
 }).on('error', (err) => {
   if (err.code === 'EADDRINUSE') {
     console.log(`Port ${PORT} is already in use. Trying port ${PORT + 1}...`);
     const newPort = PORT + 1;
     app.listen(newPort, () => {
       console.log(`Server running on port ${newPort}`);
-      console.log(`API endpoint: http://localhost:${newPort}/api/search`);
+      console.log(`API endpoints:`);
+      console.log(`  - Alaska Airlines: http://localhost:${newPort}/api/search/alaska`);
+      console.log(`  - American Airlines: http://localhost:${newPort}/api/search/american`);
+      console.log(`  - Combined search: http://localhost:${newPort}/api/search`);
     });
   } else {
     console.error('Server error:', err);
