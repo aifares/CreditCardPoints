@@ -1,5 +1,13 @@
 const axios = require("axios");
-const fs = require("fs");
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
 
 async function searchFlights({
   origin,
@@ -106,17 +114,52 @@ function extractAndSortFlights(rows) {
   return allFares.sort((a, b) => a.milesPoints - b.milesPoints);
 }
 
-// 🔄 Call the function with user input
-searchFlights({
-  origin: "NYC",
-  destination: "TYO",
-  departureDate: "2025-08-08",
-  returnDate: "2025-09-04",
-  numAdults: 2,
-}).then((rows) => {
-  const sorted = extractAndSortFlights(rows);
-  console.log(JSON.stringify(sorted, null, 2));
+// Create API endpoint for flight search
+app.post("/api/search", async (req, res) => {
+  try {
+    const { origin, destination, departureDate, returnDate, numAdults = 1 } = req.body;
+    
+    // Validate required fields
+    if (!origin || !destination || !departureDate || !returnDate) {
+      return res.status(400).json({ 
+        error: "Missing required fields: origin, destination, departureDate, and returnDate are required" 
+      });
+    }
+    
+    const rows = await searchFlights({
+      origin,
+      destination,
+      departureDate,
+      returnDate,
+      numAdults,
+    });
+    
+    const sortedFlights = extractAndSortFlights(rows);
+    res.json(sortedFlights);
+  } catch (error) {
+    console.error("Error processing flight search:", error.message);
+    res.status(500).json({ error: "Failed to process flight search" });
+  }
+});
 
-  // Optional: write to file
-  fs.writeFileSync("sortedFlights.json", JSON.stringify(sorted, null, 2));
+// Health check endpoint
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok" });
+});
+
+// Start the server
+const server = app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+  console.log(`API endpoint: http://localhost:${PORT}/api/search`);
+}).on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.log(`Port ${PORT} is already in use. Trying port ${PORT + 1}...`);
+    const newPort = PORT + 1;
+    app.listen(newPort, () => {
+      console.log(`Server running on port ${newPort}`);
+      console.log(`API endpoint: http://localhost:${newPort}/api/search`);
+    });
+  } else {
+    console.error('Server error:', err);
+  }
 });

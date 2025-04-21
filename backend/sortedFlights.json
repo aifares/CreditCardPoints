@@ -21,7 +21,7 @@
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
-    "seatsRemaining": 4,
+    "seatsRemaining": 3,
     "cabinTypes": [
       "COACH",
       "COACH"
@@ -39,7 +39,7 @@
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
-    "seatsRemaining": 5,
+    "seatsRemaining": 3,
     "cabinTypes": [
       "COACH",
       "COACH"
@@ -57,25 +57,7 @@
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
-    "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "COACH"
-    ],
-    "refundable": true,
-    "departureTime": "2025-08-08T17:29:00-04:00",
-    "arrivalTime": "2025-08-10T04:45:00+09:00",
-    "duration": 1336,
-    "airlines": [
-      "American Airlines"
-    ]
-  },
-  {
-    "id": 7,
-    "route": "JFK → HND",
-    "classType": "REFUNDABLE_MAIN",
-    "milesPoints": 42500,
-    "seatsRemaining": 4,
+    "seatsRemaining": 2,
     "cabinTypes": [
       "COACH",
       "COACH"
@@ -89,11 +71,11 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
-    "seatsRemaining": 5,
+    "seatsRemaining": 3,
     "cabinTypes": [
       "COACH",
       "COACH"
@@ -111,7 +93,7 @@
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 79000,
-    "seatsRemaining": 7,
+    "seatsRemaining": 6,
     "cabinTypes": [
       "COACH",
       "COACH"
