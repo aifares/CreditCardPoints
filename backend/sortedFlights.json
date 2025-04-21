@@ -21,7 +21,7 @@
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
-    "seatsRemaining": 4,
+    "seatsRemaining": 3,
     "cabinTypes": [
       "COACH",
       "COACH"
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "route": "JFK → HND",
     "classType": "REFUNDABLE_MAIN",
     "milesPoints": 42500,
