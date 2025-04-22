@@ -225,13 +225,72 @@ const axios = require("axios");
     departureDate: "2025-04-27",
   });
 
-  console.log(flightData);
+  fs.writeFileSync("virgin.json", JSON.stringify(flightData, null, 2), "utf-8");
+
+  // 🔽 Move this function inside the async block
+  const formatMeeloResults = (apiData) => {
+    const results = [];
+    let idCounter = 0;
+
+    const offers =
+      apiData?.data?.searchOffers?.result?.slice?.flightsAndFares || [];
+
+    offers.forEach(({ flight, fares }) => {
+      const segment = flight.segments[0];
+      const origin = segment.origin.code;
+      const destination = segment.destination.code;
+      const departureTime = segment.departure;
+      const arrivalTime = segment.arrival;
+      const duration = segment.duration;
+      const airline = segment.airline.name;
+      const flightNumber = segment.flightNumber;
+
+      (fares || []).forEach((fare) => {
+        const price = fare.price;
+        if (!price || !price.awardPoints) return;
+
+        const classType = (() => {
+          const fareId = fare.fareId || "";
+          if (fareId.startsWith("X") || fareId.startsWith("K"))
+            return "Economy";
+          if (fareId.startsWith("N") || fareId.startsWith("Y"))
+            return "Premium Economy";
+          if (fareId.startsWith("B") || fareId.startsWith("S"))
+            return "Business";
+          if (fareId.startsWith("C") || fareId.startsWith("W"))
+            return "Upper Class";
+          return "Unknown";
+        })();
+
+        results.push({
+          id: idCounter++,
+          route: `${origin} → ${destination}`,
+          flightNumber,
+          airline,
+          departureTime,
+          arrivalTime,
+          duration,
+          classType,
+          soldOut: fare.availability === "SOLD_OUT",
+          milesPoints: parseInt(price.awardPoints, 10),
+          taxAmount: price.tax ?? 0,
+          taxCurrency: price.currency ?? "USD",
+        });
+      });
+    });
+
+    return results.sort((a, b) => a.milesPoints - b.milesPoints);
+  };
+
+  // 🔽 Then call it and write the results
+  const formatted = formatMeeloResults(flightData);
 
   fs.writeFileSync(
-    "virgin.json",
-    JSON.stringify(flightData, null, 2),
+    "virginFlights.json",
+    JSON.stringify(formatted, null, 2),
     "utf-8"
   );
+  console.log("✅ Saved formatted results to virginFlights.json");
 
   await browser.close();
 })();
