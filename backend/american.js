@@ -22,7 +22,7 @@ let data = JSON.stringify({
     {
       allCarriers: true,
       cabin: "",
-      departureDate: "2025-04-30",
+      departureDate: "2025-04-29",
       destination: "MIA",
       destinationNearbyAirports: false,
       maxStops: null,
@@ -128,56 +128,6 @@ function formatAmericanResults(apiData) {
   const results = [];
   let idCounter = 0;
 
-  // Loop through every slice in the response
-  (apiData.slices || []).forEach((slice) => {
-    // Build common fields for this slice
-    const depSeg = slice.segments[0];
-    const arrSeg = slice.segments[slice.segments.length - 1];
-    const origin = depSeg.legs[0].origin.code;
-    const destination = arrSeg.legs[arrSeg.legs.length - 1].destination.code;
-    const departureTime = depSeg.legs[0].departureDateTime;
-    const arrivalTime = arrSeg.legs[arrSeg.legs.length - 1].arrivalDateTime;
-    const duration = slice.durationInMinutes;
-
-    // Collect unique airlines and cabin types on this slice
-    const airlines = Array.from(
-      new Set(slice.segments.map((seg) => seg.flight.carrierName))
-    );
-    const cabinTypes = Array.from(
-      new Set(
-        slice.segments.flatMap((seg) =>
-          seg.legs.flatMap((leg) =>
-            leg.productDetails.map((pd) => pd.cabinType)
-          )
-        )
-      )
-    );
-
-    // Push one result per pricingDetail entry
-    (slice.pricingDetail || []).forEach((detail) => {
-      results.push({
-        id: idCounter++,
-        route: `${origin} → ${destination}`,
-        classType: detail.productType,
-        milesPoints: detail.perPassengerAwardPoints,
-        seatsRemaining: detail.seatsRemaining ?? null,
-        cabinTypes,
-        refundable: (detail.refundableProducts || []).length > 0,
-        departureTime,
-        arrivalTime,
-        duration,
-        airlines,
-      });
-    });
-  });
-
-  // Sort all flights by award points ascending
-  return results.sort((a, b) => a.milesPoints - b.milesPoints);
-}
-function formatAmericanResults(apiData) {
-  const results = [];
-  let idCounter = 0;
-
   (apiData.slices || []).forEach((slice) => {
     const depSeg = slice.segments[0];
     const arrSeg = slice.segments[slice.segments.length - 1];
@@ -189,31 +139,24 @@ function formatAmericanResults(apiData) {
     const airlines = Array.from(
       new Set(slice.segments.map((s) => s.flight.carrierName))
     );
-    const cabinTypes = Array.from(
-      new Set(
-        slice.segments.flatMap((seg) =>
-          seg.legs.flatMap((leg) =>
-            leg.productDetails.map((pd) => pd.cabinType)
-          )
-        )
-      )
-    );
 
     (slice.pricingDetail || []).forEach((detail) => {
+      const miles = detail.perPassengerAwardPoints;
+
+      // Only exclude if miles are missing or zero
+      if (!miles || miles === 0) return;
+
       results.push({
         id: idCounter++,
         route: `${origin} → ${destination}`,
         classType: detail.productType,
-        milesPoints: detail.perPassengerAwardPoints,
+        milesPoints: miles,
         seatsRemaining: detail.seatsRemaining ?? null,
-        cabinTypes,
         refundable: (detail.refundableProducts || []).length > 0,
         departureTime,
         arrivalTime,
         duration,
         airlines,
-
-        // ← here’s what was missing:
         taxAmount: detail.perPassengerTaxesAndFees?.amount ?? 0,
         taxCurrency: detail.perPassengerTaxesAndFees?.currency ?? "USD",
       });

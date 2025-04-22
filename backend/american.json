@@ -1,74 +1,13 @@
 [
   {
-    "id": 25,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 0,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T16:51:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:00:00.000-04:00",
-    "duration": 189,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 0,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 53,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 0,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T13:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:20:00.000-04:00",
-    "duration": 380,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 0,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 79,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 0,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T18:50:00.000-04:00",
-    "arrivalTime": "2025-05-01T00:25:00.000-04:00",
-    "duration": 335,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 0,
-    "taxCurrency": "USD"
-  },
-  {
     "id": 0,
     "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T05:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T08:29:00.000-04:00",
+    "departureTime": "2025-04-29T05:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T08:29:00.000-04:00",
     "duration": 184,
     "airlines": [
       "American Airlines"
@@ -82,13 +21,9 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:16:00.000-04:00",
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:16:00.000-04:00",
     "duration": 196,
     "airlines": [
       "American Airlines"
@@ -97,18 +32,30 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 6,
+    "id": 4,
     "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:40:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:43:00.000-04:00",
+    "departureTime": "2025-04-29T06:40:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:43:00.000-04:00",
+    "duration": 183,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 6,
+    "route": "LGA → MIA",
+    "classType": "COACH",
+    "milesPoints": 9000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:55:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:58:00.000-04:00",
     "duration": 183,
     "airlines": [
       "American Airlines"
@@ -118,18 +65,14 @@
   },
   {
     "id": 8,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:58:00.000-04:00",
-    "duration": 183,
+    "departureTime": "2025-04-29T07:29:00.000-04:00",
+    "arrivalTime": "2025-04-29T10:36:00.000-04:00",
+    "duration": 187,
     "airlines": [
       "American Airlines"
     ],
@@ -138,18 +81,14 @@
   },
   {
     "id": 10,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T07:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T10:36:00.000-04:00",
-    "duration": 187,
+    "departureTime": "2025-04-29T08:05:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:13:00.000-04:00",
+    "duration": 188,
     "airlines": [
       "American Airlines"
     ],
@@ -162,13 +101,9 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T08:05:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:13:00.000-04:00",
+    "departureTime": "2025-04-29T09:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:23:00.000-04:00",
     "duration": 188,
     "airlines": [
       "American Airlines"
@@ -178,18 +113,14 @@
   },
   {
     "id": 14,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T09:15:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:23:00.000-04:00",
-    "duration": 188,
+    "departureTime": "2025-04-29T09:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:52:00.000-04:00",
+    "duration": 202,
     "airlines": [
       "American Airlines"
     ],
@@ -198,18 +129,14 @@
   },
   {
     "id": 16,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T09:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:52:00.000-04:00",
-    "duration": 202,
+    "departureTime": "2025-04-29T10:41:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:48:00.000-04:00",
+    "duration": 187,
     "airlines": [
       "American Airlines"
     ],
@@ -222,14 +149,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T10:41:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:48:00.000-04:00",
-    "duration": 187,
+    "departureTime": "2025-04-29T11:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T14:35:00.000-04:00",
+    "duration": 185,
     "airlines": [
       "American Airlines"
     ],
@@ -238,18 +161,46 @@
   },
   {
     "id": 20,
+    "route": "JFK → MIA",
+    "classType": "COACH",
+    "milesPoints": 9000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T12:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:07:00.000-04:00",
+    "duration": 188,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 22,
     "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T11:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T14:35:00.000-04:00",
-    "duration": 185,
+    "departureTime": "2025-04-29T13:01:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:13:00.000-04:00",
+    "duration": 192,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 24,
+    "route": "LGA → MIA",
+    "classType": "COACH",
+    "milesPoints": 9000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T16:51:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:00:00.000-04:00",
+    "duration": 189,
     "airlines": [
       "American Airlines"
     ],
@@ -262,13 +213,9 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T17:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:41:00.000-04:00",
+    "departureTime": "2025-04-29T17:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:41:00.000-04:00",
     "duration": 191,
     "airlines": [
       "American Airlines"
@@ -278,18 +225,14 @@
   },
   {
     "id": 28,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T19:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T22:44:00.000-04:00",
-    "duration": 194,
+    "departureTime": "2025-04-29T17:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:06:00.000-04:00",
+    "duration": 187,
     "airlines": [
       "American Airlines"
     ],
@@ -298,18 +241,14 @@
   },
   {
     "id": 30,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:06:00.000-04:00",
-    "duration": 306,
+    "departureTime": "2025-04-29T19:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T22:44:00.000-04:00",
+    "duration": 194,
     "airlines": [
       "American Airlines"
     ],
@@ -322,14 +261,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:18:00.000-04:00",
-    "duration": 318,
+    "departureTime": "2025-04-29T21:14:00.000-04:00",
+    "arrivalTime": "2025-04-30T00:19:00.000-04:00",
+    "duration": 185,
     "airlines": [
       "American Airlines"
     ],
@@ -338,18 +273,14 @@
   },
   {
     "id": 34,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:18:00.000-04:00",
-    "duration": 293,
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:06:00.000-04:00",
+    "duration": 306,
     "airlines": [
       "American Airlines"
     ],
@@ -362,14 +293,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:45:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:24:00.000-04:00",
-    "duration": 339,
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:18:00.000-04:00",
+    "duration": 318,
     "airlines": [
       "American Airlines"
     ],
@@ -382,14 +309,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
-    "duration": 367,
+    "departureTime": "2025-04-29T06:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:14:00.000-04:00",
+    "duration": 299,
     "airlines": [
       "American Airlines"
     ],
@@ -398,37 +321,13 @@
   },
   {
     "id": 40,
-    "route": "LGA → MIA",
-    "classType": "COACH",
-    "milesPoints": 9000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T07:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
-    "duration": 303,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 42,
     "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T08:09:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
+    "departureTime": "2025-04-29T06:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:18:00.000-04:00",
     "duration": 293,
     "airlines": [
       "American Airlines"
@@ -437,19 +336,31 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 44,
-    "route": "JFK → MIA",
+    "id": 42,
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T08:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T14:46:00.000-04:00",
-    "duration": 351,
+    "departureTime": "2025-04-29T06:45:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:24:00.000-04:00",
+    "duration": 339,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 44,
+    "route": "LGA → MIA",
+    "classType": "COACH",
+    "milesPoints": 9000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T07:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:47:00.000-04:00",
+    "duration": 347,
     "airlines": [
       "American Airlines"
     ],
@@ -462,14 +373,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T09:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T15:34:00.000-04:00",
-    "duration": 335,
+    "departureTime": "2025-04-29T07:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:02:00.000-04:00",
+    "duration": 303,
     "airlines": [
       "American Airlines"
     ],
@@ -478,18 +385,14 @@
   },
   {
     "id": 48,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T11:15:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:30:00.000-04:00",
-    "duration": 315,
+    "departureTime": "2025-04-29T08:09:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:02:00.000-04:00",
+    "duration": 293,
     "airlines": [
       "American Airlines"
     ],
@@ -502,14 +405,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T11:40:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:34:00.000-04:00",
-    "duration": 294,
+    "departureTime": "2025-04-29T09:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T15:34:00.000-04:00",
+    "duration": 335,
     "airlines": [
       "American Airlines"
     ],
@@ -522,13 +421,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T13:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:20:00.000-04:00",
-    "duration": 380,
+    "departureTime": "2025-04-29T11:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:30:00.000-04:00",
+    "duration": 315,
     "airlines": [
       "American Airlines"
     ],
@@ -541,14 +437,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:48:00.000-04:00",
-    "duration": 319,
+    "departureTime": "2025-04-29T11:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:46:00.000-04:00",
+    "duration": 321,
     "airlines": [
       "American Airlines"
     ],
@@ -561,14 +453,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:47:00.000-04:00",
-    "duration": 378,
+    "departureTime": "2025-04-29T11:40:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:34:00.000-04:00",
+    "duration": 294,
     "airlines": [
       "American Airlines"
     ],
@@ -581,14 +469,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:35:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:20:00.000-04:00",
-    "duration": 285,
+    "departureTime": "2025-04-29T11:57:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:46:00.000-04:00",
+    "duration": 289,
     "airlines": [
       "American Airlines"
     ],
@@ -597,18 +481,14 @@
   },
   {
     "id": 60,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:35:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:12:00.000-04:00",
-    "duration": 337,
+    "departureTime": "2025-04-29T14:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:17:00.000-04:00",
+    "duration": 302,
     "airlines": [
       "American Airlines"
     ],
@@ -621,14 +501,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:12:00.000-04:00",
-    "duration": 313,
+    "departureTime": "2025-04-29T14:29:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:48:00.000-04:00",
+    "duration": 319,
     "airlines": [
       "American Airlines"
     ],
@@ -641,14 +517,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:39:00.000-04:00",
-    "duration": 340,
+    "departureTime": "2025-04-29T14:35:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:20:00.000-04:00",
+    "duration": 285,
     "airlines": [
       "American Airlines"
     ],
@@ -657,18 +529,14 @@
   },
   {
     "id": 66,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:06:00.000-04:00",
-    "duration": 367,
+    "departureTime": "2025-04-29T14:35:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:12:00.000-04:00",
+    "duration": 337,
     "airlines": [
       "American Airlines"
     ],
@@ -681,14 +549,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T15:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:47:00.000-04:00",
-    "duration": 322,
+    "departureTime": "2025-04-29T14:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:39:00.000-04:00",
+    "duration": 340,
     "airlines": [
       "American Airlines"
     ],
@@ -697,18 +561,14 @@
   },
   {
     "id": 70,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T15:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:16:00.000-04:00",
-    "duration": 346,
+    "departureTime": "2025-04-29T15:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:47:00.000-04:00",
+    "duration": 322,
     "airlines": [
       "American Airlines"
     ],
@@ -721,13 +581,9 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T15:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:24:00.000-04:00",
+    "departureTime": "2025-04-29T15:55:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:24:00.000-04:00",
     "duration": 329,
     "airlines": [
       "American Airlines"
@@ -741,14 +597,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T17:17:00.000-04:00",
-    "arrivalTime": "2025-04-30T22:23:00.000-04:00",
-    "duration": 306,
+    "departureTime": "2025-04-29T17:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:50:00.000-04:00",
+    "duration": 290,
     "airlines": [
       "American Airlines"
     ],
@@ -757,18 +609,14 @@
   },
   {
     "id": 76,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T17:42:00.000-04:00",
-    "arrivalTime": "2025-04-30T23:32:00.000-04:00",
-    "duration": 350,
+    "departureTime": "2025-04-29T17:17:00.000-04:00",
+    "arrivalTime": "2025-04-29T22:23:00.000-04:00",
+    "duration": 306,
     "airlines": [
       "American Airlines"
     ],
@@ -781,72 +629,10 @@
     "classType": "COACH",
     "milesPoints": 9000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T18:50:00.000-04:00",
-    "arrivalTime": "2025-05-01T00:25:00.000-04:00",
+    "departureTime": "2025-04-29T18:50:00.000-04:00",
+    "arrivalTime": "2025-04-30T00:25:00.000-04:00",
     "duration": 335,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 4,
-    "route": "EWR → MIA",
-    "classType": "COACH",
-    "milesPoints": 10000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:16:00.000-04:00",
-    "duration": 196,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 22,
-    "route": "JFK → MIA",
-    "classType": "COACH",
-    "milesPoints": 10000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T12:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:07:00.000-04:00",
-    "duration": 188,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 24,
-    "route": "LGA → MIA",
-    "classType": "COACH",
-    "milesPoints": 11000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T16:51:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:00:00.000-04:00",
-    "duration": 189,
     "airlines": [
       "American Airlines"
     ],
@@ -859,13 +645,9 @@
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T05:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T08:29:00.000-04:00",
+    "departureTime": "2025-04-29T05:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T08:29:00.000-04:00",
     "duration": 184,
     "airlines": [
       "American Airlines"
@@ -874,18 +656,46 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 7,
+    "id": 3,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:16:00.000-04:00",
+    "duration": 196,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 5,
     "route": "JFK → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:40:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:43:00.000-04:00",
+    "departureTime": "2025-04-29T06:40:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:43:00.000-04:00",
+    "duration": 183,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 7,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:55:00.000-04:00",
+    "arrivalTime": "2025-04-29T09:58:00.000-04:00",
     "duration": 183,
     "airlines": [
       "American Airlines"
@@ -895,18 +705,14 @@
   },
   {
     "id": 9,
-    "route": "LGA → MIA",
+    "route": "JFK → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:58:00.000-04:00",
-    "duration": 183,
+    "departureTime": "2025-04-29T07:29:00.000-04:00",
+    "arrivalTime": "2025-04-29T10:36:00.000-04:00",
+    "duration": 187,
     "airlines": [
       "American Airlines"
     ],
@@ -915,17 +721,45 @@
   },
   {
     "id": 11,
-    "route": "JFK → MIA",
+    "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T07:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T10:36:00.000-04:00",
+    "departureTime": "2025-04-29T08:05:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:13:00.000-04:00",
+    "duration": 188,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 13,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T09:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:23:00.000-04:00",
+    "duration": 188,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 17,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T10:41:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:48:00.000-04:00",
     "duration": 187,
     "airlines": [
       "American Airlines"
@@ -935,17 +769,45 @@
   },
   {
     "id": 31,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T19:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T22:44:00.000-04:00",
+    "duration": 194,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 33,
     "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:06:00.000-04:00",
+    "departureTime": "2025-04-29T21:14:00.000-04:00",
+    "arrivalTime": "2025-04-30T00:19:00.000-04:00",
+    "duration": 185,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 35,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:06:00.000-04:00",
     "duration": 306,
     "airlines": [
       "American Airlines"
@@ -954,18 +816,14 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 37,
+    "id": 43,
     "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
-    "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
+    "seatsRemaining": 0,
     "refundable": false,
-    "departureTime": "2025-04-30T06:45:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:24:00.000-04:00",
+    "departureTime": "2025-04-29T06:45:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:24:00.000-04:00",
     "duration": 339,
     "airlines": [
       "American Airlines"
@@ -974,19 +832,15 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 39,
+    "id": 45,
     "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T06:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
-    "duration": 367,
+    "departureTime": "2025-04-29T07:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:47:00.000-04:00",
+    "duration": 347,
     "airlines": [
       "American Airlines"
     ],
@@ -994,19 +848,15 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 41,
+    "id": 51,
     "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T07:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
-    "duration": 303,
+    "departureTime": "2025-04-29T09:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T15:34:00.000-04:00",
+    "duration": 335,
     "airlines": [
       "American Airlines"
     ],
@@ -1014,19 +864,15 @@
     "taxCurrency": "USD"
   },
   {
-    "id": 43,
-    "route": "JFK → MIA",
+    "id": 55,
+    "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T08:09:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:02:00.000-04:00",
-    "duration": 293,
+    "departureTime": "2025-04-29T11:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:46:00.000-04:00",
+    "duration": 321,
     "airlines": [
       "American Airlines"
     ],
@@ -1039,14 +885,10 @@
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:35:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:20:00.000-04:00",
-    "duration": 285,
+    "departureTime": "2025-04-29T11:57:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:46:00.000-04:00",
+    "duration": 289,
     "airlines": [
       "American Airlines"
     ],
@@ -1055,38 +897,14 @@
   },
   {
     "id": 61,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 27500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T14:35:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:12:00.000-04:00",
-    "duration": 337,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 63,
     "route": "LGA → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:12:00.000-04:00",
-    "duration": 313,
+    "departureTime": "2025-04-29T14:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:17:00.000-04:00",
+    "duration": 302,
     "airlines": [
       "American Airlines"
     ],
@@ -1098,15 +916,11 @@
     "route": "JFK → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
+    "seatsRemaining": 3,
     "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:39:00.000-04:00",
-    "duration": 340,
+    "departureTime": "2025-04-29T14:35:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:20:00.000-04:00",
+    "duration": 285,
     "airlines": [
       "American Airlines"
     ],
@@ -1115,238 +929,14 @@
   },
   {
     "id": 67,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 27500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T14:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:06:00.000-04:00",
-    "duration": 367,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 77,
     "route": "JFK → MIA",
     "classType": "FIRST",
     "milesPoints": 27500,
     "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T17:42:00.000-04:00",
-    "arrivalTime": "2025-04-30T23:32:00.000-04:00",
-    "duration": 350,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 3,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 47000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:16:00.000-04:00",
-    "duration": 196,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 15,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 47000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T09:15:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:23:00.000-04:00",
-    "duration": 188,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 5,
-    "route": "EWR → MIA",
-    "classType": "FIRST",
-    "milesPoints": 58000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T09:16:00.000-04:00",
-    "duration": 196,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 33,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 61000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T06:00:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:18:00.000-04:00",
-    "duration": 318,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 35,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 63000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T06:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:18:00.000-04:00",
-    "duration": 293,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 13,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 63500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T08:05:00.000-04:00",
-    "arrivalTime": "2025-04-30T11:13:00.000-04:00",
-    "duration": 188,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 57,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 66500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T14:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:47:00.000-04:00",
-    "duration": 378,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 47,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 69500,
-    "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T09:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T15:34:00.000-04:00",
-    "duration": 335,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 19,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 76500,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T10:41:00.000-04:00",
-    "arrivalTime": "2025-04-30T13:48:00.000-04:00",
-    "duration": 187,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 17,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 77000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T09:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T12:52:00.000-04:00",
-    "duration": 202,
+    "departureTime": "2025-04-29T14:35:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:12:00.000-04:00",
+    "duration": 337,
     "airlines": [
       "American Airlines"
     ],
@@ -1357,196 +947,12 @@
     "id": 69,
     "route": "JFK → MIA",
     "classType": "FIRST",
-    "milesPoints": 82000,
-    "seatsRemaining": 2,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T15:25:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:47:00.000-04:00",
-    "duration": 322,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 45,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 95000,
+    "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T08:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T14:46:00.000-04:00",
-    "duration": 351,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 21,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T11:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T14:35:00.000-04:00",
-    "duration": 185,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 23,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T12:59:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:07:00.000-04:00",
-    "duration": 188,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 27,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 1,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T17:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T20:41:00.000-04:00",
-    "duration": 191,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 29,
-    "route": "JFK → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T19:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T22:44:00.000-04:00",
-    "duration": 194,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 49,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 3,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T11:15:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:30:00.000-04:00",
-    "duration": 315,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 51,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 2,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T11:40:00.000-04:00",
-    "arrivalTime": "2025-04-30T16:34:00.000-04:00",
-    "duration": 294,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 55,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T14:29:00.000-04:00",
-    "arrivalTime": "2025-04-30T19:48:00.000-04:00",
-    "duration": 319,
-    "airlines": [
-      "American Airlines"
-    ],
-    "taxAmount": 5.6,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 71,
-    "route": "LGA → MIA",
-    "classType": "FIRST",
-    "milesPoints": 100000,
-    "seatsRemaining": 2,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
-    "refundable": false,
-    "departureTime": "2025-04-30T15:30:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:16:00.000-04:00",
-    "duration": 346,
+    "departureTime": "2025-04-29T14:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:39:00.000-04:00",
+    "duration": 340,
     "airlines": [
       "American Airlines"
     ],
@@ -1557,15 +963,11 @@
     "id": 73,
     "route": "LGA → MIA",
     "classType": "FIRST",
-    "milesPoints": 100000,
+    "milesPoints": 27500,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T15:55:00.000-04:00",
-    "arrivalTime": "2025-04-30T21:24:00.000-04:00",
+    "departureTime": "2025-04-29T15:55:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:24:00.000-04:00",
     "duration": 329,
     "airlines": [
       "American Airlines"
@@ -1577,16 +979,300 @@
     "id": 75,
     "route": "LGA → MIA",
     "classType": "FIRST",
+    "milesPoints": 27500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T17:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:50:00.000-04:00",
+    "duration": 290,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 19,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 47000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T11:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T14:35:00.000-04:00",
+    "duration": 185,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 53,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 55000,
+    "seatsRemaining": 1,
+    "refundable": false,
+    "departureTime": "2025-04-29T11:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:30:00.000-04:00",
+    "duration": 315,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 57,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 55500,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T11:40:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:34:00.000-04:00",
+    "duration": 294,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 47,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 68500,
+    "seatsRemaining": 3,
+    "refundable": false,
+    "departureTime": "2025-04-29T07:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:02:00.000-04:00",
+    "duration": 303,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 63,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 70000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T14:29:00.000-04:00",
+    "arrivalTime": "2025-04-29T19:48:00.000-04:00",
+    "duration": 319,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 49,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 70500,
+    "seatsRemaining": 3,
+    "refundable": false,
+    "departureTime": "2025-04-29T08:09:00.000-04:00",
+    "arrivalTime": "2025-04-29T13:02:00.000-04:00",
+    "duration": 293,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 21,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 77000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T12:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:07:00.000-04:00",
+    "duration": 188,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 37,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 79000,
+    "seatsRemaining": 2,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:00:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:18:00.000-04:00",
+    "duration": 318,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 41,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 81000,
+    "seatsRemaining": 2,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:18:00.000-04:00",
+    "duration": 293,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 29,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 94000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T17:59:00.000-04:00",
+    "arrivalTime": "2025-04-29T21:06:00.000-04:00",
+    "duration": 187,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 39,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 98500,
+    "seatsRemaining": 2,
+    "refundable": false,
+    "departureTime": "2025-04-29T06:15:00.000-04:00",
+    "arrivalTime": "2025-04-29T11:14:00.000-04:00",
+    "duration": 299,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 15,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 2,
+    "refundable": false,
+    "departureTime": "2025-04-29T09:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T12:52:00.000-04:00",
+    "duration": 202,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 23,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
     "milesPoints": 100000,
     "seatsRemaining": 0,
-    "cabinTypes": [
-      "COACH",
-      "FIRST"
-    ],
     "refundable": false,
-    "departureTime": "2025-04-30T17:17:00.000-04:00",
-    "arrivalTime": "2025-04-30T22:23:00.000-04:00",
+    "departureTime": "2025-04-29T13:01:00.000-04:00",
+    "arrivalTime": "2025-04-29T16:13:00.000-04:00",
+    "duration": 192,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 25,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T16:51:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:00:00.000-04:00",
+    "duration": 189,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 27,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 3,
+    "refundable": false,
+    "departureTime": "2025-04-29T17:30:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:41:00.000-04:00",
+    "duration": 191,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 71,
+    "route": "JFK → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 1,
+    "refundable": false,
+    "departureTime": "2025-04-29T15:25:00.000-04:00",
+    "arrivalTime": "2025-04-29T20:47:00.000-04:00",
+    "duration": 322,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 77,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 0,
+    "refundable": false,
+    "departureTime": "2025-04-29T17:17:00.000-04:00",
+    "arrivalTime": "2025-04-29T22:23:00.000-04:00",
     "duration": 306,
+    "airlines": [
+      "American Airlines"
+    ],
+    "taxAmount": 5.6,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 79,
+    "route": "LGA → MIA",
+    "classType": "FIRST",
+    "milesPoints": 100000,
+    "seatsRemaining": 2,
+    "refundable": false,
+    "departureTime": "2025-04-29T18:50:00.000-04:00",
+    "arrivalTime": "2025-04-30T00:25:00.000-04:00",
+    "duration": 335,
     "airlines": [
       "American Airlines"
     ],
