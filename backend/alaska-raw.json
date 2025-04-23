@@ -1,0 +1,5746 @@
+{
+  "departureStation": "JFK",
+  "arrivalStation": "LAX",
+  "rows": [
+    {
+      "id": 0,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 604,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 655, AA 3013 — Operated by American Airlines: JFK to MIA, MIA to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 655
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 655
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "MIA",
+          "aircraftCode": "7M8",
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "duration": 184,
+          "departureTime": "2025-04-24T05:25:00-04:00",
+          "arrivalTime": "2025-04-24T08:29:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 7,
+              "aircraftCode": "7M8",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "percentLate30Plus": 11,
+              "percentOnTime": 82,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "MIA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "MIA",
+                "dateTime": "2025-04-24T08:29:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T05:25:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1091
+              },
+              "durationMinutes": 184
+            }
+          ],
+          "stopoverInformation": "1h 8m",
+          "stopoverDuration": 68,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3013
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3013
+          },
+          "departureStation": "MIA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "321",
+          "aircraft": "Airbus A321",
+          "duration": 352,
+          "departureTime": "2025-04-24T09:37:00-04:00",
+          "arrivalTime": "2025-04-24T12:29:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "321",
+              "aircraft": "Airbus A321",
+              "percentLate30Plus": 14,
+              "percentOnTime": 79,
+              "departureAirportCode": "MIA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T12:29:00-07:00"
+              },
+              "origin": {
+                "airport": "MIA",
+                "dateTime": "2025-04-24T09:37:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2337
+              },
+              "durationMinutes": 352
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 3428
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 4,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00j",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 376,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 171 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 171
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 171
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 376,
+          "departureTime": "2025-04-24T06:00:00-04:00",
+          "arrivalTime": "2025-04-24T09:16:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 18,
+              "percentOnTime": 68,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T09:16:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T06:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 376
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 18.1,
+          "milesPoints": 52500,
+          "seatsRemaining": 3,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "Z"
+          ],
+          "fareBasisCodes": [
+            "AAZ0R5CF"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K019",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        },
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K001",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "origin": "LGA",
+      "destination": "LAX",
+      "duration": 495,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 4536 — Operated by Republic Airways: LGA to DCA",
+            "AA 1966 — Operated by American Airlines: DCA to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4536
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4536
+          },
+          "departureStation": "LGA",
+          "arrivalStation": "DCA",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 79,
+          "departureTime": "2025-04-24T06:00:00-04:00",
+          "arrivalTime": "2025-04-24T07:19:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 0,
+              "percentOnTime": 100,
+              "departureAirportCode": "LGA",
+              "arrivalAirportCode": "DCA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "DCA",
+                "dateTime": "2025-04-24T07:19:00-04:00"
+              },
+              "origin": {
+                "airport": "LGA",
+                "dateTime": "2025-04-24T06:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 214
+              },
+              "durationMinutes": 79
+            }
+          ],
+          "stopoverInformation": "57m",
+          "stopoverDuration": 57,
+          "operationalDisclosure": "Operated by Republic Airways",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Republic Airways",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1966
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1966
+          },
+          "departureStation": "DCA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 359,
+          "departureTime": "2025-04-24T08:16:00-04:00",
+          "arrivalTime": "2025-04-24T11:15:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 14,
+              "percentOnTime": 79,
+              "departureAirportCode": "DCA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T11:15:00-07:00"
+              },
+              "origin": {
+                "airport": "DCA",
+                "dateTime": "2025-04-24T08:16:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2304
+              },
+              "durationMinutes": 359
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2518
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K017",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 532,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 76 — Operated by American Airlines: JFK to SFO",
+            "AA 6411 — Operated by SkyWest Airlines as American Eagle: SFO to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 76
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 76
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "SFO",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 394,
+          "departureTime": "2025-04-24T06:00:00-04:00",
+          "arrivalTime": "2025-04-24T09:34:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 14,
+              "percentOnTime": 68,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "SFO",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T09:34:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T06:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2578
+              },
+              "durationMinutes": 394
+            }
+          ],
+          "stopoverInformation": "36m",
+          "stopoverDuration": 36,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 6411
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 6411
+          },
+          "departureStation": "SFO",
+          "arrivalStation": "LAX",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 102,
+          "departureTime": "2025-04-24T10:10:00-07:00",
+          "arrivalTime": "2025-04-24T11:52:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 11,
+              "percentOnTime": 89,
+              "departureAirportCode": "SFO",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T11:52:00-07:00"
+              },
+              "origin": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T10:10:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 337
+              },
+              "durationMinutes": 102
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "Operated by SkyWest Airlines as American Eagle",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by SkyWest Airlines as American Eagle",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Non-smoking"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2915
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00Z",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 498,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 2369, AA 2689 — Operated by American Airlines: JFK to PHX, PHX to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2369
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2369
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "PHX",
+          "aircraftCode": "7M8",
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "duration": 338,
+          "departureTime": "2025-04-24T06:33:00-04:00",
+          "arrivalTime": "2025-04-24T09:11:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "7M8",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "percentLate30Plus": 8,
+              "percentOnTime": 79,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "PHX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T09:11:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T06:33:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2147
+              },
+              "durationMinutes": 338
+            }
+          ],
+          "stopoverInformation": "1h 5m",
+          "stopoverDuration": 65,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2689
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2689
+          },
+          "departureStation": "PHX",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 95,
+          "departureTime": "2025-04-24T10:16:00-07:00",
+          "arrivalTime": "2025-04-24T11:51:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PHX",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T11:51:00-07:00"
+              },
+              "origin": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T10:16:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 369
+              },
+              "durationMinutes": 95
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2516
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 8,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00N",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 481,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 1282, AA 2689 — Operated by American Airlines: EWR to PHX, PHX to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1282
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1282
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "PHX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 337,
+          "departureTime": "2025-04-24T06:50:00-04:00",
+          "arrivalTime": "2025-04-24T09:27:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "PHX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T09:27:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T06:50:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2127
+              },
+              "durationMinutes": 337
+            }
+          ],
+          "stopoverInformation": "49m",
+          "stopoverDuration": 49,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2689
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2689
+          },
+          "departureStation": "PHX",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 95,
+          "departureTime": "2025-04-24T10:16:00-07:00",
+          "arrivalTime": "2025-04-24T11:51:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PHX",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T11:51:00-07:00"
+              },
+              "origin": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T10:16:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 369
+              },
+              "durationMinutes": 95
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2496
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00l",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 380,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 1 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 380,
+          "departureTime": "2025-04-24T07:00:00-04:00",
+          "arrivalTime": "2025-04-24T10:20:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 21,
+              "percentOnTime": 75,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T10:20:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T07:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 380
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K005",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 646,
+      "matrixOperationalDisclosures": [],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 299
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 299
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "SEA",
+          "aircraftCode": "73J",
+          "aircraft": "Boeing 737-900 (Winglets) Passenger",
+          "duration": 361,
+          "departureTime": "2025-04-24T07:00:00-04:00",
+          "arrivalTime": "2025-04-24T10:01:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "73J",
+              "aircraft": "Boeing 737-900 (Winglets) Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "SEA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "SEA",
+                "dateTime": "2025-04-24T10:01:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T07:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2394
+              },
+              "durationMinutes": 361
+            }
+          ],
+          "stopoverInformation": "1h 59m",
+          "stopoverDuration": 119,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 1144
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 1144
+          },
+          "departureStation": "SEA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "7M8",
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "duration": 166,
+          "departureTime": "2025-04-24T12:00:00-07:00",
+          "arrivalTime": "2025-04-24T14:46:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "7M8",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 80,
+              "departureAirportCode": "SEA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T14:46:00-07:00"
+              },
+              "origin": {
+                "airport": "SEA",
+                "dateTime": "2025-04-24T12:00:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 954
+              },
+              "durationMinutes": 166
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 3348
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 5.6,
+          "milesPoints": 95000,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST",
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "C",
+            "C"
+          ],
+          "fareBasisCodes": [
+            "AY0RA95F",
+            "AY0RA95F"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K01C",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        },
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 50000,
+          "seatsRemaining": 5,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN",
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "L",
+            "L"
+          ],
+          "fareBasisCodes": [
+            "AL0RA50M",
+            "AL0RA50M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00x",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 376,
+      "matrixOperationalDisclosures": [],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 289
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 289
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "LAX",
+          "aircraftCode": "7M9",
+          "aircraft": "Boeing 737MAX 9 Passenger",
+          "duration": 376,
+          "departureTime": "2025-04-24T07:30:00-04:00",
+          "arrivalTime": "2025-04-24T10:46:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "7M9",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T10:46:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T07:30:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2447
+              },
+              "durationMinutes": 376
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2447
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 30000,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "S"
+          ],
+          "fareBasisCodes": [
+            "AS0RA30M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00V",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 655,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 1062, AA 2654 — Operated by American Airlines: JFK to LAS, LAS to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1062
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1062
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAS",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 345,
+          "departureTime": "2025-04-24T07:59:00-04:00",
+          "arrivalTime": "2025-04-24T10:44:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAS",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAS",
+                "dateTime": "2025-04-24T10:44:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T07:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2241
+              },
+              "durationMinutes": 345
+            }
+          ],
+          "stopoverInformation": "3h 53m",
+          "stopoverDuration": 233,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2654
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2654
+          },
+          "departureStation": "LAS",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 77,
+          "departureTime": "2025-04-24T14:37:00-07:00",
+          "arrivalTime": "2025-04-24T15:54:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 14,
+              "percentOnTime": 86,
+              "departureAirportCode": "LAS",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T15:54:00-07:00"
+              },
+              "origin": {
+                "airport": "LAS",
+                "dateTime": "2025-04-24T14:37:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 236
+              },
+              "durationMinutes": 77
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2477
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 18.1,
+          "milesPoints": 45000,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST",
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "U",
+            "U"
+          ],
+          "fareBasisCodes": [
+            "AAU0R45F",
+            "AAU0R45F"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K015",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 393,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 255 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 255
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 255
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 393,
+          "departureTime": "2025-04-24T08:29:00-04:00",
+          "arrivalTime": "2025-04-24T12:02:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 7,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 18,
+              "percentOnTime": 64,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T12:02:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T08:29:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 393
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00F",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 649,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 2819, AA 3008 — Operated by American Airlines: JFK to ORD, ORD to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2819
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2819
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "ORD",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 186,
+          "departureTime": "2025-04-24T08:59:00-04:00",
+          "arrivalTime": "2025-04-24T11:05:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 8,
+              "percentOnTime": 92,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "ORD",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T11:05:00-05:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T08:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 737
+              },
+              "durationMinutes": 186
+            }
+          ],
+          "stopoverInformation": "3h 5m",
+          "stopoverDuration": 185,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3008
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3008
+          },
+          "departureStation": "ORD",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 278,
+          "departureTime": "2025-04-24T14:10:00-05:00",
+          "arrivalTime": "2025-04-24T16:48:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 23,
+              "percentOnTime": 62,
+              "departureAirportCode": "ORD",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T16:48:00-07:00"
+              },
+              "origin": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T14:10:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1740
+              },
+              "durationMinutes": 278
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2477
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 7,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00z",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 548,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AS",
+          "disclosures": [
+            "AS 3160 — Operated by SkyWest Airlines as AlaskaSkyWest: SFO to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 373
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 373
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "SFO",
+          "aircraftCode": "73J",
+          "aircraft": "Boeing 737-900 (Winglets) Passenger",
+          "duration": 389,
+          "departureTime": "2025-04-24T09:00:00-04:00",
+          "arrivalTime": "2025-04-24T12:29:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "73J",
+              "aircraft": "Boeing 737-900 (Winglets) Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "SFO",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T12:29:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T09:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2558
+              },
+              "durationMinutes": 389
+            }
+          ],
+          "stopoverInformation": "1h 6m",
+          "stopoverDuration": 66,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 3160
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 3160
+          },
+          "departureStation": "SFO",
+          "arrivalStation": "LAX",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 93,
+          "departureTime": "2025-04-24T13:35:00-07:00",
+          "arrivalTime": "2025-04-24T15:08:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 16,
+              "percentOnTime": 33,
+              "departureAirportCode": "SFO",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T15:08:00-07:00"
+              },
+              "origin": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T13:35:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 337
+              },
+              "durationMinutes": 93
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "Operated by SkyWest Airlines as AlaskaSkyWest",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by SkyWest Airlines as AlaskaSkyWest",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2895
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 40000,
+          "seatsRemaining": 3,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN",
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "S",
+            "S"
+          ],
+          "fareBasisCodes": [
+            "AS0RA40M",
+            "AS0RA40M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00b",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 474,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 495, AA 1502 — Operated by American Airlines: JFK to CLT, CLT to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 495
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 495
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "CLT",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 120,
+          "departureTime": "2025-04-24T11:57:00-04:00",
+          "arrivalTime": "2025-04-24T13:57:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 100,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "CLT",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T13:57:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T11:57:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 540
+              },
+              "durationMinutes": 120
+            }
+          ],
+          "stopoverInformation": "33m",
+          "stopoverDuration": 33,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1502
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1502
+          },
+          "departureStation": "CLT",
+          "arrivalStation": "LAX",
+          "aircraftCode": "321",
+          "aircraft": "Airbus A321",
+          "duration": 321,
+          "departureTime": "2025-04-24T14:30:00-04:00",
+          "arrivalTime": "2025-04-24T16:51:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "321",
+              "aircraft": "Airbus A321",
+              "percentLate30Plus": 13,
+              "percentOnTime": 79,
+              "departureAirportCode": "CLT",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T16:51:00-07:00"
+              },
+              "origin": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T14:30:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2119
+              },
+              "durationMinutes": 321
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2659
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 8,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00H",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "origin": "LGA",
+      "destination": "LAX",
+      "duration": 468,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 1080, AA 3008 — Operated by American Airlines: LGA to ORD, ORD to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1080
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1080
+          },
+          "departureStation": "LGA",
+          "arrivalStation": "ORD",
+          "aircraftCode": "319",
+          "aircraft": "Airbus A319",
+          "duration": 154,
+          "departureTime": "2025-04-24T12:00:00-04:00",
+          "arrivalTime": "2025-04-24T13:34:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "319",
+              "aircraft": "Airbus A319",
+              "percentLate30Plus": 25,
+              "percentOnTime": 71,
+              "departureAirportCode": "LGA",
+              "arrivalAirportCode": "ORD",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T13:34:00-05:00"
+              },
+              "origin": {
+                "airport": "LGA",
+                "dateTime": "2025-04-24T12:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 731
+              },
+              "durationMinutes": 154
+            }
+          ],
+          "stopoverInformation": "36m",
+          "stopoverDuration": 36,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3008
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3008
+          },
+          "departureStation": "ORD",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 278,
+          "departureTime": "2025-04-24T14:10:00-05:00",
+          "arrivalTime": "2025-04-24T16:48:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 23,
+              "percentOnTime": 62,
+              "departureAirportCode": "ORD",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T16:48:00-07:00"
+              },
+              "origin": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T14:10:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1740
+              },
+              "durationMinutes": 278
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2471
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 3,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00R",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "origin": "LGA",
+      "destination": "LAX",
+      "duration": 470,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 2644, AA 529 — Operated by American Airlines: LGA to ORD, ORD to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2644
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2644
+          },
+          "departureStation": "LGA",
+          "arrivalStation": "ORD",
+          "aircraftCode": "319",
+          "aircraft": "Airbus A319",
+          "duration": 150,
+          "departureTime": "2025-04-24T12:59:00-04:00",
+          "arrivalTime": "2025-04-24T14:29:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "319",
+              "aircraft": "Airbus A319",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "LGA",
+              "arrivalAirportCode": "ORD",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T14:29:00-05:00"
+              },
+              "origin": {
+                "airport": "LGA",
+                "dateTime": "2025-04-24T12:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 731
+              },
+              "durationMinutes": 150
+            }
+          ],
+          "stopoverInformation": "48m",
+          "stopoverDuration": 48,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 529
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 529
+          },
+          "departureStation": "ORD",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 272,
+          "departureTime": "2025-04-24T15:17:00-05:00",
+          "arrivalTime": "2025-04-24T17:49:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 14,
+              "percentOnTime": 75,
+              "departureAirportCode": "ORD",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T17:49:00-07:00"
+              },
+              "origin": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T15:17:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1740
+              },
+              "durationMinutes": 272
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2471
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00T",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 547,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AS",
+          "disclosures": [
+            "AS 2087 — Operated by Horizon Air as AlaskaHorizon: SFO to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 227
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 227
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "SFO",
+          "aircraftCode": "7M9",
+          "aircraft": "Boeing 737MAX 9 Passenger",
+          "duration": 395,
+          "departureTime": "2025-04-24T13:00:00-04:00",
+          "arrivalTime": "2025-04-24T16:35:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 8,
+              "aircraftCode": "7M9",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "percentLate30Plus": 25,
+              "percentOnTime": 25,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "SFO",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T16:35:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T13:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2578
+              },
+              "durationMinutes": 395
+            }
+          ],
+          "stopoverInformation": "1h 0m",
+          "stopoverDuration": 60,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 2087
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 2087
+          },
+          "departureStation": "SFO",
+          "arrivalStation": "LAX",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 92,
+          "departureTime": "2025-04-24T17:35:00-07:00",
+          "arrivalTime": "2025-04-24T19:07:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "SFO",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T19:07:00-07:00"
+              },
+              "origin": {
+                "airport": "SFO",
+                "dateTime": "2025-04-24T17:35:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 337
+              },
+              "durationMinutes": 92
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "Operated by Horizon Air as AlaskaHorizon",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Horizon Air as AlaskaHorizon",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2915
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 5.6,
+          "milesPoints": 80000,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST",
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "D",
+            "D"
+          ],
+          "fareBasisCodes": [
+            "AM0RA80F",
+            "AM0RA80F"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K01A",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        },
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 65000,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN",
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "H",
+            "H"
+          ],
+          "fareBasisCodes": [
+            "AH0RA65M",
+            "AH0RA65M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00r",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 559,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 4734 — Operated by Republic Airways: JFK to PIT",
+            "AA 1245 — Operated by American Airlines: PIT to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4734
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4734
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "PIT",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 95,
+          "departureTime": "2025-04-24T13:40:00-04:00",
+          "arrivalTime": "2025-04-24T15:15:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 4,
+              "percentOnTime": 89,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "PIT",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PIT",
+                "dateTime": "2025-04-24T15:15:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T13:40:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 338
+              },
+              "durationMinutes": 95
+            }
+          ],
+          "stopoverInformation": "2h 23m",
+          "stopoverDuration": 143,
+          "operationalDisclosure": "Operated by Republic Airways",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Republic Airways",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1245
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1245
+          },
+          "departureStation": "PIT",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 321,
+          "departureTime": "2025-04-24T17:38:00-04:00",
+          "arrivalTime": "2025-04-24T19:59:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PIT",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T19:59:00-07:00"
+              },
+              "origin": {
+                "airport": "PIT",
+                "dateTime": "2025-04-24T17:38:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2130
+              },
+              "durationMinutes": 321
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 5,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00t",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 481,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 4354 — Operated by Republic Airways: JFK to PIT",
+            "AA 1245 — Operated by American Airlines: PIT to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4354
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4354
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "PIT",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 97,
+          "departureTime": "2025-04-24T14:58:00-04:00",
+          "arrivalTime": "2025-04-24T16:35:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 13,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 19,
+              "percentOnTime": 62,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "PIT",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PIT",
+                "dateTime": "2025-04-24T16:35:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T14:58:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 338
+              },
+              "durationMinutes": 97
+            }
+          ],
+          "stopoverInformation": "1h 3m",
+          "stopoverDuration": 63,
+          "operationalDisclosure": "Operated by Republic Airways",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Republic Airways",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1245
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1245
+          },
+          "departureStation": "PIT",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 321,
+          "departureTime": "2025-04-24T17:38:00-04:00",
+          "arrivalTime": "2025-04-24T19:59:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PIT",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T19:59:00-07:00"
+              },
+              "origin": {
+                "airport": "PIT",
+                "dateTime": "2025-04-24T17:38:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2130
+              },
+              "durationMinutes": 321
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 5,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00J",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 497,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 4710 — Operated by Republic Airways: JFK to BNA",
+            "AA 3332 — Operated by American Airlines: BNA to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4710
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4710
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "BNA",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 149,
+          "departureTime": "2025-04-24T14:59:00-04:00",
+          "arrivalTime": "2025-04-24T16:28:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 14,
+              "percentOnTime": 75,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "BNA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "BNA",
+                "dateTime": "2025-04-24T16:28:00-05:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T14:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 763
+              },
+              "durationMinutes": 149
+            }
+          ],
+          "stopoverInformation": "1h 5m",
+          "stopoverDuration": 65,
+          "operationalDisclosure": "Operated by Republic Airways",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Republic Airways",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3332
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3332
+          },
+          "departureStation": "BNA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 283,
+          "departureTime": "2025-04-24T17:33:00-05:00",
+          "arrivalTime": "2025-04-24T20:16:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 4,
+              "percentOnTime": 89,
+              "departureAirportCode": "BNA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T20:16:00-07:00"
+              },
+              "origin": {
+                "airport": "BNA",
+                "dateTime": "2025-04-24T17:33:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1792
+              },
+              "durationMinutes": 283
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2555
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 2,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00L",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 377,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 341 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 341
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 341
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 377,
+          "departureTime": "2025-04-24T15:25:00-04:00",
+          "arrivalTime": "2025-04-24T18:42:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 11,
+              "percentOnTime": 68,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T18:42:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T15:25:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 377
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 3,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K003",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 512,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 3179, AA 3035 — Operated by American Airlines: JFK to CLT, CLT to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3179
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3179
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "CLT",
+          "aircraftCode": "319",
+          "aircraft": "Airbus A319",
+          "duration": 125,
+          "departureTime": "2025-04-24T15:25:00-04:00",
+          "arrivalTime": "2025-04-24T17:30:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "319",
+              "aircraft": "Airbus A319",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "CLT",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T17:30:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T15:25:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 540
+              },
+              "durationMinutes": 125
+            }
+          ],
+          "stopoverInformation": "1h 5m",
+          "stopoverDuration": 65,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3035
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3035
+          },
+          "departureStation": "CLT",
+          "arrivalStation": "LAX",
+          "aircraftCode": "321",
+          "aircraft": "Airbus A321",
+          "duration": 322,
+          "departureTime": "2025-04-24T18:35:00-04:00",
+          "arrivalTime": "2025-04-24T20:57:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "321",
+              "aircraft": "Airbus A321",
+              "percentLate30Plus": 12,
+              "percentOnTime": 84,
+              "departureAirportCode": "CLT",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T20:57:00-07:00"
+              },
+              "origin": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T18:35:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2119
+              },
+              "durationMinutes": 322
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2659
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00P",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 653,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 3179, AA 2055 — Operated by American Airlines: JFK to CLT, CLT to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3179
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3179
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "CLT",
+          "aircraftCode": "319",
+          "aircraft": "Airbus A319",
+          "duration": 125,
+          "departureTime": "2025-04-24T15:25:00-04:00",
+          "arrivalTime": "2025-04-24T17:30:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "319",
+              "aircraft": "Airbus A319",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "CLT",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T17:30:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T15:25:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 540
+              },
+              "durationMinutes": 125
+            }
+          ],
+          "stopoverInformation": "3h 29m",
+          "stopoverDuration": 209,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2055
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2055
+          },
+          "departureStation": "CLT",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 319,
+          "departureTime": "2025-04-24T20:59:00-04:00",
+          "arrivalTime": "2025-04-24T23:18:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 11,
+              "percentOnTime": 71,
+              "departureAirportCode": "CLT",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T23:18:00-07:00"
+              },
+              "origin": {
+                "airport": "CLT",
+                "dateTime": "2025-04-24T20:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2119
+              },
+              "durationMinutes": 319
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2659
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K013",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "origin": "LGA",
+      "destination": "LAX",
+      "duration": 486,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 4724 — Operated by Republic Airways: LGA to PHL",
+            "AA 3172 — Operated by American Airlines: PHL to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4724
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 4724
+          },
+          "departureStation": "LGA",
+          "arrivalStation": "PHL",
+          "aircraftCode": "E75",
+          "aircraft": "Embraer 175",
+          "duration": 72,
+          "departureTime": "2025-04-24T15:55:00-04:00",
+          "arrivalTime": "2025-04-24T17:07:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "E75",
+              "aircraft": "Embraer 175",
+              "percentLate30Plus": 32,
+              "percentOnTime": 43,
+              "departureAirportCode": "LGA",
+              "arrivalAirportCode": "PHL",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PHL",
+                "dateTime": "2025-04-24T17:07:00-04:00"
+              },
+              "origin": {
+                "airport": "LGA",
+                "dateTime": "2025-04-24T15:55:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 95
+              },
+              "durationMinutes": 72
+            }
+          ],
+          "stopoverInformation": "58m",
+          "stopoverDuration": 58,
+          "operationalDisclosure": "Operated by Republic Airways",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "Operated by Republic Airways",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3172
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3172
+          },
+          "departureStation": "PHL",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 356,
+          "departureTime": "2025-04-24T18:05:00-04:00",
+          "arrivalTime": "2025-04-24T21:01:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PHL",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T21:01:00-07:00"
+              },
+              "origin": {
+                "airport": "PHL",
+                "dateTime": "2025-04-24T18:05:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2395
+              },
+              "durationMinutes": 356
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2490
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K011",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 542,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 532, AA 1384 — Operated by American Airlines: JFK to ORD, ORD to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 532
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 532
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "ORD",
+          "aircraftCode": "7M8",
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "duration": 164,
+          "departureTime": "2025-04-24T15:55:00-04:00",
+          "arrivalTime": "2025-04-24T17:39:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 7,
+              "aircraftCode": "7M8",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "percentLate30Plus": 21,
+              "percentOnTime": 71,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "ORD",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T17:39:00-05:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T15:55:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 737
+              },
+              "durationMinutes": 164
+            }
+          ],
+          "stopoverInformation": "1h 41m",
+          "stopoverDuration": 101,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1384
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1384
+          },
+          "departureStation": "ORD",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 277,
+          "departureTime": "2025-04-24T19:20:00-05:00",
+          "arrivalTime": "2025-04-24T21:57:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 10,
+              "percentOnTime": 60,
+              "departureAirportCode": "ORD",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T21:57:00-07:00"
+              },
+              "origin": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T19:20:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1740
+              },
+              "durationMinutes": 277
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2477
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00p",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 604,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 532, AA 3194 — Operated by American Airlines: JFK to ORD, ORD to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 532
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 532
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "ORD",
+          "aircraftCode": "7M8",
+          "aircraft": "Boeing 737MAX 8 Passenger",
+          "duration": 164,
+          "departureTime": "2025-04-24T15:55:00-04:00",
+          "arrivalTime": "2025-04-24T17:39:00-05:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 7,
+              "aircraftCode": "7M8",
+              "aircraft": "Boeing 737MAX 8 Passenger",
+              "percentLate30Plus": 21,
+              "percentOnTime": 71,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "ORD",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T17:39:00-05:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T15:55:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 737
+              },
+              "durationMinutes": 164
+            }
+          ],
+          "stopoverInformation": "2h 36m",
+          "stopoverDuration": 156,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3194
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3194
+          },
+          "departureStation": "ORD",
+          "arrivalStation": "LAX",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 284,
+          "departureTime": "2025-04-24T20:15:00-05:00",
+          "arrivalTime": "2025-04-24T22:59:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 18,
+              "percentOnTime": 75,
+              "departureAirportCode": "ORD",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T22:59:00-07:00"
+              },
+              "origin": {
+                "airport": "ORD",
+                "dateTime": "2025-04-24T20:15:00-05:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1740
+              },
+              "durationMinutes": 284
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2477
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00v",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 580,
+      "matrixOperationalDisclosures": [],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 280
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 280
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "SEA",
+          "aircraftCode": "73J",
+          "aircraft": "Boeing 737-900 (Winglets) Passenger",
+          "duration": 365,
+          "departureTime": "2025-04-24T16:00:00-04:00",
+          "arrivalTime": "2025-04-24T19:05:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "73J",
+              "aircraft": "Boeing 737-900 (Winglets) Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "SEA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "SEA",
+                "dateTime": "2025-04-24T19:05:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T16:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2394
+              },
+              "durationMinutes": 365
+            }
+          ],
+          "stopoverInformation": "55m",
+          "stopoverDuration": 55,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 1224
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 1224
+          },
+          "departureStation": "SEA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "73H",
+          "aircraft": "Boeing 737-800 (Winglets) Passenger",
+          "duration": 160,
+          "departureTime": "2025-04-24T20:00:00-07:00",
+          "arrivalTime": "2025-04-24T22:40:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "73H",
+              "aircraft": "Boeing 737-800 (Winglets) Passenger",
+              "percentLate30Plus": 42,
+              "percentOnTime": 28,
+              "departureAirportCode": "SEA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T22:40:00-07:00"
+              },
+              "origin": {
+                "airport": "SEA",
+                "dateTime": "2025-04-24T20:00:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 954
+              },
+              "durationMinutes": 160
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 3348
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 50000,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN",
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "L",
+            "L"
+          ],
+          "fareBasisCodes": [
+            "AL0RA50M",
+            "AL0RA50M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00f",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 380,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 306 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 306
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 306
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 380,
+          "departureTime": "2025-04-24T16:29:00-04:00",
+          "arrivalTime": "2025-04-24T19:49:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 8,
+              "percentOnTime": 76,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T19:49:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T16:29:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 380
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K007",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 483,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 1789, AA 3204 — Operated by American Airlines: EWR to PHX, PHX to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1789
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 1789
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "PHX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 333,
+          "departureTime": "2025-04-24T16:49:00-04:00",
+          "arrivalTime": "2025-04-24T19:22:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 0,
+              "percentOnTime": 100,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "PHX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T19:22:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T16:49:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2127
+              },
+              "durationMinutes": 333
+            }
+          ],
+          "stopoverInformation": "1h 5m",
+          "stopoverDuration": 65,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3204
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 3204
+          },
+          "departureStation": "PHX",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 85,
+          "departureTime": "2025-04-24T20:27:00-07:00",
+          "arrivalTime": "2025-04-24T21:52:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 0,
+              "percentOnTime": 0,
+              "departureAirportCode": "PHX",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T21:52:00-07:00"
+              },
+              "origin": {
+                "airport": "PHX",
+                "dateTime": "2025-04-24T20:27:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 369
+              },
+              "durationMinutes": 85
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2496
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 5,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00n",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 381,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 302 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 302
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 302
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 381,
+          "departureTime": "2025-04-24T17:25:00-04:00",
+          "arrivalTime": "2025-04-24T20:46:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 21,
+              "percentOnTime": 75,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T20:46:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T17:25:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 381
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K009",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 569,
+      "matrixOperationalDisclosures": [],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 290
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 290
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "PDX",
+          "aircraftCode": "7M9",
+          "aircraft": "Boeing 737MAX 9 Passenger",
+          "duration": 364,
+          "departureTime": "2025-04-24T17:30:00-04:00",
+          "arrivalTime": "2025-04-24T20:34:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 11,
+              "aircraftCode": "7M9",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "percentLate30Plus": 55,
+              "percentOnTime": 33,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "PDX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "PDX",
+                "dateTime": "2025-04-24T20:34:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T17:30:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2426
+              },
+              "durationMinutes": 364
+            }
+          ],
+          "stopoverInformation": "1h 0m",
+          "stopoverDuration": 60,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 135
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 135
+          },
+          "departureStation": "PDX",
+          "arrivalStation": "LAX",
+          "aircraftCode": "73J",
+          "aircraft": "Boeing 737-900 (Winglets) Passenger",
+          "duration": 145,
+          "departureTime": "2025-04-24T21:34:00-07:00",
+          "arrivalTime": "2025-04-24T23:59:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 25,
+              "aircraftCode": "73J",
+              "aircraft": "Boeing 737-900 (Winglets) Passenger",
+              "percentLate30Plus": 0,
+              "percentOnTime": 50,
+              "departureAirportCode": "PDX",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T23:59:00-07:00"
+              },
+              "origin": {
+                "airport": "PDX",
+                "dateTime": "2025-04-24T21:34:00-07:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 834
+              },
+              "durationMinutes": 145
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 3260
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 5.6,
+          "milesPoints": 95000,
+          "seatsRemaining": 4,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST",
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "C",
+            "C"
+          ],
+          "fareBasisCodes": [
+            "AY0RA95F",
+            "AY0RA95F"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K01B",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        },
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 30000,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN",
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "N",
+            "N"
+          ],
+          "fareBasisCodes": [
+            "AN0RA30M",
+            "AN0RA30M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00d",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 588,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 2603, AA 669 — Operated by American Airlines: JFK to MIA, MIA to LAX"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2603
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 2603
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "MIA",
+          "aircraftCode": "738",
+          "aircraft": "Boeing 737-800 Passenger",
+          "duration": 191,
+          "departureTime": "2025-04-24T17:30:00-04:00",
+          "arrivalTime": "2025-04-24T20:41:00-04:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "738",
+              "aircraft": "Boeing 737-800 Passenger",
+              "percentLate30Plus": 21,
+              "percentOnTime": 68,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "MIA",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "MIA",
+                "dateTime": "2025-04-24T20:41:00-04:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T17:30:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 1091
+              },
+              "durationMinutes": 191
+            }
+          ],
+          "stopoverInformation": "43m",
+          "stopoverDuration": 43,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Economy"
+          ],
+          "firstAmenities": []
+        },
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 669
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 669
+          },
+          "departureStation": "MIA",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32Q",
+          "aircraft": "Airbus A321neo",
+          "duration": 354,
+          "departureTime": "2025-04-24T21:24:00-04:00",
+          "arrivalTime": "2025-04-25T00:18:00-07:00",
+          "nextDayArrival": true,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "32Q",
+              "aircraft": "Airbus A321neo",
+              "percentLate30Plus": 11,
+              "percentOnTime": 82,
+              "departureAirportCode": "MIA",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-25T00:18:00-07:00"
+              },
+              "origin": {
+                "airport": "MIA",
+                "dateTime": "2025-04-24T21:24:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2337
+              },
+              "durationMinutes": 354
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "In-seat power source",
+            "Wi-Fi",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 3428
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 22500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH",
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T",
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R2CM",
+            "AAT0R2CM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00h",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None",
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 32,
+      "origin": "EWR",
+      "destination": "LAX",
+      "duration": 378,
+      "matrixOperationalDisclosures": [],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 287
+          },
+          "displayCarrier": {
+            "carrierCode": "AS",
+            "carrierFullName": "Alaska Airlines",
+            "flightNumber": 287
+          },
+          "departureStation": "EWR",
+          "arrivalStation": "LAX",
+          "aircraftCode": "7M9",
+          "aircraft": "Boeing 737MAX 9 Passenger",
+          "duration": 378,
+          "departureTime": "2025-04-24T19:59:00-04:00",
+          "arrivalTime": "2025-04-24T23:17:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 0,
+              "aircraftCode": "7M9",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "percentLate30Plus": 57,
+              "percentOnTime": 28,
+              "departureAirportCode": "EWR",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T23:17:00-07:00"
+              },
+              "origin": {
+                "airport": "EWR",
+                "dateTime": "2025-04-24T19:59:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2447
+              },
+              "durationMinutes": 378
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Entertainment on demand",
+            "In-seat power source",
+            "Wi-Fi"
+          ],
+          "firstAmenities": []
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2447
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_FIRST": {
+          "grandTotal": 5.6,
+          "milesPoints": 125000,
+          "seatsRemaining": 5,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "FIRST"
+          ],
+          "bookingCodes": [
+            "J"
+          ],
+          "fareBasisCodes": [
+            "AJ0RAC5F"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K01D",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        },
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 5.6,
+          "milesPoints": 40000,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "MAIN"
+          ],
+          "bookingCodes": [
+            "M"
+          ],
+          "fareBasisCodes": [
+            "AM0RA40M"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00X",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 33,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 385,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 117 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 117
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 117
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 385,
+          "departureTime": "2025-04-24T20:00:00-04:00",
+          "arrivalTime": "2025-04-24T23:25:00-07:00",
+          "nextDayArrival": false,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 22,
+              "percentOnTime": 74,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-24T23:25:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T20:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 385
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 6,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00D",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    },
+    {
+      "id": 34,
+      "origin": "JFK",
+      "destination": "LAX",
+      "duration": 384,
+      "matrixOperationalDisclosures": [
+        {
+          "carrier": "AA",
+          "disclosures": [
+            "AA 300 — Operated by American Airlines"
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "publishingCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 300
+          },
+          "displayCarrier": {
+            "carrierCode": "AA",
+            "carrierFullName": "American Airlines",
+            "flightNumber": 300
+          },
+          "departureStation": "JFK",
+          "arrivalStation": "LAX",
+          "aircraftCode": "32B",
+          "aircraft": "Airbus A321 (Sharklets)",
+          "duration": 384,
+          "departureTime": "2025-04-24T21:00:00-04:00",
+          "arrivalTime": "2025-04-25T00:24:00-07:00",
+          "nextDayArrival": true,
+          "nextDayDeparture": false,
+          "performance": [
+            {
+              "canceledPercentage": 4,
+              "aircraftCode": "32B",
+              "aircraft": "Airbus A321 (Sharklets)",
+              "percentLate30Plus": 23,
+              "percentOnTime": 62,
+              "departureAirportCode": "JFK",
+              "arrivalAirportCode": "LAX",
+              "changeOfPlane": false,
+              "destination": {
+                "airport": "LAX",
+                "dateTime": "2025-04-25T00:24:00-07:00"
+              },
+              "origin": {
+                "airport": "JFK",
+                "dateTime": "2025-04-24T21:00:00-04:00"
+              },
+              "distance": {
+                "unit": "MI",
+                "length": 2468
+              },
+              "durationMinutes": 384
+            }
+          ],
+          "stopoverInformation": "0m",
+          "stopoverDuration": 0,
+          "operationalDisclosure": "",
+          "subjectToGovernmentApproval": false,
+          "detailsDisplayOperationalDisclosure": "",
+          "firstClassUpgradeAvailable": false,
+          "firstClassUpgradeUnavailable": false,
+          "amenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ],
+          "firstAmenities": [
+            "Audio programming",
+            "In-seat power source",
+            "In-seat Video Player/Library",
+            "Wi-Fi",
+            "Lie-flat Seat First",
+            "Lie-flat Seat Business",
+            "110V AC Power",
+            "110V AC Power First",
+            "110V AC Power Business",
+            "110V AC Power Economy",
+            "USB Power",
+            "USB Power First",
+            "USB Power Business",
+            "USB Power Economy"
+          ]
+        }
+      ],
+      "totalDistance": {
+        "unit": "MI",
+        "length": 2468
+      },
+      "upgradeInfo": [],
+      "solutions": {
+        "REFUNDABLE_MAIN": {
+          "grandTotal": 18.1,
+          "milesPoints": 17500,
+          "seatsRemaining": 9,
+          "companionFare": 0,
+          "isDiscounted": false,
+          "mixedCabin": false,
+          "cabins": [
+            "COACH"
+          ],
+          "bookingCodes": [
+            "T"
+          ],
+          "fareBasisCodes": [
+            "AAT0R1HM"
+          ],
+          "refundable": true,
+          "qpxcSolutionID": "fiSM1l1UI1JOQ5gEf0Ib8K00B",
+          "dynamicFareFamilyTag": null,
+          "specialFareTypes": [
+            "None"
+          ]
+        }
+      }
+    }
+  ],
+  "qpxcVersion": "1050",
+  "qpxcSessionID": "Ep40i4HEyFRDPyK9iJIqPR62F",
+  "qpxcSolutionSetID": "0eZjMqQOicgCOUyK5GRwmm3",
+  "advisories": [],
+  "columns": [
+    "REFUNDABLE_MAIN",
+    "REFUNDABLE_FIRST"
+  ],
+  "features": {
+    "money_miles_toggle_enabled": "on",
+    "use_modern_calendar": "on",
+    "check_schedule_mobile": "on",
+    "low_fare_datepicker": "popover_enabled",
+    "refundable_upsell_modal": "variant1",
+    "show_search_merch_content": "on",
+    "partnerintegration_alaska_flightpass": "on",
+    "quote_cart": "on",
+    "ha_domestic_sorting": "on",
+    "umnr_enable": "on",
+    "no_results_alternate_message": "no_results_ai",
+    "upsell_quote": "on",
+    "best_flight_recommendation_v2": "one_badge",
+    "new_authentication": "on"
+  }
+}

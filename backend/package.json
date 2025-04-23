@@ -6,7 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "clean-start": "chmod +x ./start.sh && ./start.sh"
+    "clean-start": "chmod +x ./start.sh && ./start.sh",
+    "american": "node services/american.js",
+    "airfrance": "node services/airfrance.js",
+    "virgin": "node Virgin.js",
+    "alaska": "node services/alaska.js"
   },
   "author": "",
   "license": "ISC",

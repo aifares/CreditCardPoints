@@ -8,12 +8,13 @@ interface FlightResult {
   classType: string;
   milesPoints: number;
   seatsRemaining: number;
-  cabinTypes: string[];
+  cabinTypes?: string[];
   refundable: boolean;
   departureTime: string;
   arrivalTime: string;
   duration: number;
   airlines: string[];
+  airlineCode?: string;
 }
 
 export default function SearchBox() {
@@ -26,10 +27,12 @@ export default function SearchBox() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
 
+  const API_BASE_URL = "http://localhost:5000";
+
   const handleSearch = async () => {
     // Validate inputs
-    if (!origin || !destination || !departureDate || !returnDate) {
-      setError("Please fill in all required fields");
+    if (!origin || !destination || !departureDate) {
+      setError("Please fill in origin, destination, and departure date");
       return;
     }
 
@@ -37,19 +40,66 @@ export default function SearchBox() {
       setLoading(true);
       setError("");
       
-      const response = await axios.post("http://localhost:5000/api/search", {
-        origin,
-        destination,
-        departureDate,
-        returnDate,
-        numAdults: 2 // Default value
-      });
-
-      setFlights(response.data);
+      console.log("Searching flights with parameters:", { origin, destination, departureDate, returnDate });
+      
+      // Try the direct /api/search endpoint first
+      try {
+        const response = await axios.post(`${API_BASE_URL}/api/search`, {
+          origin,
+          destination,
+          departureDate,
+          returnDate,
+          numAdults: 2, // Default value
+          cabin
+        });
+        
+        console.log(`Received ${response.data.length} flights from search endpoint`);
+        setFlights(response.data);
+      } catch (primaryError) {
+        console.error("Error with primary search endpoint:", primaryError);
+        
+        // Fall back to /api/flights/search if the primary endpoint fails
+        try {
+          const fallbackResponse = await axios.post(`${API_BASE_URL}/api/flights/search`, {
+            origin,
+            destination,
+            departureDate,
+            returnDate,
+            numAdults: 2,
+            cabin
+          });
+          
+          console.log(`Received ${fallbackResponse.data.length} flights from fallback endpoint`);
+          setFlights(fallbackResponse.data);
+        } catch (fallbackError) {
+          console.error("Error with fallback search endpoint:", fallbackError);
+          throw fallbackError; // Re-throw to be caught by the outer catch
+        }
+      }
+      
       setLoading(false);
-    } catch (err) {
+    } catch (err: any) {
       console.error("Error searching flights:", err);
-      setError("Failed to search flights. Please try again.");
+      let errorMessage = "Failed to search flights. Please try again.";
+      
+      if (axios.isAxiosError(err)) {
+        if (err.response) {
+          // Server responded with an error status
+          console.error("Response status:", err.response.status);
+          console.error("Response data:", err.response.data);
+          
+          if (err.response.data && err.response.data.error) {
+            errorMessage = err.response.data.error;
+          } else if (err.response.status === 404) {
+            errorMessage = "Search endpoint not found. Please check if the server is running.";
+          }
+        } else if (err.request) {
+          // Request was made but no response
+          errorMessage = "No response from server. Please check if the server is running.";
+        }
+      }
+      
+      setError(errorMessage);
       setLoading(false);
     }
   };
@@ -154,6 +204,9 @@ export default function SearchBox() {
                       <div className="flex items-center gap-2 mb-2">
                         <span className="badge badge-primary">{flight.route}</span>
                         <span className="text-sm opacity-70">{flight.airlines.join(', ')}</span>
+                        {flight.airlineCode && (
+                          <span className="badge badge-secondary badge-sm">{flight.airlineCode}</span>
+                        )}
                       </div>
                       <div className="flex flex-col md:flex-row gap-2 md:gap-6 mb-2">
                         <div>
@@ -166,7 +219,7 @@ export default function SearchBox() {
                           </div>
                           <div className="flex-1 h-0.5 bg-base-300"></div>
                           <div className="text-sm px-2">
-                            <span className="font-semibold">{flight.cabinTypes.join('/')}</span>
+                            <span className="font-semibold">{flight.cabinTypes?.join('/') || flight.classType}</span>
                           </div>
                         </div>
                         <div>

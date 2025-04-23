@@ -1,0 +1,750 @@
+[
+  {
+    "id": 1,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:00:00-04:00",
+    "arrivalTime": "2025-04-24T09:16:00-07:00",
+    "duration": 376,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 6,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T07:00:00-04:00",
+    "arrivalTime": "2025-04-24T10:20:00-07:00",
+    "duration": 380,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 10,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T08:29:00-04:00",
+    "arrivalTime": "2025-04-24T12:02:00-07:00",
+    "duration": 393,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 20,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 3,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:25:00-04:00",
+    "arrivalTime": "2025-04-24T18:42:00-07:00",
+    "duration": 377,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 27,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T16:29:00-04:00",
+    "arrivalTime": "2025-04-24T19:49:00-07:00",
+    "duration": 380,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 29,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T17:25:00-04:00",
+    "arrivalTime": "2025-04-24T20:46:00-07:00",
+    "duration": 381,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 33,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 6,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T20:00:00-04:00",
+    "arrivalTime": "2025-04-24T23:25:00-07:00",
+    "duration": 385,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 34,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 17500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T21:00:00-04:00",
+    "arrivalTime": "2025-04-25T00:24:00-07:00",
+    "duration": 384,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": "alaska-0-0",
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 4,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T05:25:00-04:00",
+    "arrivalTime": "2025-04-24T12:29:00-07:00",
+    "duration": 604,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 2,
+    "route": "LGA → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:00:00-04:00",
+    "arrivalTime": "2025-04-24T11:15:00-07:00",
+    "duration": 495,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 3,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:00:00-04:00",
+    "arrivalTime": "2025-04-24T11:52:00-07:00",
+    "duration": 532,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 4,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 8,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:33:00-04:00",
+    "arrivalTime": "2025-04-24T11:51:00-07:00",
+    "duration": 498,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 5,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:50:00-04:00",
+    "arrivalTime": "2025-04-24T11:51:00-07:00",
+    "duration": 481,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 11,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 7,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T08:59:00-04:00",
+    "arrivalTime": "2025-04-24T16:48:00-07:00",
+    "duration": 649,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 13,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 8,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T11:57:00-04:00",
+    "arrivalTime": "2025-04-24T16:51:00-07:00",
+    "duration": 474,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 14,
+    "route": "LGA → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 3,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T12:00:00-04:00",
+    "arrivalTime": "2025-04-24T16:48:00-07:00",
+    "duration": 468,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 15,
+    "route": "LGA → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T12:59:00-04:00",
+    "arrivalTime": "2025-04-24T17:49:00-07:00",
+    "duration": 470,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 17,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T13:40:00-04:00",
+    "arrivalTime": "2025-04-24T19:59:00-07:00",
+    "duration": 559,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 18,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T14:58:00-04:00",
+    "arrivalTime": "2025-04-24T19:59:00-07:00",
+    "duration": 481,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 19,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T14:59:00-04:00",
+    "arrivalTime": "2025-04-24T20:16:00-07:00",
+    "duration": 497,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 21,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:25:00-04:00",
+    "arrivalTime": "2025-04-24T20:57:00-07:00",
+    "duration": 512,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 22,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:25:00-04:00",
+    "arrivalTime": "2025-04-24T23:18:00-07:00",
+    "duration": 653,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 23,
+    "route": "LGA → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:55:00-04:00",
+    "arrivalTime": "2025-04-24T21:01:00-07:00",
+    "duration": 486,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 24,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:55:00-04:00",
+    "arrivalTime": "2025-04-24T21:57:00-07:00",
+    "duration": 542,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 25,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T15:55:00-04:00",
+    "arrivalTime": "2025-04-24T22:59:00-07:00",
+    "duration": 604,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 28,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T16:49:00-04:00",
+    "arrivalTime": "2025-04-24T21:52:00-07:00",
+    "duration": 483,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 31,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 22500,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "COACH",
+      "COACH"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T17:30:00-04:00",
+    "arrivalTime": "2025-04-25T00:18:00-07:00",
+    "duration": 588,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 8,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 30000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T07:30:00-04:00",
+    "arrivalTime": "2025-04-24T10:46:00-07:00",
+    "duration": 376,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 30,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 30000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN",
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T17:30:00-04:00",
+    "arrivalTime": "2025-04-24T23:59:00-07:00",
+    "duration": 569,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 12,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 40000,
+    "seatsRemaining": 3,
+    "cabinTypes": [
+      "MAIN",
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T09:00:00-04:00",
+    "arrivalTime": "2025-04-24T15:08:00-07:00",
+    "duration": 548,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 32,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 40000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T19:59:00-04:00",
+    "arrivalTime": "2025-04-24T23:17:00-07:00",
+    "duration": 378,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 9,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 45000,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "FIRST",
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T07:59:00-04:00",
+    "arrivalTime": "2025-04-24T15:54:00-07:00",
+    "duration": 655,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 7,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 50000,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "MAIN",
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T07:00:00-04:00",
+    "arrivalTime": "2025-04-24T14:46:00-07:00",
+    "duration": 646,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 26,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 50000,
+    "seatsRemaining": 9,
+    "cabinTypes": [
+      "MAIN",
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T16:00:00-04:00",
+    "arrivalTime": "2025-04-24T22:40:00-07:00",
+    "duration": 580,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 1,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 52500,
+    "seatsRemaining": 3,
+    "cabinTypes": [
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T06:00:00-04:00",
+    "arrivalTime": "2025-04-24T09:16:00-07:00",
+    "duration": 376,
+    "airlines": [
+      "American Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 16,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_MAIN",
+    "milesPoints": 65000,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "MAIN",
+      "MAIN"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T13:00:00-04:00",
+    "arrivalTime": "2025-04-24T19:07:00-07:00",
+    "duration": 547,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 16,
+    "route": "JFK → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 80000,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "FIRST",
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T13:00:00-04:00",
+    "arrivalTime": "2025-04-24T19:07:00-07:00",
+    "duration": 547,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 7,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 95000,
+    "seatsRemaining": 2,
+    "cabinTypes": [
+      "FIRST",
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T07:00:00-04:00",
+    "arrivalTime": "2025-04-24T14:46:00-07:00",
+    "duration": 646,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 30,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 95000,
+    "seatsRemaining": 4,
+    "cabinTypes": [
+      "FIRST",
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T17:30:00-04:00",
+    "arrivalTime": "2025-04-24T23:59:00-07:00",
+    "duration": 569,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  },
+  {
+    "id": 32,
+    "route": "EWR → LAX",
+    "classType": "REFUNDABLE_FIRST",
+    "milesPoints": 125000,
+    "seatsRemaining": 5,
+    "cabinTypes": [
+      "FIRST"
+    ],
+    "refundable": true,
+    "departureTime": "2025-04-24T19:59:00-04:00",
+    "arrivalTime": "2025-04-24T23:17:00-07:00",
+    "duration": 378,
+    "airlines": [
+      "Alaska Airlines"
+    ],
+    "airlineCode": "AS"
+  }
+]

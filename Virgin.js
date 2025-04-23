@@ -9,7 +9,7 @@
 // To run the application, use:
 // node backend/virgin-atlantic/index.js
 
-const { main } = require("./index");
+const { main } = require("./backend/virgin-atlantic/index");
 
 // Run the main function when this file is executed directly
 if (require.main === module) {
