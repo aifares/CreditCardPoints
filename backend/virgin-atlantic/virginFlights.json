@@ -10,11 +10,25 @@
     "classType": "Economy",
     "soldOut": false,
     "milesPoints": 35000,
-    "taxAmount": 188.1,
+    "taxAmount": 189.1,
     "taxCurrency": "USD"
   },
   {
-    "id": 5,
+    "id": 3,
+    "route": "JFK → LHR",
+    "flightNumber": "VS4",
+    "airline": "Virgin Atlantic",
+    "departureTime": "2025-04-27T18:00:00",
+    "arrivalTime": "2025-04-28T06:25:00",
+    "duration": "PT7H25M",
+    "classType": "Premium Economy",
+    "soldOut": false,
+    "milesPoints": 50000,
+    "taxAmount": 88.7,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 6,
     "route": "JFK → LHR",
     "flightNumber": "VS10",
     "airline": "Virgin Atlantic",
@@ -23,8 +37,8 @@
     "duration": "PT7H15M",
     "classType": "Premium Economy",
     "soldOut": false,
-    "milesPoints": 57000,
-    "taxAmount": 88.3,
+    "milesPoints": 59000,
+    "taxAmount": 88.7,
     "taxCurrency": "USD"
   },
   {
@@ -37,8 +51,8 @@
     "duration": "PT7H20M",
     "classType": "Premium Economy",
     "soldOut": false,
-    "milesPoints": 62000,
-    "taxAmount": 88.3,
+    "milesPoints": 66000,
+    "taxAmount": 88.7,
     "taxCurrency": "USD"
   },
   {
@@ -52,35 +66,21 @@
     "classType": "Economy",
     "soldOut": false,
     "milesPoints": 68000,
-    "taxAmount": 88.3,
+    "taxAmount": 88.7,
     "taxCurrency": "USD"
   },
   {
-    "id": 3,
-    "route": "JFK → LHR",
-    "flightNumber": "VS26",
-    "airline": "Virgin Atlantic",
-    "departureTime": "2025-04-27T08:10:00",
-    "arrivalTime": "2025-04-27T20:00:00",
-    "duration": "PT6H50M",
-    "classType": "Business",
-    "soldOut": false,
-    "milesPoints": 150000,
-    "taxAmount": 88.3,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 11,
+    "id": 4,
     "route": "JFK → LHR",
     "flightNumber": "VS4",
     "airline": "Virgin Atlantic",
     "departureTime": "2025-04-27T18:00:00",
     "arrivalTime": "2025-04-28T06:25:00",
     "duration": "PT7H25M",
-    "classType": "Premium Economy",
+    "classType": "Business",
     "soldOut": false,
-    "milesPoints": 150000,
-    "taxAmount": 88.3,
+    "milesPoints": 185000,
+    "taxAmount": 189.1,
     "taxCurrency": "USD"
   },
   {
@@ -93,12 +93,12 @@
     "duration": "PT7H20M",
     "classType": "Business",
     "soldOut": false,
-    "milesPoints": 180000,
-    "taxAmount": 188.1,
+    "milesPoints": 210000,
+    "taxAmount": 189.1,
     "taxCurrency": "USD"
   },
   {
-    "id": 4,
+    "id": 11,
     "route": "JFK → LHR",
     "flightNumber": "VS26",
     "airline": "Virgin Atlantic",
@@ -107,36 +107,8 @@
     "duration": "PT6H50M",
     "classType": "Business",
     "soldOut": false,
-    "milesPoints": 195000,
-    "taxAmount": 188.1,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 6,
-    "route": "JFK → LHR",
-    "flightNumber": "VS10",
-    "airline": "Virgin Atlantic",
-    "departureTime": "2025-04-27T19:00:00",
-    "arrivalTime": "2025-04-28T07:15:00",
-    "duration": "PT7H15M",
-    "classType": "Upper Class",
-    "soldOut": false,
     "milesPoints": 250000,
-    "taxAmount": 188.1,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 12,
-    "route": "JFK → LHR",
-    "flightNumber": "VS4",
-    "airline": "Virgin Atlantic",
-    "departureTime": "2025-04-27T18:00:00",
-    "arrivalTime": "2025-04-28T06:25:00",
-    "duration": "PT7H25M",
-    "classType": "Upper Class",
-    "soldOut": false,
-    "milesPoints": 250000,
-    "taxAmount": 188.1,
+    "taxAmount": 189.1,
     "taxCurrency": "USD"
   },
   {
@@ -150,7 +122,21 @@
     "classType": "Upper Class",
     "soldOut": false,
     "milesPoints": 350000,
-    "taxAmount": 493.9,
+    "taxAmount": 496.9,
+    "taxCurrency": "USD"
+  },
+  {
+    "id": 5,
+    "route": "JFK → LHR",
+    "flightNumber": "VS4",
+    "airline": "Virgin Atlantic",
+    "departureTime": "2025-04-27T18:00:00",
+    "arrivalTime": "2025-04-28T06:25:00",
+    "duration": "PT7H25M",
+    "classType": "Upper Class",
+    "soldOut": false,
+    "milesPoints": 350000,
+    "taxAmount": 496.9,
     "taxCurrency": "USD"
   },
   {
@@ -164,7 +150,7 @@
     "classType": "Upper Class",
     "soldOut": false,
     "milesPoints": 350000,
-    "taxAmount": 493.9,
+    "taxAmount": 496.9,
     "taxCurrency": "USD"
   },
   {
@@ -175,24 +161,10 @@
     "departureTime": "2025-04-27T21:30:00",
     "arrivalTime": "2025-04-28T09:50:00",
     "duration": "PT7H20M",
-    "classType": "Upper Class",
+    "classType": "Unknown",
     "soldOut": false,
     "milesPoints": 350000,
-    "taxAmount": 493.9,
-    "taxCurrency": "USD"
-  },
-  {
-    "id": 13,
-    "route": "JFK → LHR",
-    "flightNumber": "VS4",
-    "airline": "Virgin Atlantic",
-    "departureTime": "2025-04-27T18:00:00",
-    "arrivalTime": "2025-04-28T06:25:00",
-    "duration": "PT7H25M",
-    "classType": "Upper Class",
-    "soldOut": false,
-    "milesPoints": 350000,
-    "taxAmount": 493.9,
+    "taxAmount": 496.9,
     "taxCurrency": "USD"
   }
 ]

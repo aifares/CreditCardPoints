@@ -1,0 +1,968 @@
+{
+  "data": {
+    "searchOffers": {
+      "result": {
+        "slices": {
+          "current": 0,
+          "total": 1,
+          "__typename": "Slices"
+        },
+        "criteria": {
+          "origin": {
+            "code": "JFK",
+            "cityName": "New York",
+            "countryName": "NY",
+            "airportName": "John F Kennedy International",
+            "__typename": "Airport_BFF"
+          },
+          "destination": {
+            "code": "LHR",
+            "cityName": "London",
+            "countryName": "United Kingdom",
+            "airportName": "Heathrow Airport",
+            "__typename": "Airport_BFF"
+          },
+          "departing": "2025-04-27",
+          "__typename": "Criteria"
+        },
+        "slice": {
+          "id": null,
+          "fareId": null,
+          "flightsAndFares": [
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "metal": [
+                      {
+                        "family": "787",
+                        "name": "Airbus A350-1000",
+                        "__typename": "FlightSearchMetal"
+                      }
+                    ],
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "flightNumber": "VS138",
+                    "operatingFlightNumber": "VS138",
+                    "pendingGovtApproval": false,
+                    "operatingAirline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "countryName": "NY",
+                      "airportName": "John F Kennedy International",
+                      "__typename": "Airport_BFF"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "countryName": "United Kingdom",
+                      "airportName": "Heathrow Airport",
+                      "__typename": "Airport_BFF"
+                    },
+                    "duration": "PT7H",
+                    "departure": "2025-04-27T23:25:00",
+                    "arrival": "2025-04-28T11:25:00",
+                    "stopCount": 0,
+                    "connection": null,
+                    "legs": [
+                      {
+                        "duration": "PT7H",
+                        "departure": "2025-04-27T23:25:00",
+                        "arrival": "2025-04-28T11:25:00",
+                        "stopOver": null,
+                        "isDominantLeg": true,
+                        "destination": {
+                          "code": "LHR",
+                          "cityName": "London",
+                          "countryName": "United Kingdom",
+                          "airportName": "Heathrow Airport",
+                          "__typename": "Airport_BFF"
+                        },
+                        "origin": {
+                          "code": "JFK",
+                          "cityName": "New York",
+                          "countryName": "NY",
+                          "airportName": "John F Kennedy International",
+                          "__typename": "Airport_BFF"
+                        },
+                        "__typename": "LegBFF"
+                      }
+                    ],
+                    "bookingClass": null,
+                    "fareBasisCode": null,
+                    "dominantFareProduct": null,
+                    "__typename": "SegmentBFF"
+                  }
+                ],
+                "duration": "PT7H",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "countryName": "NY",
+                  "airportName": "John F Kennedy International",
+                  "__typename": "Airport_BFF"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "countryName": "United Kingdom",
+                  "airportName": "Heathrow Airport",
+                  "__typename": "Airport_BFF"
+                },
+                "departure": "2025-04-27T23:25:00",
+                "arrival": "2025-04-28T11:25:00",
+                "__typename": "SliceFlight"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-1",
+                  "fareId": "XPAS0680",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "68000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 88.7,
+                    "amountIncludingTax": 88.7,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Economy Classic",
+                      "bookingClass": "A",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-2",
+                  "fareId": "KPAS0350",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "35000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 189.1,
+                    "amountIncludingTax": 189.1,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Premium",
+                      "bookingClass": "P",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-COMFORT-PLUS-PREMIUM-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-3",
+                  "fareId": "CPAS3500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "350000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 496.9,
+                    "amountIncludingTax": 496.9,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Upper Class",
+                      "bookingClass": "G",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-BUSINESS-FIRST",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                }
+              ],
+              "__typename": "SliceFlightsAndFares"
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "metal": [
+                      {
+                        "family": "787",
+                        "name": "Airbus A350-1000",
+                        "__typename": "FlightSearchMetal"
+                      }
+                    ],
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "flightNumber": "VS4",
+                    "operatingFlightNumber": "VS4",
+                    "pendingGovtApproval": false,
+                    "operatingAirline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "countryName": "NY",
+                      "airportName": "John F Kennedy International",
+                      "__typename": "Airport_BFF"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "countryName": "United Kingdom",
+                      "airportName": "Heathrow Airport",
+                      "__typename": "Airport_BFF"
+                    },
+                    "duration": "PT7H25M",
+                    "departure": "2025-04-27T18:00:00",
+                    "arrival": "2025-04-28T06:25:00",
+                    "stopCount": 0,
+                    "connection": null,
+                    "legs": [
+                      {
+                        "duration": "PT7H25M",
+                        "departure": "2025-04-27T18:00:00",
+                        "arrival": "2025-04-28T06:25:00",
+                        "stopOver": null,
+                        "isDominantLeg": true,
+                        "destination": {
+                          "code": "LHR",
+                          "cityName": "London",
+                          "countryName": "United Kingdom",
+                          "airportName": "Heathrow Airport",
+                          "__typename": "Airport_BFF"
+                        },
+                        "origin": {
+                          "code": "JFK",
+                          "cityName": "New York",
+                          "countryName": "NY",
+                          "airportName": "John F Kennedy International",
+                          "__typename": "Airport_BFF"
+                        },
+                        "__typename": "LegBFF"
+                      }
+                    ],
+                    "bookingClass": null,
+                    "fareBasisCode": null,
+                    "dominantFareProduct": null,
+                    "__typename": "SegmentBFF"
+                  }
+                ],
+                "duration": "PT7H25M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "countryName": "NY",
+                  "airportName": "John F Kennedy International",
+                  "__typename": "Airport_BFF"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "countryName": "United Kingdom",
+                  "airportName": "Heathrow Airport",
+                  "__typename": "Airport_BFF"
+                },
+                "departure": "2025-04-27T18:00:00",
+                "arrival": "2025-04-28T06:25:00",
+                "__typename": "SliceFlight"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-4",
+                  "fareId": "NPAS0500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "50000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 88.7,
+                    "amountIncludingTax": 88.7,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Economy Classic",
+                      "bookingClass": "A",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-5",
+                  "fareId": "SPAS1850",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "185000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 189.1,
+                    "amountIncludingTax": 189.1,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Premium",
+                      "bookingClass": "P",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-COMFORT-PLUS-PREMIUM-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-6",
+                  "fareId": "CPAS3500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "350000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 496.9,
+                    "amountIncludingTax": 496.9,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Upper Class",
+                      "bookingClass": "G",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-BUSINESS-FIRST",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                }
+              ],
+              "__typename": "SliceFlightsAndFares"
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "metal": [
+                      {
+                        "family": "787",
+                        "name": "Airbus A350-1000",
+                        "__typename": "FlightSearchMetal"
+                      }
+                    ],
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "flightNumber": "VS10",
+                    "operatingFlightNumber": "VS10",
+                    "pendingGovtApproval": false,
+                    "operatingAirline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "countryName": "NY",
+                      "airportName": "John F Kennedy International",
+                      "__typename": "Airport_BFF"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "countryName": "United Kingdom",
+                      "airportName": "Heathrow Airport",
+                      "__typename": "Airport_BFF"
+                    },
+                    "duration": "PT7H15M",
+                    "departure": "2025-04-27T19:00:00",
+                    "arrival": "2025-04-28T07:15:00",
+                    "stopCount": 0,
+                    "connection": null,
+                    "legs": [
+                      {
+                        "duration": "PT7H15M",
+                        "departure": "2025-04-27T19:00:00",
+                        "arrival": "2025-04-28T07:15:00",
+                        "stopOver": null,
+                        "isDominantLeg": true,
+                        "destination": {
+                          "code": "LHR",
+                          "cityName": "London",
+                          "countryName": "United Kingdom",
+                          "airportName": "Heathrow Airport",
+                          "__typename": "Airport_BFF"
+                        },
+                        "origin": {
+                          "code": "JFK",
+                          "cityName": "New York",
+                          "countryName": "NY",
+                          "airportName": "John F Kennedy International",
+                          "__typename": "Airport_BFF"
+                        },
+                        "__typename": "LegBFF"
+                      }
+                    ],
+                    "bookingClass": null,
+                    "fareBasisCode": null,
+                    "dominantFareProduct": null,
+                    "__typename": "SegmentBFF"
+                  }
+                ],
+                "duration": "PT7H15M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "countryName": "NY",
+                  "airportName": "John F Kennedy International",
+                  "__typename": "Airport_BFF"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "countryName": "United Kingdom",
+                  "airportName": "Heathrow Airport",
+                  "__typename": "Airport_BFF"
+                },
+                "departure": "2025-04-27T19:00:00",
+                "arrival": "2025-04-28T07:15:00",
+                "__typename": "SliceFlight"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-7",
+                  "fareId": "NPAS0590",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "59000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 88.7,
+                    "amountIncludingTax": 88.7,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Economy Classic",
+                      "bookingClass": "A",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null,
+                  "fareSegments": null,
+                  "available": null,
+                  "fareFamilyType": "AWARD-COMFORT-PLUS-PREMIUM-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-9",
+                  "fareId": "CPAS3500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "350000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 496.9,
+                    "amountIncludingTax": 496.9,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Upper Class",
+                      "bookingClass": "G",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-BUSINESS-FIRST",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                }
+              ],
+              "__typename": "SliceFlightsAndFares"
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "metal": [
+                      {
+                        "family": "787",
+                        "name": "Airbus A330-900neo",
+                        "__typename": "FlightSearchMetal"
+                      }
+                    ],
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "flightNumber": "VS154",
+                    "operatingFlightNumber": "VS154",
+                    "pendingGovtApproval": false,
+                    "operatingAirline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "countryName": "NY",
+                      "airportName": "John F Kennedy International",
+                      "__typename": "Airport_BFF"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "countryName": "United Kingdom",
+                      "airportName": "Heathrow Airport",
+                      "__typename": "Airport_BFF"
+                    },
+                    "duration": "PT7H20M",
+                    "departure": "2025-04-27T21:30:00",
+                    "arrival": "2025-04-28T09:50:00",
+                    "stopCount": 0,
+                    "connection": null,
+                    "legs": [
+                      {
+                        "duration": "PT7H20M",
+                        "departure": "2025-04-27T21:30:00",
+                        "arrival": "2025-04-28T09:50:00",
+                        "stopOver": null,
+                        "isDominantLeg": true,
+                        "destination": {
+                          "code": "LHR",
+                          "cityName": "London",
+                          "countryName": "United Kingdom",
+                          "airportName": "Heathrow Airport",
+                          "__typename": "Airport_BFF"
+                        },
+                        "origin": {
+                          "code": "JFK",
+                          "cityName": "New York",
+                          "countryName": "NY",
+                          "airportName": "John F Kennedy International",
+                          "__typename": "Airport_BFF"
+                        },
+                        "__typename": "LegBFF"
+                      }
+                    ],
+                    "bookingClass": null,
+                    "fareBasisCode": null,
+                    "dominantFareProduct": null,
+                    "__typename": "SegmentBFF"
+                  }
+                ],
+                "duration": "PT7H20M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "countryName": "NY",
+                  "airportName": "John F Kennedy International",
+                  "__typename": "Airport_BFF"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "countryName": "United Kingdom",
+                  "airportName": "Heathrow Airport",
+                  "__typename": "Airport_BFF"
+                },
+                "departure": "2025-04-27T21:30:00",
+                "arrival": "2025-04-28T09:50:00",
+                "__typename": "SliceFlight"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-10",
+                  "fareId": "NPAS0660",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "66000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 88.7,
+                    "amountIncludingTax": 88.7,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Economy Classic",
+                      "bookingClass": "A",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-11",
+                  "fareId": "SPAS2100",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "210000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 189.1,
+                    "amountIncludingTax": 189.1,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Premium",
+                      "bookingClass": "P",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-COMFORT-PLUS-PREMIUM-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-12",
+                  "fareId": "JPAS3500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "350000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 496.9,
+                    "amountIncludingTax": 496.9,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Upper Class",
+                      "bookingClass": "G",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-BUSINESS-FIRST",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                }
+              ],
+              "__typename": "SliceFlightsAndFares"
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "metal": [
+                      {
+                        "family": "787",
+                        "name": "Boeing 787-9",
+                        "__typename": "FlightSearchMetal"
+                      }
+                    ],
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "flightNumber": "VS26",
+                    "operatingFlightNumber": "VS26",
+                    "pendingGovtApproval": false,
+                    "operatingAirline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic",
+                      "__typename": "SegmentAirline"
+                    },
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "countryName": "NY",
+                      "airportName": "John F Kennedy International",
+                      "__typename": "Airport_BFF"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "countryName": "United Kingdom",
+                      "airportName": "Heathrow Airport",
+                      "__typename": "Airport_BFF"
+                    },
+                    "duration": "PT6H50M",
+                    "departure": "2025-04-27T08:10:00",
+                    "arrival": "2025-04-27T20:00:00",
+                    "stopCount": 0,
+                    "connection": null,
+                    "legs": [
+                      {
+                        "duration": "PT6H50M",
+                        "departure": "2025-04-27T08:10:00",
+                        "arrival": "2025-04-27T20:00:00",
+                        "stopOver": null,
+                        "isDominantLeg": true,
+                        "destination": {
+                          "code": "LHR",
+                          "cityName": "London",
+                          "countryName": "United Kingdom",
+                          "airportName": "Heathrow Airport",
+                          "__typename": "Airport_BFF"
+                        },
+                        "origin": {
+                          "code": "JFK",
+                          "cityName": "New York",
+                          "countryName": "NY",
+                          "airportName": "John F Kennedy International",
+                          "__typename": "Airport_BFF"
+                        },
+                        "__typename": "LegBFF"
+                      }
+                    ],
+                    "bookingClass": null,
+                    "fareBasisCode": null,
+                    "dominantFareProduct": null,
+                    "__typename": "SegmentBFF"
+                  }
+                ],
+                "duration": "PT6H50M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "countryName": "NY",
+                  "airportName": "John F Kennedy International",
+                  "__typename": "Airport_BFF"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "countryName": "United Kingdom",
+                  "airportName": "Heathrow Airport",
+                  "__typename": "Airport_BFF"
+                },
+                "departure": "2025-04-27T08:10:00",
+                "arrival": "2025-04-27T20:00:00",
+                "__typename": "SliceFlight"
+              },
+              "fares": [
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null,
+                  "fareSegments": null,
+                  "available": null,
+                  "fareFamilyType": "AWARD-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": null,
+                  "id": "f9aa3aa8-85ce-489c-be61-1aefcf0b8352|de4985a8-787d-47ab-a9c1-cb6d42f5d1ff-FL-14",
+                  "fareId": "SPAS2500",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "250000",
+                    "awardPointsDifference": null,
+                    "awardPointsDifferenceSign": null,
+                    "tax": 189.1,
+                    "amountIncludingTax": 189.1,
+                    "priceDifference": "0.00",
+                    "priceDifferenceSign": null,
+                    "amount": 0,
+                    "currency": "USD",
+                    "__typename": "PriceWithTax"
+                  },
+                  "fareSegments": [
+                    {
+                      "cabinName": "Premium",
+                      "bookingClass": "P",
+                      "isDominantLeg": true,
+                      "isSaverFare": false,
+                      "__typename": "SliceFareSegment"
+                    }
+                  ],
+                  "available": null,
+                  "fareFamilyType": "AWARD-COMFORT-PLUS-PREMIUM-ECONOMY",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null,
+                  "fareSegments": null,
+                  "available": null,
+                  "fareFamilyType": "AWARD-BUSINESS-FIRST",
+                  "cabinSelected": false,
+                  "isSaverFare": false,
+                  "promoCodeApplied": null,
+                  "__typename": "SliceFare"
+                }
+              ],
+              "__typename": "SliceFlightsAndFares"
+            }
+          ],
+          "__typename": "Slice"
+        },
+        "tripSummary": {
+          "sliceDetails": [],
+          "currency": "USD",
+          "totalAwardPoints": null,
+          "totalPrice": 0,
+          "__typename": "TripSummary"
+        },
+        "basketId": "990d8ee7-585d-4fd2-8323-55600dc6368a",
+        "__typename": "Result"
+      },
+      "calendar": null,
+      "priceGrid": null,
+      "__typename": "SearchResults"
+    }
+  }
+}

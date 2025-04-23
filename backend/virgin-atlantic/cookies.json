@@ -1,0 +1,862 @@
+[
+  {
+    "name": "x-ms-cpim-csrf",
+    "value": "ZndXVDhSazlBTHIxNU9VcWNoREs2MUlwRWE0TTVncVFvb3Q2RkJ4MVMwSUVKUmJiZTZVNEVGK2ZkSFh6Rk1HTnJuRDRsZFhZOGRqSjFQN0FMditnclE9PTsyMDI1LTA0LTIzVDE2OjQ3OjQzLjcyMDY3MTJaO3p4MWlwVTZUWmFOUDhGRFBob3pCY2c9PTt7IlRhcmdldEVudGl0eSI6IkxvY2FsQWNjb3VudFNpZ25pbkVtYWlsRXhjaGFuZ2UiLCJPcmNoZXN0cmF0aW9uU3RlcCI6MX0=",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-geo",
+    "value": "EU",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430464.566413,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_user",
+    "value": "GKnUX|2025-04-23T16:47:45.921Z",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1776962865,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "at_check",
+    "value": "true",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_BANNER_LOADED",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962867,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_session",
+    "value": "/B0pn|1745426867624.9|1745426867624.9",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1745428667,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_BANNER_VIEWED",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962867,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Analytics",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962867,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Marketing",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962867,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Functional",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962867,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "demdex",
+    "value": "41114313319457950671251969933324517014",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1760978869.189269,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AMCVS_30516EBF55FC098E7F000101%40AdobeOrg",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "everest_g_v2",
+    "value": "g_surferid~aAkZtQAAAEwD2gNz",
+    "domain": ".everesttech.net",
+    "path": "/",
+    "expires": 1776962869.100906,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ttp",
+    "value": "2w8cvGR81VqIPVE0e6hHYVDK2zW",
+    "domain": ".tiktok.com",
+    "path": "/",
+    "expires": 1779122869.175433,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dpm",
+    "value": "41114313319457950671251969933324517014",
+    "domain": ".dpm.demdex.net",
+    "path": "/",
+    "expires": 1760978869.189296,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "mboxEdgeCluster",
+    "value": "34",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745428729,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ecid",
+    "value": "MCMID%7C41076110638616132691247624063843770808",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779986869.420456,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ips",
+    "value": "720",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_tp",
+    "value": "725",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ppv",
+    "value": "Fc%2520B2c%2520Login%2C99%2C99%2C720%2C1%2C1",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_cc",
+    "value": "true",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "AMCV_30516EBF55FC098E7F000101%40AdobeOrg",
+    "value": "359503849%7CMCIDTS%7C20202%7CMCMID%7C41076110638616132691247624063843770808%7CMCAAMLH-1746031668%7C7%7CMCAAMB-1746031668%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1745434069s%7CNONE%7CMCSYNCSOP%7C411-20209%7CMCAID%7CNONE%7CvVersion%7C5.0.1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779986869.428766,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ecid",
+    "value": "MCMID%7C41076110638616132691247624063843770808",
+    "domain": ".smetrics.virginatlantic.com",
+    "path": "/",
+    "expires": 1779986869.705132,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "dextp",
+    "value": "477-1-1745426869499|1123-1-1745426869601|1175-1-1745426869702|3047-1-1745426869804|144230-1-1745426869905",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1760978869,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-sso:avapeunloyaltyfcb2c.onmicrosoft.com_0",
+    "value": "m1.UV+c3pzz915ZBqQY.Io/L0anG/4f8qIvyr1X+8A==.0.wOiFts/XEspzbKqoKJeDIFMpGTL4UhHaCj/WutWiH6rRGUG5RW+FkBaKfPQbrLL8kxl04OsMQXiJQqKwKuNTPtcoScMq4NdFU99wQ30VYN515dlbnpBXNkv6YQv++AAKx941LDlf6ED8+v2AUEnsBJiCt9iYJNMPlFmHTFnZvqnQrb1qlFGszTig3p8XKxptTSiypztDdXtmQwNWmaJPnc1KeaHAg8IIZUvAoZ0ERXiH1uAO76wa0iraFT6RiHrhd/UeFy+uzLjXRXLGcV8OWrD5vHHPZDY8V2N+GRRreeRsSvcDOIz8k3p+6A0cJdnRF6JiECmvyj46CggsZILXbM/pdbIHthi74XmJZW4jh0cY9tTNp2cTjktjAYYlYTs/oheu4+vk/i/dyCy0MKOJASNy8Fh4rrr1r6/pP1RXHhFXwCkQTUqOq+H/85IBLO9b4ZU8YFScC+GSdrlgyP23c6TEPFiE/6YDS0/Cx26FOgr2Rohg+W0HU31tdmugkCiYAQwHqF82yzAiLauCpTmphUBYBq7Exf3+wCtrXOEpfs9+wQplgkwRRI1luk6SgHZeQi9AbM1YWmoKRO4EKxT7GJ1D4wf5Rw/MwlrsQa43OPU8TME+di8KKGnIz8bNhGxx9YPZI0rN6O+/jghQ37dJ4Hs4hM3CiyiDVaYPwpCBP6iWst7YT0t1Aax+05EQybsSexbcyQ==",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "com.virginatlantic.my-account.token",
+    "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkJuTTZFSEg5b0IxUHdYdWxKMEYydDRRUXJwTDZkaTFGRmV0M3BxZjZjdHciLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NDU0NDg0NjksIm5iZiI6MTc0NTQyNjg2OSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS52aXJnaW5hdGxhbnRpYy5jb20vNzA0YTA3YmQtM2ZjZC00YzRkLWI3Y2UtM2Q3ODY0MDUxZTAzL3YyLjAvIiwic3ViIjoiOWU0Nzg0MDYtMTgyYS00MmU4LTlhZWEtYzViYzc5YTNjNDM0IiwiYXVkIjoiZGM2ZWU3NDctZGE0NS00ZjI4LWFlYWItOTk5YTg5ZjAwODU1IiwiYWNyIjoiYjJjXzFhX3ZhX2RpZ2l0YWxfc2lnbnVwX3NpZ25pbl9jYSIsIm5vbmNlIjoiZGVmYXVsdE5vbmNlIiwiaWF0IjoxNzQ1NDI2ODY5LCJhdXRoX3RpbWUiOjE3NDU0MjY4NjksIkVtYWlsQWRkcmVzcyI6ImFpZmFyZXNAaWNsb3VkLmNvbSIsImZseWluZ2NsdWJOdW1iZXIiOiIxMTA0MzIyNjYyIn0.peA0Z6m20jgDU13aozVxGH-7o5049Q8RzBJhLO1w2esKYHNdlt-TgSCWoQ89ZjCmsO_1IJgumhnkvCJy1EQG3ou2TRhAXFhNTkWbauzYJEPl9XzTC6zyrpz5XsK6_LcR_SfnF7eIOYnIJ8k5aDDHgSKt2ksOKo4fV5xTBgx5RsnvGEM8ipDejuhB3QitgQLzxJZNxLdQPmlDHfHzvW286mcUxcxOqsEB8fSYEI7HtLU8Iw3ONBjShMkryGZi4xBzLRGVqPRKJxry9X9yGMAL73ivHsE6Xh_7gZsLwfk8KHNmfNNDvkFlwJxdxAhvui0kybpJO6SC2Cz4Db81b8zHwA",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "AKA_A2",
+    "value": "A",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745430470.910141,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_ss",
+    "value": "ab8e18ef4e",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745430470.910184,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "www-book-exp-us",
+    "value": "us",
+    "domain": ".www.virginatlantic.com",
+    "path": "/",
+    "expires": 1779986871.208757,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ak_bmsc",
+    "value": "8433125CEB1E69393833DB2EE68A9477~000000000000000000000000000000~YAAQB5QZuLKkRCyWAQAAe3OMYxv/E4Qr5MjJ0KJiSp+pl+OnKUpPV8L5Ju6nTzXt/b6wMBsUisAlCt/IasHNXVZjjNrD2olbVG85LnYCVKR+0T3UzDrirKVkWZgapcAXbsVmUtBT0ikN3k6Y8NtYWfMCIGrcWIcjdjtRvop4JgAgCK+orJdVECSDFIu+RNJEgAc/mr+umjqvjBsV3QSVKGo/GnXMWBR88D5fNbCSP6Xk+X2lVisBVbNgldzP3gmD2DQwicjZrGzI4OjpjSpc502g2uw95jASAQP+wjG7NQ8fdhPcmKyocLiwK8Y3JiFsp9MNF1ExxZmI+ofJytm/3tmVYL/HAdI6OQPF9MQJZl9CnmrqSUN+hYrBte3vDRJYnv0gIltb+YZ02+rKA5dXdvSw",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745434071.20888,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_s",
+    "value": "YAAQB5QZuLOkRCyWAQAAe3OMYwMBaueP4dINff5Hhwleg65GvyfoFuglpIKe3hI3jG9YYzOPBJOArigINyFfR0owR1XuayXACe+UA68zXvM2KkVOkGkUjBEF21b5SEkBv/RgXx3w0BEfmBET6JCr8jl/d07uvcaL+V/ZIQZDNk/OKNbt5rBUiR930Y937kOu5D/T98R+KhLQZcGYIG8aAxzvIyE7a2NAKDFah8/pjUmHh1EIwZVl7SsCXMa+Hm/paPkRN/WbwIgjG3xtTlDLTJ6ySYRTfngR4Zt+n5rjYTfeXcjomITzHl9EhcmwOmraWvafjdCf5JAEpcHgNzd8c5Hqjz1yfTbvbreX6ssVLO/RhqEPFXqqcYmQSmwZ0WTp/fo6HjN4g1MXDdfkcFTZmaiJnz0JQCFwQxfy+IM9q4ZqAfBqdqxgPrVjjEz6SG825EsKkA/NkmfBuMnH2uh+AVw=",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1748105271.208905,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_so",
+    "value": "A4FA5E96A3CC907C5F15B7EF9DE842B5601F2C2D5C29249DB91B8897ECF78190~YAAQB5QZuLSkRCyWAQAAe3OMYwNpttHN51FyWn47P+Cd+zGC0gpQp5TcIgTVnVWwMM4ARfAe4zzqiRy3nC6Tt11J7rHXpT3gpMFL4hjzXtb3OQO6Cfmp1oeMjZwqMghgI8QMIFVe4TESmJ/BLOq/I6wNsuaeI8BPTFNR+MhZ6XhEskC03Dhq/tbzYyyHWHcnwSdcCE2MYqOuY8gVyP7ds+04ghVV9HQePctoHuU91w+/y2dCx/RsE+Ncrx4VEKpbevvETOT6hKelfwz9GC+MrF7gvzqO3qmojm+7TUjXQ50XvWchFHpYT0iRTmgkZVnKQmK9jgtdIGq67kDyp/buLX0E7Q7+b1ZaCtyqNGKxDdvHuch2PuGFQwDbW0XwadeagWuiAiGXWvKzoIfpZHYr8gUe4bu2yG/BOMSihmFtJdgcB11aHv2NHqU64zhU/vj2kmskigFAChGx0UENpPyRR7gip9eMxFg=",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745513271.208991,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_sz",
+    "value": "9E4774BC91029647FC13CFA31C1C41E3~YAAQB5QZuLWkRCyWAQAAe3OMYxv7461KwuVXkYhggxyyWOgrDtNQvnyBlbAB4lDy2g+7Ptrqn0jx/D2cjgj+4sBxlXxEvMhyKg0/riMJJbvrfjq78VLBrE1KbpedCYrg22uu6+Q0Oyt2Xh5OppIMrSwG5rHHRLP7qtA+5fMRSaU3y0YcXBV6o509QX1bX4Cbc9CLdPjwakd8/O4oIyA243jvzQG6SE4dlMeflujADpF0+tZej9mLt/ZXU+77gJazGDezQIBE4lZm45tBccj/iZ7eSYjOagh55xK62Wo+eIwSyjcBoirFkzqVH7RY8X2fC9g79j6a//Wjg/VYSs4yLYzq42aFJ7y3Z2tmbvb0d+5a6OXQ9iVmCyvspG0+9cNvLMdsRAJlQf/hCFc7bbKHODvBQQFZrFCD2yfruITPi2UKoh5ZEQbrHZOf2fI=~3750201~3228486",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745441270.209017,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "akaalb_alb_www_virginatlantic_com",
+    "value": "~op=www_virginatlantic_com_dc:www_virginatlantic_com_DC|www_virginatlantic_com_homepage_book_origin:www_virginatlantic_com_book_origin|~rv=41~m=www_virginatlantic_com_DC:0|www_virginatlantic_com_book_origin:0|~os=71e6a92f9cb2d64c9c61538232f5fe10~id=ee98fc3c73acf0c5aa21a8f655680449",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ACCOUNT_ENROLLED_ENABLED",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427772.753656,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FS_CALENDAR",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745462872.75378,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FS_NEW_FLIGHT_CARDS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754634,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "C19_DISASTER_COOKIE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.753897,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CELL_POINT_DIGITAL_TOGGLE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.753944,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CELL_POINT_DIGITAL_TOGGLE_APP",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.754023,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CELL_POINT_DIGITAL_TOGGLE_MMB",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.754084,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "CHECKOUT_VIRGIN_POINTS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745426932.754149,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "COBRAND_ENABLED",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427772.754178,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "find-experts-cookie",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.754246,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_FEATURE_ACCOUNT",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754269,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_HHA_CREATE_FEATURE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754315,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_HIDE_EDIT_ADDRESS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754339,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_SHOW_ANNOUNCEMENT_BANNER",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754382,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_SHOW_MISSING_POINTS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754425,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FC_SHOW_VIRGIN_GROUP_MARKETING_PREFERENCES",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754467,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "fsp",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427472.754509,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FO_CHILD_SSR",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754531,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FO_INSURANCE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754551,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FO_MULTI_CITY",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754572,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FO_PAY_WITH_POINTS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754593,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FO_SEAT_MAPS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754613,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SYNCRONISE_CABIN_FEATURES",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754655,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "HOTEL_SURVEY_ENABLED",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754677,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "LOOP_54_AB_FEATURE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754698,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "MULTICITY_ENABLED",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.754719,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "NEW_HOME_PAGE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1746031672.755946,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "OPT_PROMOS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745437672.755707,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "LOGIN_TOGGLE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755751,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "REDEMPTION_TOGGLE",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755772,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FORCE_IDP",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755791,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRM_SEARCH_CARD",
+    "value": "3",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.755848,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRM_VIRGIN_POINTS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755868,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "TOGGLE_VOUCHERS",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745434072.755887,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VAC_ENABLED",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755907,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VAH_SEAT_MAPS",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.755926,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bookflow-page-sets",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1748018872.755965,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "direct",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427472.755983,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "fip",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427472.756003,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "userSegmentEnabled",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.756055,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "direct-debit-toggle",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1748018872.756074,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "vhab.f10043t",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.756092,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "com.virginatlantic.edge.id",
+    "value": "E1XD2JDPCZYLNY",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745513272.756129,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SP_DIRECT",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1747846072.755828,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_lso",
+    "value": "A4FA5E96A3CC907C5F15B7EF9DE842B5601F2C2D5C29249DB91B8897ECF78190~YAAQB5QZuLSkRCyWAQAAe3OMYwNpttHN51FyWn47P+Cd+zGC0gpQp5TcIgTVnVWwMM4ARfAe4zzqiRy3nC6Tt11J7rHXpT3gpMFL4hjzXtb3OQO6Cfmp1oeMjZwqMghgI8QMIFVe4TESmJ/BLOq/I6wNsuaeI8BPTFNR+MhZ6XhEskC03Dhq/tbzYyyHWHcnwSdcCE2MYqOuY8gVyP7ds+04ghVV9HQePctoHuU91w+/y2dCx/RsE+Ncrx4VEKpbevvETOT6hKelfwz9GC+MrF7gvzqO3qmojm+7TUjXQ50XvWchFHpYT0iRTmgkZVnKQmK9jgtdIGq67kDyp/buLX0E7Q7+b1ZaCtyqNGKxDdvHuch2PuGFQwDbW0XwadeagWuiAiGXWvKzoIfpZHYr8gUe4bu2yG/BOMSihmFtJdgcB11aHv2NHqU64zhU/vj2kmskigFAChGx0UENpPyRR7gip9eMxFg=^1745426872089",
+    "domain": ".www.virginatlantic.com",
+    "path": "/",
+    "expires": 1748018872,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "mbox",
+    "value": "session#8747ddd24bc8475894403296a1a6e0aa#1745428733|PC#8747ddd24bc8475894403296a1a6e0aa.34_0#1808671670",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779986872.215853,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_abck",
+    "value": "CF3B79A2C0766BCB7950A0EE230E0C82~-1~YAAQB5QZuKmlRCyWAQAAPHeMYw0D7QtRZGZqf0+OZhYeZvxap4IGdoqQQ9tHXxnbUnIumOtK4q2S1GMfSwvh9bQoDPT/mUhMZOZPlaiiwdJtdRP8jQX290vWerQ6Kunrd4PwsncnhrozBLlB/FhIAbaaUwaaCtdrcXKterYoktg1JpdCi5McMRMHH/p2WsXCexlxM4wA0byyhaYLxcHQy7a95g7mtFzEXQ3IdLIMd6yA4Tq+44ndy97Fq3lN0PG33Uu+JvDLuRPE5CVvWagfdQLRoODy6kZv/DaH/TIpQAFShXRw0um2aGAZHBYSUJ9sgtWvnwQI0/He6e2Zxo02hlmCUYqieW58vspUDJw8gvMkSICUAD0At3MH0HMpfTj/7lLHnnZyx9HZZV33RoWYcxuNjh2eqmpoe4l1ENDB7FGCpLHI+H/6WnINR5Oq2XAhnuoA3iRAc+o7IeCASiYwqN9j3fbSG69WgsE3q1fn0iJNBTXV7De0pn/N0QAZdJuLs7jmakMqkM7s8POtSg5HUolA9aSDAE3HT8JDDL4bN/XykXANtzUgCunfPg==~-1~||0||~1745430472",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776962872.293407,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRM_FLIGHTS",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1747846072.754488,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SRM_BAR",
+    "value": "2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1747846072.754221,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "timeout-messaging-variant",
+    "value": "1",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1745430472.756039,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "com.virginholidays.att",
+    "value": "NzQ0OTVlMGUtMjA1MS00NzEwLWExYzEtZmUyZjJjOTczNTE2",
+    "domain": "www.virginatlantic.com",
+    "path": "/",
+    "expires": 1776962872.756109,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bm_sv",
+    "value": "ECDFB86A92449FCB1F997CF77FD01E05~YAAQB5QZuGOmRCyWAQAAeXmMYxt59OgtORhHJ9w3utMbw2t0o3XDi6oguUInPEYevj3ra8g0t3etuOTAAWwaZPZAKLCX8d9uLASC5khnG7fGIEgI7QGFR5KkKX2kfPzpMTEerNlXESPyHoyHp2XhCVPHzPilHd+xdbx2xuQ5ZpgfbBbOiN6DCatiqGNINN9ew3N0YMVcyeqYH+15XJylylfxMgYgOGcdZqnpN7I+OLdEXcn4MgUJEYFOFHa2GcNqfuDdW1vXwKs=~1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745434072.756147,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]
