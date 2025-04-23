@@ -1,0 +1,312 @@
+[
+  {
+    "name": "x-ms-cpim-geo",
+    "value": "EU",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1745429279.420261,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_user",
+    "value": "5FapK|2025-04-23T16:28:00.150Z",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1776961680,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "at_check",
+    "value": "true",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_BANNER_LOADED",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776961681,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_BANNER_VIEWED",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776961682,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Analytics",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776961682,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Marketing",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776961682,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VAA_ENSIGHTEN_PRIVACY_Functional",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1776961682,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "demdex",
+    "value": "63135109760923263622330940817011535564",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1760977683.858655,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AMCVS_30516EBF55FC098E7F000101%40AdobeOrg",
+    "value": "1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ecid",
+    "value": "MCMID%7C63099825604142425482330257862569996770",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779985683.384613,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ips",
+    "value": "720",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_tp",
+    "value": "725",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ppv",
+    "value": "Fc%2520B2c%2520Login%2C99%2C99%2C720%2C1%2C1",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_cc",
+    "value": "true",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_ecid",
+    "value": "MCMID%7C63099825604142425482330257862569996770",
+    "domain": ".smetrics.virginatlantic.com",
+    "path": "/",
+    "expires": 1779985683.516033,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "mboxEdgeCluster",
+    "value": "34",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1745427545,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "everest_g_v2",
+    "value": "g_surferid~aAkVEwAAAJEaGQN_",
+    "domain": ".everesttech.net",
+    "path": "/",
+    "expires": 1776961683.722985,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ttp",
+    "value": "2w8aW9jRLAW824OlJzHhget5Yy7",
+    "domain": ".tiktok.com",
+    "path": "/",
+    "expires": 1779121683.794597,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dpm",
+    "value": "63135109760923263622330940817011535564",
+    "domain": ".dpm.demdex.net",
+    "path": "/",
+    "expires": 1760977683.858718,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AMCV_30516EBF55FC098E7F000101%40AdobeOrg",
+    "value": "359503849%7CMCIDTS%7C20202%7CMCMID%7C63099825604142425482330257862569996770%7CMCAAMLH-1746030482%7C7%7CMCAAMB-1746030482%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1745432883s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20209%7CvVersion%7C5.0.1",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779985683.861743,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "personalization_id",
+    "value": "\"v1_LOZhv1rD5shFmM7aR4FM5w==\"",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1779985684.109129,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__cf_bm",
+    "value": "XvvI9Sp5fRsVFOUme.TGFikTh3IQUi8UydjTI.KEMBE-1745425684-1.0.1.1-uXKifVRFhVUSR60muiWydyYeCqNDlWCLiHFPP3RhBxjrYozQi.RLkLMHCmTvflzMG6y3LG61CGL4upTzimH.TE6ORF2OUZIKWVEeOsjChuc",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1745427484.10916,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dextp",
+    "value": "477-1-1745425683595|1123-1-1745425683698|1175-1-1745425683799|3047-1-1745425683901|144230-1-1745425684003|144231-1-1745425684104|144232-1-1745425684206|144233-1-1745425684308|144234-1-1745425684410",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1760977684,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "flashtalkingad1",
+    "value": "\"GUID=63220220CAD176\"",
+    "domain": ".flashtalking.com",
+    "path": "/",
+    "expires": 1779589684.445998,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-sso:avapeunloyaltyfcb2c.onmicrosoft.com_0",
+    "value": "m1.y+8RYk4xW/mNrcfS.8FEX636SLJ7VgaB3L3yOLg==.0.Paa4FQXZFo4apuqCm9CCQwrvbqjoFObdt/D/AdtmyY2wvl2fiKR8qjF9FcuBr9c10PVo/TH4fQllbyH/pQUBb5679XPpmZGEigmti8NxC4LiDqsvnYqRHP9kwlDmcuLUtjoMf2uNNZk8RJVejdHiZPFup0L/STsVALsxWjfaNxRhFKdcK6gqgKtP6eWZ5Lc/yw4gwH3VknsFXrp7VBu443b+/wiRBEXSybm/8ypW2U3qALf07PEUE5n7Zfpv4LDoehBW8MLIboXqAgnI8e3naWXgBkcqIduZBdHM2593fziBV9hmh5EoqKVYyK0mPJYiTSjEozm20xAgBMMDkmVL1RkRMeYUdMvMCpGFrORlfStndPmI34a3CWLdAnd0D5MWVTQN+5tZUzW5N+tQTnd6eA0+PfWpobV9/zoEvnmY2j94boBuFPJs2T4MAvaaO9ZjF974f/YJap/c2aEGIc9t1O+A+6tVfJACCUcMym4wCyzrFNPSBvZWkMUPdOSBB8fN8nfBzqLaheKPc8hHRfhgueg1OIbRp8aYDqrmYNwGZtOVoMcpdLVGNF4gwZLVHMvKArrc/sp/KE43yD+lshNp2wjcyJQc7ycJ0KCmEqYvAxZy3zqhzz0+eW0YXw==",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-csrf",
+    "value": "azNvT2ZXUFVHNmRyc2dHMVphaEkwUjFSRk03VVo1NVA3L1g5aWpGVUVRcTJNU2hhL2hKZFI2THhoU3dlTWluNmE3N0VOd2t0SzIrMkFBcExXK25SdkE9PTsyMDI1LTA0LTIzVDE2OjI4OjAzLjg5NTA1NDFaO0l1ajduV01USkRGUC9ySzlwREhoRHc9PTt7IlRhcmdldEVudGl0eSI6IkxvY2FsQWNjb3VudFNpZ25pbkVtYWlsRXhjaGFuZ2UiLCJPcmNoZXN0cmF0aW9uU3RlcCI6Mn0=",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-cache|jtoolpopr0ueof5cnw_osw_0",
+    "value": "m1.Y8grZ4pVgcK49GCU.SkH3z5mdXZjctHbc+bZiUw==.0.Zs39zd0RSZF0oa5B5+n5vq0Me5LJt8DEJxHuxZnqNm0V66TC3tfKZClcyjv8zhEnht0nhUL8ifhlVxC9wW9AOIOWFLvw1YrwNB7xSsGAtd4LHPcx4PsbdogFz9HlmU9O0qPXLVs+imPISmpbqCxl0oGEDHdi2VAhb4yVc5M2IyZs1+BmcnkGu2lDC/SADtL8x+6bwI5g37oPXvEOpqEKjr6zHplll5wemLnF/hEEsJofOpERzSTwEFCuIdDeaO4YFdqel8uwcPbA0YJHmAr50F+IoCOpAg95ZaXulvKl3WEeWXf0K1T8UpajGEiMLBPd6EqIOc8n6vBiWz0JDwqUETkvVRGS5tL+3+R8NUSsEeshx8vSGE8ec77qvnIdnJqKMWfXKsbRf5uuDegiwsZgsJ+qxjF6T/XoaldlknPopiLX9D07ZEGodIsnXUvYjF9CrB53aABkYkx8+0THSSzyNS2aXOqHn0ywWrKJV9Yp9gZAm+vmwusHTEw1QoKxkx8H2/iBDMCW9oRVi1ikcLwacis3NqkUnGARfAq7wLRDdihBo7TawAdQ1lTzx2moIU/7Q2MCxv0FqVaTbanGk9JfZJdn5hPSfYsCKDZgTIVz/MV0/cG3nHnAW0Pfh7DQjGHoCue7KAEk6aZ2GJp9NUu2972tKPlu2ymMMd6FUDGbcxIqjlAkLHx8o38gg0RW+4+jsg2oM6VqeQevpyNZodL+zt2A6e2jmb6NWbOVWFef9yswhYAXM8Y68kjoc5UPo5vbqouyZ2OjegQG8GlwUlKlIONN6de4sxA7+Ih1GTEn7lNpBvCOXexQkJZAu///u4+oQzZLssfQ7dbFvT2C0yguYLTKw4VANOOwZNPI5P3NcskLiPdqldEMp7cs79yRzI1ogdZpK5rX8/kjdxxKqeFHdA8By3NPsv4ul0rvDDP+Swmdv2q+mWw8I+a5BmCvps63+hWZgtITEUZYeqoC2F9y+9a4qkJSgSwwdRZdaWE0PVEIh4fgAbTfs/4uNc4jn1bGwNFU4rUBArrXUWVD+jWhnaiN/pVDIcl2H3jX4ZXZJzk7btU64rB07uCYlhXwvcJNd+9jkAzcRZNiVRioOQ8v+ruwn47U0pTHHDen3nJHOS5Wa+uAI/DXVbHr3oWmsUzBNCviBjMxMrIO2FkGiRrTQuGLPq69yqdQBnQ5k9U2AlTzzDmcCFLfG0xs/IaXNqLhLRS5XPFxsPryVDBCpRN7JDGzACfeNyDshV0DUMHuPUC9Tk5Xsk2HudHiJhjrTNlkIq3+F7MEZC/FytoiZm+ElOVXy/J2B1SgtEi//X3Dev4fL9fpkAw/M3K0z6Nw/CA925MdnTcNSjNofT3o8j5+tBE6bktpcKvk3lNKSHAQw7mQF9JsAF6D2mBatFAIPuNu8/8Wl8VyftZoACYUvv4bcb5io/1fFFJpt61JvcFdAKajLt/HGCCkZwDOVAUN8ySkpPeysxujcacrkryCWZIRsNKmoBgnATBY/JmlS7Z6SJHfe758jtpk0pvQP5QJqYIXYZuZIAhIwRZ5QUW53BLZ2wQFmPoyGlrhiNHaw/QlH5I8Yo/YqSjBRhGcdu9R/lMkt1pQr512pyDjNLMM2VRWxipDNSa2krnOIXPQJK0nVbPGFgcBjHG+P38Yq4ky3Qktu4BDquEJIIMCyVU6YtoTu2PulqH23gki6WC1SsACpgi6AmtItyuVaGtPEpnpsE611LEfXE7VNqmHRsuOhkNccQEfS/nRHUqtoL+tZ4etAeAR2pjRvYytD6Ll6a4KiT9K1cv6RY/mVrl6dIxIKrSBEGl2d2wBOmXIuzAjwrgUZWrBgyuW",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-ms-cpim-trans",
+    "value": "eyJUX0RJQyI6W3siSSI6Ijk2MGUzYThkLTI5OWEtNGI0Ny04NGEwLTVlNDIzNzBmZThiMyIsIlQiOiJhdmFwZXVubG95YWx0eWZjYjJjLm9ubWljcm9zb2Z0LmNvbSIsIlAiOiJCMkNfMUFfVkFfRElHSVRBTF9TSUdOVVBfU0lHTklOX0NBIiwiQyI6ImRjNmVlNzQ3LWRhNDUtNGYyOC1hZWFiLTk5OWE4OWYwMDg1NSIsIlMiOjMsIk0iOnt9LCJEIjowLCJFIjoiIn1dLCJDX0lEIjoiOTYwZTNhOGQtMjk5YS00YjQ3LTg0YTAtNWU0MjM3MGZlOGIzIn0=",
+    "domain": ".identity.virginatlantic.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ai_session",
+    "value": "BiUuI|1745425680254|1745425684908.7",
+    "domain": "identity.virginatlantic.com",
+    "path": "/",
+    "expires": 1745427484,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "mbox",
+    "value": "session#38648de689c54f7bb94bf53a35d2bfae#1745427546|PC#38648de689c54f7bb94bf53a35d2bfae.34_0#1808670486",
+    "domain": ".virginatlantic.com",
+    "path": "/",
+    "expires": 1779985685.971729,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
