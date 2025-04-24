@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Debug files
+debug/
+
+# Verification status and result files
+virgin-latest-code.txt
+virgin-verification-status.json
+verification-result.png
+verification-error.png
+
+# Config with sensitive info
+config.js

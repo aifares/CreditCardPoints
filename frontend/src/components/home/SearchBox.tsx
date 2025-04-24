@@ -37,7 +37,7 @@ export default function SearchBox() {
       setLoading(true);
       setError("");
       
-      const response = await axios.post("http://localhost:5000/api/search", {
+      const response = await axios.post("http://localhost:5001/api/search", {
         origin,
         destination,
         departureDate,

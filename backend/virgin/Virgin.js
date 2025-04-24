@@ -5,6 +5,11 @@ const axios = require("axios");
 (async () => {
   const browser = await chromium.launch({
     headless: false, // Use true for headless mode, false for full browser view
+    proxy: {
+      server: "http://pr.oxylabs.io:7777",
+      username: "customer-points_dlhua-cc-US",
+      password: "Changelog12_",
+    },
   });
 
   const context = await browser.newContext();
@@ -51,10 +56,64 @@ const axios = require("axios");
     }
   }
 
-  // Wait for login confirmation
+  // Handle email verification if it appears
+  try {
+    // Wait for either email verification OR successful login
+    const result = await Promise.race([
+      page
+        .waitForSelector("#readOnlyEmail_ver_but_send", { timeout: 10000 })
+        .then(() => "verification"),
+      page
+        .waitForSelector('button[aria-label="Open logged in menu"]', {
+          timeout: 10000,
+        })
+        .then(() => "logged_in"),
+    ]);
+
+    if (result === "verification") {
+      console.log(
+        "Email verification detected, clicking 'Send verification code' button"
+      );
+      await page.click("#readOnlyEmail_ver_but_send");
+
+      // Wait for verification code input to appear
+      await page.waitForSelector("#readOnlyEmail_ver_input", {
+        timeout: 10000,
+      });
+      console.log(
+        "✅ Verification code sent. Please check your email and enter the code manually."
+      );
+
+      // Pause for manual input - wait for a longer time
+      console.log("Waiting for manual verification code entry...");
+      await page.waitForTimeout(60000); // Wait for 60 seconds for manual input
+
+      // Click verify button after manual input
+      const verifyButton = await page.$("#readOnlyEmail_ver_but_verify");
+      if (verifyButton) {
+        await verifyButton.click();
+        console.log("Clicked verification button");
+      }
+
+      // Now wait for successful login after verification
+      await page.waitForSelector('button[aria-label="Open logged in menu"]', {
+        timeout: 25000,
+      });
+      console.log("✅ Logged in successfully after verification");
+    } else {
+      console.log("✅ Already logged in successfully - no verification needed");
+    }
+  } catch (e) {
+    console.log(
+      "Verification detection error, continuing with normal login flow:",
+      e.message
+    );
+  }
+
+  // Wait for login confirmation - this is now a fallback
   try {
     await page.waitForSelector('button[aria-label="Open logged in menu"]', {
-      timeout: 15000,
+      timeout: 25000,
     });
     console.log("✅ Logged in successfully — found post-login button.");
   } catch (e) {
@@ -227,11 +286,7 @@ const axios = require("axios");
 
   console.log(flightData);
 
-  fs.writeFileSync(
-    "virgin.json",
-    JSON.stringify(flightData, null, 2),
-    "utf-8"
-  );
+  fs.writeFileSync("virgin.json", JSON.stringify(flightData, null, 2), "utf-8");
 
   await browser.close();
 })();
