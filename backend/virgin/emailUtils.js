@@ -222,7 +222,7 @@ function printRecentEmailsSummary(emails) {
  */
 async function fetchVerificationCode() {
   console.log(
-    "✨ Starting email verification code retrieval after the 15-second wait..."
+    "✨ Starting email verification code retrieval after the 20-second wait..."
   );
   console.log(
     `📧 Email configuration: ${config.email.imap.user} @ ${config.email.imap.host}`

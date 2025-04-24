@@ -398,12 +398,12 @@ async function login(page) {
           timeout: config.timeouts.default,
         });
         console.log(
-          "✅ Verification code sent. Waiting 15 seconds before checking email..."
+          "✅ Verification code sent. Waiting 20 seconds before checking email..."
         );
 
-        // Wait 15 seconds before checking for the email
-        console.log("⏱️ Waiting 15 seconds for email to arrive...");
-        await page.waitForTimeout(15000); // 15 seconds
+        // Wait 20 seconds before checking for the email
+        console.log("⏱️ Waiting 20 seconds for email to arrive...");
+        await page.waitForTimeout(20000); // 20 seconds
 
         // Fetch verification code from email
         console.log(

@@ -69,7 +69,7 @@
               "fares": [
                 {
                   "availability": null,
-                  "id": "3e6de08c-fb19-4bb7-a9e8-84062546625d|b042a8f5-c980-4320-bf5b-c8f9886d7b88-FL-1",
+                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-1",
                   "fareId": "YPAS1500",
                   "content": null,
                   "price": {
@@ -82,7 +82,7 @@
                 },
                 {
                   "availability": null,
-                  "id": "3e6de08c-fb19-4bb7-a9e8-84062546625d|b042a8f5-c980-4320-bf5b-c8f9886d7b88-FL-2",
+                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-2",
                   "fareId": "WPAS2500",
                   "content": null,
                   "price": {
@@ -95,7 +95,7 @@
                 },
                 {
                   "availability": null,
-                  "id": "3e6de08c-fb19-4bb7-a9e8-84062546625d|b042a8f5-c980-4320-bf5b-c8f9886d7b88-FL-3",
+                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-3",
                   "fareId": "CPAS3500",
                   "content": null,
                   "price": {
@@ -175,7 +175,7 @@
               "fares": [
                 {
                   "availability": null,
-                  "id": "3e6de08c-fb19-4bb7-a9e8-84062546625d|b042a8f5-c980-4320-bf5b-c8f9886d7b88-FL-4",
+                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-4",
                   "fareId": "YSM110",
                   "content": null,
                   "price": {
@@ -209,7 +209,7 @@
           "totalAwardPoints": null,
           "totalPrice": 0
         },
-        "basketId": "a536f553-ea8e-4583-8529-730f59f18e2a"
+        "basketId": "eeb568a2-c166-4837-a120-fe22fa8a332f"
       }
     }
   }
