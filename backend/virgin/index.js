@@ -150,9 +150,9 @@ async function main() {
     console.log("🔍 Searching for award flights...");
     const flightData = await searchAwardFlights(
       {
-        origin: "SFO",
+        origin: "JFK",
         destination: "LHR",
-        departureDate: "2025-04-27",
+        departureDate: "2025-05-27",
       },
       cookies,
       apiContext // Pass the Playwright API context for making requests (may be null)

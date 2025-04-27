@@ -1,0 +1,1051 @@
+{
+  "data": {
+    "availableOffers": {
+      "__typename": "AvailableOfferResponse",
+      "offerItineraries": [
+        {
+          "activeConnection": {
+            "flightAmenityNumber": "AF_0001_2025-10-04",
+            "segments": [
+              {
+                "_id": "OfferSegment:5befe6b8424afec5bdbf70b03bb28d51bf3fc711a8b1a43a5e811dc2525bb64c",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Boeing 777-200",
+                "highestPriority": true,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "0001"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T05:55:00",
+                "dateVariation": 1,
+                "departureDateTime": "2025-10-04T16:30:00",
+                "destination": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 445,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "New York",
+                    "__typename": "CodeName"
+                  },
+                  "code": "JFK",
+                  "name": "John F. Kennedy International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": 65
+              },
+              {
+                "_id": "OfferSegment:66f47cd9ab35693ee46e9048cd298ecc53baf949fdd9aeb230ce617b45e257c0",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Airbus A220-300",
+                "highestPriority": false,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "1000"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T09:10:00",
+                "dateVariation": 0,
+                "departureDateTime": "2025-10-05T07:00:00",
+                "destination": {
+                  "city": {
+                    "name": "Madrid",
+                    "__typename": "CodeName"
+                  },
+                  "code": "MAD",
+                  "name": "Barajas International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 130,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": null
+              }
+            ],
+            "warnings": [],
+            "__typename": "OfferConnection",
+            "dateVariation": 1,
+            "duration": 640,
+            "isDirect": false,
+            "operatingCarriers": [
+              {
+                "code": "AF",
+                "name": "Air France",
+                "__typename": "Carrier"
+              }
+            ],
+            "_id": "OfferConnection:684169693d8b65518384f8f8cf1a8911fb0a305dd4588a1f4d8835e1e5183ffd"
+          },
+          "upsellCabinProducts": [
+            {
+              "_id": "OfferFlightProduct:a2568f09d4f49d9e34b519992aa8b481f835b29fb648c4279f2b7612b19962b6",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:e709cfbb32c5b564ef4e8bbd6ff66eaa02ec9698d72275d34f81605e87cd4f7a",
+                  "cabinClass": "ECONOMY",
+                  "cabinClassTitle": "Economy",
+                  "hasSpecialFare": true,
+                  "isLowest": true,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 25000,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 119.7,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFYCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/d85be067-7240-407e-84b5-77df1db25d33/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhdCsMgEITv0veFXd3NSq9S8hCjQs8g3r0_po2i5FVHFERn5ssduT8us6sN-RnudPj0x_Heqwf4_Ph_guvoot99TsyZm_AujLssyUE0YoEpedgk7EBeSZNFx7JdJcXcdiXqwgYOYeP3YMpaZn2zHnOEK3imxyqZo4U6Ny8Na4_DqvSKqFTFkOLrcFOVghMfcVFQwwiMGsGxF1ANiYI3Eqy9lRc=bc4ebb9c834/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:6a4aeb5cd174ea3a8ea415e5d28140c9fe67e034423cd5cbbcad2b1904d476bc",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:c96aa6537db8a3464b6547bfdbde157b322b7904052c686d20cf4db3e2494d02",
+                  "cabinClass": "PREMIUM",
+                  "cabinClassTitle": "Premium",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 279500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 176.6,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFWCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/df764a57-d370-45e5-b29c-c2df99bc90a8/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhZCgMhEETvkv-GdulRc5Xgh8sIOYN49yw9ySjK_GqJgmhVvTqQ--Myh9pQn_kuDp_-ON579QSfH_9P0M8u-t3nxJy1C--kMdFWLOySFGhRIgTKCUQ0whSFVlO4Soq170piCBs4hY3fg2m-rfomH3OGK3imR5as0QLPrUuDH3EYS6-ICiumFM_DXVXKxWw6kIGsDIKmnSBKlyDJXJyLyWGwt_YCf9176326aea/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:a432a6d9c4789baac85c0cf36b41391924142611e8176b787b541294e22c3ea2",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:e345c1fe983f6455c06975e69f156c44a13a67960304ae0175637eb15ec7d496",
+                  "cabinClass": "BUSINESS",
+                  "cabinClassTitle": "Business",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 3,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 239500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 256.1,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFJCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/c6d2d53e-e23f-41c6-9b42-c343406d24ea/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhNCgMhDIXv0n1ATXSmvUpx4S_0DOLda5tpR1FmayJKgua9rwzk_mjmYBvKKz7kMac_E6_tnuDz8_8J2nmKfs85MWfpxLsmEbTJOySlEUhmD07HANJvcssodtLuSimW3ivJQWyISWz8Hky1deU3-ZozXBGneuSUNVrg2No02BGHceoVUeGMScXzcmeVgokqakytfphb_YKBuycFAQlJtCAld6tvb6bb5ba0643/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            }
+          ],
+          "_id": "OfferItinerary:c65bf4832c39b7bcd7218877910e7705a9a722853af0f0a0b19e9a4bd528e33e",
+          "__typename": "OfferItinerary"
+        },
+        {
+          "activeConnection": {
+            "flightAmenityNumber": "AF_0003_2025-10-04",
+            "segments": [
+              {
+                "_id": "OfferSegment:f7bf45246d4ca12758e7d6be6636d9a693dd18713e25c4874428e2f33dfa4102",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Boeing 777-300",
+                "highestPriority": true,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "0003"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T06:55:00",
+                "dateVariation": 1,
+                "departureDateTime": "2025-10-04T17:30:00",
+                "destination": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 445,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "New York",
+                    "__typename": "CodeName"
+                  },
+                  "code": "JFK",
+                  "name": "John F. Kennedy International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": 140
+              },
+              {
+                "_id": "OfferSegment:bab07753a70616265036f895ba5a69db513775e53b646644823a0366dc53c9c2",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Airbus A321",
+                "highestPriority": false,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "1300"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T11:20:00",
+                "dateVariation": 0,
+                "departureDateTime": "2025-10-05T09:15:00",
+                "destination": {
+                  "city": {
+                    "name": "Madrid",
+                    "__typename": "CodeName"
+                  },
+                  "code": "MAD",
+                  "name": "Barajas International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 125,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": null
+              }
+            ],
+            "warnings": [],
+            "__typename": "OfferConnection",
+            "dateVariation": 1,
+            "duration": 710,
+            "isDirect": false,
+            "operatingCarriers": [
+              {
+                "code": "AF",
+                "name": "Air France",
+                "__typename": "Carrier"
+              }
+            ],
+            "_id": "OfferConnection:b4974f66601f819fc6df43bc9a57f2bb34cee8597bd60cd91b8a4c71bbec47a9"
+          },
+          "upsellCabinProducts": [
+            {
+              "_id": "OfferFlightProduct:3359aabe5637bb430aca5c8aa8b66727c5137d70b743bea629cd38f9e07a0ff6",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:b5b4a580e2f221b455b850dbd3ab80922c27e83a3220e3ce520cab5b8781b778",
+                  "cabinClass": "ECONOMY",
+                  "cabinClassTitle": "Economy",
+                  "hasSpecialFare": true,
+                  "isLowest": true,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 25000,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 119.7,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFYCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/b8d8e161-b3c4-4442-8e04-85dab0fc52a8/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhLCgMhEETvkn2Drd0zTa4SXPiFnEG8ez5OMooyWy1REK2qVwZyf1zmUBvKM97x8OmP471XT_D58f8E7eyi331OzFm68M6kAm9ZIGk2QJg9OI4B0O-4Z6OE2F0lxdJ3JRzChprCxu_BVFtXfbMdc4Yr6kyPTbJGC21uXRrsiMOa9IqoNMWU4ttwV5W8REm4IXgTCIhIgyRFIBydVzmwdnKrLw==2a9307c334b/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:78564f01b1710866fb1ec37b160ef7f114d23f4baa2b18caab123f3453303252",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:713de3157996e625b36c278cfe42a15fa08bf938b3de97f9b625d3efd62fc2f8",
+                  "cabinClass": "PREMIUM",
+                  "cabinClassTitle": "Premium",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 279500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 176.6,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFWCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/b2477870-dca9-4fc2-9af9-e218951e794a/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhLDsMgDETv0r0lTOwaepUqCz5B6hkQd29a0gYEyhaMQFgwMy935P5oZhcb8is-8NDpj-Ltqwf4_Px_guuoot99TsyZG_POpALfk4FN8wKEyYPjGAC9oKRFGWJ35RRzm5WwMxtqMBu_B1PWMsub9ZgjXFGne6wlc7RQ5-ahYe1xWC29Iiq1YnDxdbiJSl6TiBEFMTgLlIIG65LdrxONZdzEkruVNw==5262fd99ba5/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:7004a02206460113716d81d5153d6c3a344cac22fd73967164877a2e7403d353",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:e1b70e0fa6b186f6665890404b3173ae1b5dd3ad200865d24dd2e9e42639f869",
+                  "cabinClass": "BUSINESS",
+                  "cabinClassTitle": "Business",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 7,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 131500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 256.1,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFJCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/fba6feab-e13b-41d7-9ca3-9430d14fdff7/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhLDsMgDETv0r0lXHBIepWKBT9LPQPi7k3rtAGBsgUjEBbMzCsduT-a2cWG8koPPHT6o3j76gE-P_-foBtV9LvPiTlLY97JqEgLr5DvpMEgB_CUImCwaFmr1ZC_coqlzUrYmQ01mI3fg6muzvKmHHOEK-p0j1IyRwsyNw8NrsdhUnpFVKRicPEy3EQlDn7h7ANk1GG_v2Rhi17DZrRKaDgx21t9Aw==c48a5c78f93/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            }
+          ],
+          "_id": "OfferItinerary:b28300b842fb98e07fe267d47de48ea190132fdf23e634528fa7bfc594cca5ce",
+          "__typename": "OfferItinerary"
+        },
+        {
+          "activeConnection": {
+            "flightAmenityNumber": "AF_0005_2025-10-04",
+            "segments": [
+              {
+                "_id": "OfferSegment:66cad657c953e45f7d94c9273bfa1926d5cb60893edc754e9ed503943d9cfddb",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Boeing 777-300",
+                "highestPriority": true,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "0005"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T08:05:00",
+                "dateVariation": 1,
+                "departureDateTime": "2025-10-04T18:30:00",
+                "destination": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 455,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "New York",
+                    "__typename": "CodeName"
+                  },
+                  "code": "JFK",
+                  "name": "John F. Kennedy International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": 70
+              },
+              {
+                "_id": "OfferSegment:bab07753a70616265036f895ba5a69db513775e53b646644823a0366dc53c9c2",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Airbus A321",
+                "highestPriority": false,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "1300"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T11:20:00",
+                "dateVariation": 0,
+                "departureDateTime": "2025-10-05T09:15:00",
+                "destination": {
+                  "city": {
+                    "name": "Madrid",
+                    "__typename": "CodeName"
+                  },
+                  "code": "MAD",
+                  "name": "Barajas International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 125,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": null
+              }
+            ],
+            "warnings": [],
+            "__typename": "OfferConnection",
+            "dateVariation": 1,
+            "duration": 650,
+            "isDirect": false,
+            "operatingCarriers": [
+              {
+                "code": "AF",
+                "name": "Air France",
+                "__typename": "Carrier"
+              }
+            ],
+            "_id": "OfferConnection:e03d4a7c3e71a5edb7c4937cda2719d295e804517af00702797be8f2fafcb6e0"
+          },
+          "upsellCabinProducts": [
+            {
+              "_id": "OfferFlightProduct:f34048e716ee33cf017d969f58a5f0eaea6440d16d585146f23b2c8be6723c6c",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:ccfe9ab669447ad654314bd61192735a548462bc6178de06668f77a469f7abe5",
+                  "cabinClass": "ECONOMY",
+                  "cabinClassTitle": "Economy",
+                  "hasSpecialFare": true,
+                  "isLowest": true,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 25000,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 119.7,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFYCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/254ef421-3c82-4e53-94f9-9a71e367d2b1/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhNCsMgEIXv0v2Ao2PUXqW48Bd6BvHuTWuaKEq2OqI46HvvKwO5P5o5xIbyjk88dPqrePvqCT6_zk_Qzir62-fCnKUz75JYkFvWkLgUQJg9OBkDoFeosmCapLtziqXPSjiYDTaZjf-Dqbau8mY75gxX2OUeW8kaLbS5dWiwIw5rpXdEpVVMLr4Nd1GJS0qZOIIImgOl_RINZQPGKUxiU5F7fNQPb88945cccbb/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:e506f09c92f392fbafcfff060a86860b7feb599e7597e9196da628d2f38eb557",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:bf0b351a59c2cd5bc5a3b85acd8f465e6d9d5b863bc47f29ebbcbe4143a2e267",
+                  "cabinClass": "PREMIUM",
+                  "cabinClassTitle": "Premium",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 1,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 103500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 176.6,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFWCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/00348ca3-5378-433e-9fdc-4638f6c9b2c3/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhBDsMgDAT_0rsliG0g_UqVA5Ag9Q2Ivzet0wQEyhWMQFiwu5Mbcn80s4kN-b0-9aHTX8XbV3fw-XV-gkuvor99LsyZK_POpCKb5GCbGIF0CuB5jaCD1TahcsT-zinmOivpxmyozmz8H0xZyihvyjF7uKIu9yglY7Qgc-PQsLQ4TErviIpUdC5ehquopBSSix6B0TogxA3mtN8fGXTJxDlMER_lAw==e6cc506ae64/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:9b3065e63a9ffe843cc1af3fea23489bb92cf1c1243f952f61fa3ff0bb6931fc",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:8de97bcf9c9c19373070ea7d50275de6ebc558cdbde340b0aea24b988b9a2c8d",
+                  "cabinClass": "BUSINESS",
+                  "cabinClassTitle": "Business",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 8,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 131500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 256.1,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFJCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/24f012a5-3525-48c5-8c81-fc2008143fe2/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhdCsQgDITvsu-BJCZt2KssPrS2wp5BvPv-2N0qSl91REF0Zr7UkPvjMpvakJ7bnQ6f_jjee3UHnx__T9D3Lvrd58ScqQrvKhh0igY7qwOhuMKiWwBaZ5qjQxNdrpJiqrsSNWEDu7DxezDZ51HfLMfs4Qqe6bFIxmihzI1Lg29xWJFeEZWi6FJ8Ga6qEktE4kXBKSuIBQULRhADIxqJizvf8gs=cbaa2f33b25/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            }
+          ],
+          "_id": "OfferItinerary:77cf3d0a9d1e445a8bfac73a34dd12ecebd40feaefdc9af092ddf8fd555e9a00",
+          "__typename": "OfferItinerary"
+        },
+        {
+          "activeConnection": {
+            "flightAmenityNumber": "AF_0009_2025-10-04",
+            "segments": [
+              {
+                "_id": "OfferSegment:86dde7e5e27ecf5590a651eeb2cce048301ea7fd15dd2747d90619e213c23201",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "Boeing 777-300",
+                "highestPriority": true,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "0009"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T13:00:00",
+                "dateVariation": 1,
+                "departureDateTime": "2025-10-04T23:30:00",
+                "destination": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 450,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "New York",
+                    "__typename": "CodeName"
+                  },
+                  "code": "JFK",
+                  "name": "John F. Kennedy International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": 100
+              },
+              {
+                "_id": "OfferSegment:81f061fc464222fa432485e9d791d15bff56b26a45ef99d8a78045abcce0ee2d",
+                "commercialCabinLabel": null,
+                "equipmentInformation": null,
+                "equipmentName": "A320",
+                "highestPriority": false,
+                "marketingFlight": {
+                  "flightOnTime": null,
+                  "operatingFlight": {
+                    "carrier": {
+                      "code": "AF",
+                      "name": "Air France",
+                      "__typename": "CodeName"
+                    },
+                    "__typename": "OfferSegmentOperatingFlight"
+                  },
+                  "__typename": "OfferSegmentMarketingFlight",
+                  "carrier": {
+                    "code": "AF",
+                    "__typename": "CodeName"
+                  },
+                  "number": "1800"
+                },
+                "stopsAt": null,
+                "__typename": "OfferSegment",
+                "arrivalDateTime": "2025-10-05T16:45:00",
+                "dateVariation": 0,
+                "departureDateTime": "2025-10-05T14:40:00",
+                "destination": {
+                  "city": {
+                    "name": "Madrid",
+                    "__typename": "CodeName"
+                  },
+                  "code": "MAD",
+                  "name": "Barajas International Airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "duration": 125,
+                "equipmentType": "AIRCRAFT",
+                "origin": {
+                  "city": {
+                    "name": "Paris",
+                    "__typename": "CodeName"
+                  },
+                  "code": "CDG",
+                  "name": "Paris-Charles de Gaulle airport",
+                  "__typename": "OfferSegmentStation"
+                },
+                "transferDuration": null
+              }
+            ],
+            "warnings": [],
+            "__typename": "OfferConnection",
+            "dateVariation": 1,
+            "duration": 675,
+            "isDirect": false,
+            "operatingCarriers": [
+              {
+                "code": "AF",
+                "name": "Air France",
+                "__typename": "Carrier"
+              }
+            ],
+            "_id": "OfferConnection:ba477b0c17c367bbc60751d6ba7a775ca80a3895761a197229fc944f012968fe"
+          },
+          "upsellCabinProducts": [
+            {
+              "_id": "OfferFlightProduct:a8a8b5d0c79922a5ab31be1803f644c06b03ef59620dd9289b7dc6dc0da54049",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:c33e5e75ff4df6eaa17ec077e681077749e17979a3f03c548928afd14b7b1c16",
+                  "cabinClass": "ECONOMY",
+                  "cabinClassTitle": "Economy",
+                  "hasSpecialFare": true,
+                  "isLowest": true,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 25000,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 119.7,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFYCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/c4020e23-73dc-4c09-973f-919c67ab9404/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhBDsMgDAT_0rslG0wI_UrFAUiQ-gbE35vWaRIEyhWMQFiwu1Macr83s4kN5b08adfpr-Jtqzv4_Do-Qd-r6G-fE3OWi3k3jMlMeYZVGQ1MOUIwSwKKlmzWOLMJd06xXLMSNWYDO7PxfzDV11HelGP2cAVP9yglY7Qgc-PQ4FscJqV3REUqOhcvw5eolBgVrkqD1dutcUIHzuoMjlyabIiOkR_1Aw==ee99e24c9d8/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:faea5a12fbc7f257a78f4a4d78870e264332839857e07a1c59614696461a2c13",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:103fe2cd02d013801abe437acbba8d06528766aa0d4b5e522a085a9b32a99d8a",
+                  "cabinClass": "PREMIUM",
+                  "cabinClassTitle": "Premium",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 279500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 176.6,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFWCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/94f2bb86-25f3-41a4-a989-201e9506f1c9/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhBDsMgDAT_0rslTDCBfqXKAUgs9Q2Iv7ep0wQEyhWMQFiwu5Mbcn80s4kN-b0-8dDpXfG-qzv4_Do_waVX0d8-F-bMlXknoxJZdrBpmsAgRwi0JsA448yTcobCnVPMdVbCxmyozmz8H0xZyihvyjF7uKIu9yglY7Qgc-PQsLQ4TErviIpUdC5ehquo5A3rGJ0FTbzfXzAQvPOgFW6elGVM_lE-40b201ef6bb/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            },
+            {
+              "_id": "OfferFlightProduct:917037ead5ba31aaefcf7739b5261c0be70e61f9de6a522ff0594ac07c8fcf1d",
+              "connections": [
+                {
+                  "_id": "OfferFlightProductConnection:daa7e500bcc5e5bd92fd0d5423c9323ae8dd02b2592064d5513fe64dd521de3b",
+                  "cabinClass": "BUSINESS",
+                  "cabinClassTitle": "Business",
+                  "hasSpecialFare": false,
+                  "isLowest": false,
+                  "isNegotiated": null,
+                  "isPromo": false,
+                  "numberOfSeatsAvailable": 9,
+                  "passengerCount": 1,
+                  "price": {
+                    "amount": 131500,
+                    "currencyCode": "MILES",
+                    "__typename": "Money"
+                  },
+                  "promoTitle": null,
+                  "tax": {
+                    "amount": 256.1,
+                    "currencyCode": "USD",
+                    "__typename": "Money"
+                  },
+                  "__typename": "OfferFlightProductConnection",
+                  "fareFamily": {
+                    "code": "FFJCLASSIC",
+                    "__typename": "OfferFlightProductConnectionFareFamily"
+                  },
+                  "resourceIds": {
+                    "flightDetails": "/a/v3/flight-details/f12c5deb-ebcf-4299-a23a-047ffd384cb9/0",
+                    "__typename": "OfferFlightProductConnectionLinks"
+                  }
+                }
+              ],
+              "resourceIds": {
+                "availableOffers": null,
+                "upsellOffers": "/a/v3/flight-products/fZhZCgMhEETvkv8GlzZqrhLmw60hZxDvnqUnM4oyv1qiIFpVrw7kfr_MoTbUV37I3ae_jvdZPcHn5_EJbrOL_vY5MWftwrtBkcydHBRlNKCkCMHkBDJaaUkLhyZcJcXadyU5hA0xhY3_g2lbW_VNPuYMV8SZHlmyRgs8ty4N24jDWHpFVFgxpXge7qoSSZVMLhFKTASovIegdACBlihrhyn6W3sD20c2c99883f/upsell-offers",
+                "__typename": "OfferFlightProductLinks",
+                "externalBooking": null
+              },
+              "__typename": "OfferFlightProduct"
+            }
+          ],
+          "_id": "OfferItinerary:c588edfd89c8ca97413724d42733485c42dfceae7e0dce410af60d830cf61f31",
+          "__typename": "OfferItinerary"
+        }
+      ],
+      "resourceLinks": null,
+      "warnings": null,
+      "disclaimers": [
+        {
+          "code": "FARE_MILES",
+          "textRJF": [
+            {
+              "type": "paragraph",
+              "depth": 1,
+              "text": "* Please note: airport taxes and security charges are not covered by your Miles and must be paid separately. The same applies for carrier-imposed surcharges. For flights within Europe operated by Air France, KLM and HOP!, no additional carrier-imposed surcharges apply. The exact cost will be shown in the trip overview after you have selected your flight."
+            }
+          ],
+          "type": "GENERAL",
+          "__typename": "OfferGroupedDisclaimer"
+        }
+      ],
+      "searchMetadata": {
+        "negotiatedFareAvailable": null,
+        "environmentalInformation": {
+          "co2InKg": 585,
+          "text": "Average CO₂ emissions in the Economy cabin for this flight: 585 kg",
+          "__typename": "EnvironmentalInformation"
+        },
+        "__typename": "OfferSearchMetaData"
+      }
+    }
+  },
+  "extensions": {
+    "aviatoCacheControl": {
+      "hasPrivateData": true
+    }
+  }
+}

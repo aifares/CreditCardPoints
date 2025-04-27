@@ -40,9 +40,9 @@ async function customSearch() {
     console.log("Searching for flights with custom parameters...");
 
     // Allow command line arguments to override search parameters
-    let origin = "SFO"; // Default
+    let origin = "JFK"; // Default
     let destination = "LHR"; // Default
-    let departureDate = "2025-06-15"; // Default
+    let departureDate = "2025-05-27"; // Default
 
     // Parse command line args for search parameters
     process.argv.forEach((arg) => {

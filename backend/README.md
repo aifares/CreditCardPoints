@@ -1,84 +1,44 @@
-# Alaska Airlines Flight Search API
+# Air France Miles Automation
 
-A simple REST API for searching Alaska Airlines flights using miles/points.
+This script uses Playwright to automate checking your miles on the Air France website after manually logging in.
 
-## Setup
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
+
+## Installation
+
+1. Clone this repository
+2. Navigate to the backend directory
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Running the server
+## Usage
+
+1. Run the script:
 
 ```bash
-# Start production server
 npm start
-
-# Start development server with hot reload
-npm run dev
 ```
 
-The server will start on port 5000 by default (or the port specified in the PORT environment variable).
+2. A Chrome browser window will open and navigate to the Air France website
+3. Log in manually, completing any CAPTCHA and 2FA steps as needed
+4. Once logged in, the script will detect your login and can perform automated actions
+5. The browser will stay open to maintain your session
 
-## API Endpoints
+## Customization
 
-### Search Flights
+You need to update the following in the `airfrance/index.js` file:
 
-**POST /api/search**
+1. Replace `.logged-in-user-element` with the actual selector that appears when logged in
+2. Uncomment and modify the code for navigating to miles pages and extracting balance
 
-Search for available flights.
+## Important Notes
 
-**Request Body:**
-
-```json
-{
-  "origin": "NYC",
-  "destination": "TYO",
-  "departureDate": "2025-08-08",
-  "returnDate": "2025-09-04",
-  "numAdults": 2
-}
-```
-
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| origin | string | Yes | Origin airport code (e.g., "NYC", "SEA") |
-| destination | string | Yes | Destination airport code (e.g., "TYO", "LAX") |
-| departureDate | string | Yes | Departure date in YYYY-MM-DD format |
-| returnDate | string | Yes | Return date in YYYY-MM-DD format |
-| numAdults | number | No | Number of adult passengers (default: 1) |
-
-**Response:**
-
-```json
-[
-  {
-    "id": 3,
-    "route": "JFK → HND",
-    "classType": "REFUNDABLE_MAIN",
-    "milesPoints": 37500,
-    "seatsRemaining": 9,
-    "cabinTypes": ["COACH"],
-    "refundable": true,
-    "departureTime": "2025-08-08T10:00:00-04:00",
-    "arrivalTime": "2025-08-09T13:20:00+09:00",
-    "duration": 860,
-    "airlines": ["American Airlines"]
-  },
-  // ...more flights
-]
-```
-
-### Health Check
-
-**GET /api/health**
-
-Check if the API is running.
-
-**Response:**
-
-```json
-{
-  "status": "ok"
-}
-``` 
+- The script intentionally keeps the browser open to maintain session cookies
+- To stop the script, press Ctrl+C in the terminal
+- If the website structure changes, you may need to update the selectors

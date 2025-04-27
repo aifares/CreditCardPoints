@@ -1,0 +1,305 @@
+{
+  "data": {
+    "lowestFareOffers": {
+      "contextInformation": null,
+      "disclaimer": {
+        "displayPriceText": null,
+        "totalPriceText": null,
+        "__typename": "LowestOffersDisclaimer"
+      },
+      "lowestOffers": [
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-06",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZjBDoMgDIafqEkLqNx33u7LwkGie4mGdx-jOKyQnSmxxpj_-z9WIr5-TNUROJd7qjn9Tbx8u3PJrxJtoU_Q8oxmLPlE6dbvbl8dQSSawJGN4O07gvW0LfPm0SzrP0rkcykiBRrYgcbxs6SQRsVS1uw9CTZylJGxQ5CzcTvgiyg1aCYgApx_rZFF7T-et4OHSswlZUfr0D2nrh5qoB0andVtxYmE_NYfd76d93b07be",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-07",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZgxDsMgDEVPZMkGUtg7t3tVMQQlvYTF3UsxKXFBnTGKoyj67z9WIr59TNURuJR7ajn9Sbxye3DJzxptcUzQ-oxuLPlE6Tbsbl8dQSJawJFNEOwrgQ20-csW0Pj1HyXyuRSRAg0cQOP4WXLMs2Ipa46eBDs5ysjcIcjZvB3wjyg1aBYgAvTf1sii9u-P68FDNeaysqNt6FZSVw910I6dztq24kRiees3cbb15f7c4b6",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-08",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZjBDoMgDIafqEkLOHv3vN2XhYNE9xIN7y4DHHaQnSmxxpj_-z9RIr5-TNURJJV7qjn9Sbx0u3PJrxxtvk_Q_IxmLOVC6ZZ3t6-OIBBN4MgGYPsOYJm2-bYxmnn9R4lyLUWkQAM70Dh_lujjqFiWNXtPgo0cy8jYIZSzcTuQH1Fq0ExABMjf1ihF7T-ey8lDOeaisqN16J5SVw810PaNzuq2xYn49NYHe915f973387",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 132.2,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 132.2,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-09",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZgxDsMgDEVPZMkG0tC5c7tXFUNQ0ktY3L0UkxAX1BmjOIqi__5jJeLrx1QdgXO5p5rT38TLtzuX_CrRFvoELc9oxpJPlG795rbFEUSiCRzZCN6-I1hP63xZPZp5-UeJfC5FpEADO9DYf5YU0qhYypq9J8FGjjIydghyNm4H_CNKDZoJiACvR2tkUfuP523noRJzSdnROnTPqauHGmiHRmd1W3EiIb_1Bw==78cc46ba651",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 40000,
+          "displayPriceItinerary": 40000,
+          "flightDate": "2025-11-10",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZjBDoMgDIafqEkLOLl73u7LwkGie4mGd5dRHHaQnSmxxpj_-z9WIr5-TNUROJd7qjn9Sbx8u3PJrxJtoU_Q8oxmLPlC6dbvbl8dQSSawJGN4O07gvW0zbfNo5nXf5TI11JECjSwA43zZ0khjYqlrNl7EmzkKCNjhyBn43bAP6LUoJmACAi_rZFF7T-ey8lDJeaSsqN16J5TVw810A6Nzuq24kRCfusD17128e69884",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 189.1,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 189.1,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 40000,
+          "totalPriceItinerary": 40000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 189.1,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 189.1,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-11",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZhBCsMgEEVPNOCoadxn3e5LcRFJeonBu2fqmJqpUsjOCRok_PcfKRFfL1N1BOJyjzWnP4nHb3cu-VWiLfYJWvZoxpIulO7C7vfVIyTECTy6BMG9E7iA23zbgrHz-o8S6VqKUIGG6UDj_FlyzKNiKcfsPYlp5CgjY4cga-N2QD-i1Bo7ASI_39ZIovYfz-XkoRJzWdnROnTn1NVDDbRjo7N6WnEikb_6AA==fab635a5eff",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        },
+        {
+          "currency": "MILES",
+          "displayPrice": 25000,
+          "displayPriceItinerary": 25000,
+          "flightDate": "2025-11-12",
+          "isPromoFare": false,
+          "noFlight": false,
+          "promoFareTitle": null,
+          "resourceIds": {
+            "availableOffers": "/a/v3/available-offers?d=fZgxDsMgDEVPZAkDadg7t3tVMQQlvYTF3etiEHFAnTGKoyj67z9SIr5-TNURiMs91pz-JR7fHlzyu0RbHBO0PKMbSzpRuguHPzaPkBAX8OgSBPdJ4ALu620Pxq7bP0qkcylCBRpmAI32s-SYZ8VS1hw9ienkKCNzhyBn83ZAF1FqjV0AETiGW2skUfvP173xUIm5rOxoHXpw6uqhDtqx01ndVpxI5Lf-Ag==d7fd4db8305",
+            "__typename": "LowestOffersFlightProductLinks"
+          },
+          "splitTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "totalPrice": 25000,
+          "totalPriceItinerary": 25000,
+          "totalTaxDetails": {
+            "currency": "USD",
+            "pricePerPassengerTypes": [
+              {
+                "passengerType": "ADT",
+                "taxes": 119.7,
+                "__typename": "LowestOffersTaxDetailsPricePerPassengerType"
+              }
+            ],
+            "totalPrice": 119.7,
+            "__typename": "LowestOffersTaxDetails"
+          },
+          "__typename": "LowestOffersFlightProduct"
+        }
+      ],
+      "resourceIds": {
+        "self": "/a/v3/lowest-fare-offers?d=fZnLDoMgEEW_aFIGUGm3Xbf7pmGhwSb9hgn_Xt6IkO5MRIn4uOceqfH36WY2rYG-5oYpuX0GuqM7Bf0un0Td56qfq7pOOqC7ULvcV4mwIU4gUWygxGcDodAss1GML-s_dKRjU8KGPlhHH_l9sdp2ncuO-mdYn7HJzNldUTMOHuuIuG9cJ-ikXznjEyACu5aaSfGHwfN1zwAVctE2zjUNeriYbgdVMtcnfVymmi9509FCZb50SdHBaP_QhPP6jOx0iWfJqPe1_QE=4c68f691b0b&dateInterval=",
+        "__typename": "LowestOffersResponseLinks"
+      },
+      "warning": null,
+      "__typename": "LowestOffersResponse"
+    }
+  },
+  "extensions": {
+    "aviatoCacheControl": {
+      "hasPrivateData": true
+    }
+  }
+}

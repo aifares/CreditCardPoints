@@ -251,7 +251,7 @@ const axios = require("axios");
       origin: "https://www.virginatlantic.com",
       priority: "u=1, i",
       referer:
-        "https://www.virginatlantic.com/flights/search/slice?origin=JFK&destination=LHR&departing=2025-04-27&passengers=a1t0c0i0&awardSearch=true",
+        "https://www.virginatlantic.com/flights/search/slice?origin=JFK&destination=LHR&departing=2025-05-27&passengers=a1t0c0i0&awardSearch=true",
       "sec-ch-ua":
         '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
       "sec-ch-ua-mobile": "?0",
@@ -281,7 +281,7 @@ const axios = require("axios");
   const flightData = await searchAwardFlights({
     origin: "JFK",
     destination: "LHR",
-    departureDate: "2025-04-27",
+    departureDate: "2025-05-27",
   });
 
   console.log(flightData);

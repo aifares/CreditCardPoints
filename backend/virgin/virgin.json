@@ -8,10 +8,10 @@
         },
         "criteria": {
           "origin": {
-            "code": "SFO",
-            "cityName": "San Francisco",
-            "countryName": "CA",
-            "airportName": "San Francisco International"
+            "code": "JFK",
+            "cityName": "New York",
+            "countryName": "NY",
+            "airportName": "John F Kennedy International"
           },
           "destination": {
             "code": "LHR",
@@ -19,7 +19,7 @@
             "countryName": "United Kingdom",
             "airportName": "Heathrow Airport"
           },
-          "departing": "2025-04-27"
+          "departing": "2025-05-27"
         },
         "slice": {
           "id": null,
@@ -33,75 +33,490 @@
                       "code": "VS",
                       "name": "Virgin Atlantic"
                     },
-                    "flightNumber": "VS20",
-                    "operatingFlightNumber": "VS20",
+                    "flightNumber": "VS26",
+                    "operatingFlightNumber": "VS26",
                     "origin": {
-                      "code": "SFO",
-                      "cityName": "San Francisco",
-                      "airportName": "San Francisco International"
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
                     },
                     "destination": {
                       "code": "LHR",
                       "cityName": "London",
                       "airportName": "Heathrow Airport"
                     },
-                    "duration": "PT10H20M",
-                    "departure": "2025-04-27T16:05:00",
-                    "arrival": "2025-04-28T10:25:00",
+                    "duration": "PT6H50M",
+                    "departure": "2025-05-27T08:10:00",
+                    "arrival": "2025-05-27T20:00:00",
                     "bookingClass": null,
                     "fareBasisCode": null
                   }
                 ],
-                "duration": "PT10H20M",
+                "duration": "PT6H50M",
                 "origin": {
-                  "code": "SFO",
-                  "cityName": "San Francisco",
-                  "airportName": "San Francisco International"
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
                 },
                 "destination": {
                   "code": "LHR",
                   "cityName": "London",
                   "airportName": "Heathrow Airport"
                 },
-                "departure": "2025-04-27T16:05:00",
-                "arrival": "2025-04-28T10:25:00"
+                "departure": "2025-05-27T08:10:00",
+                "arrival": "2025-05-27T20:00:00"
               },
               "fares": [
                 {
                   "availability": null,
-                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-1",
-                  "fareId": "YPAS1500",
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-1",
+                  "fareId": "OQAS0230",
                   "content": null,
                   "price": {
-                    "awardPoints": "150000",
-                    "tax": 95.3,
-                    "amountIncludingTax": 95.3,
+                    "awardPoints": "23000",
+                    "tax": 88.3,
+                    "amountIncludingTax": 88.3,
                     "amount": 0,
                     "currency": "USD"
                   }
                 },
                 {
                   "availability": null,
-                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-2",
-                  "fareId": "WPAS2500",
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-2",
+                  "fareId": "HQAS0900",
                   "content": null,
                   "price": {
-                    "awardPoints": "250000",
-                    "tax": 188.9,
-                    "amountIncludingTax": 188.9,
+                    "awardPoints": "90000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
                     "amount": 0,
                     "currency": "USD"
                   }
                 },
                 {
                   "availability": null,
-                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-3",
-                  "fareId": "CPAS3500",
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-3",
+                  "fareId": "ZQAS2000",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "200000",
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic"
+                    },
+                    "flightNumber": "VS138",
+                    "operatingFlightNumber": "VS138",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H",
+                    "departure": "2025-05-27T23:25:00",
+                    "arrival": "2025-05-28T11:25:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T23:25:00",
+                "arrival": "2025-05-28T11:25:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-4",
+                  "fareId": "OQAS0060",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "6000",
+                    "tax": 75,
+                    "amountIncludingTax": 75,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-5",
+                  "fareId": "HQAS0410",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "41000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-6",
+                  "fareId": "ZQAS2200",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "220000",
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic"
+                    },
+                    "flightNumber": "VS10",
+                    "operatingFlightNumber": "VS10",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H15M",
+                    "departure": "2025-05-27T19:00:00",
+                    "arrival": "2025-05-28T07:15:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H15M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T19:00:00",
+                "arrival": "2025-05-28T07:15:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-7",
+                  "fareId": "OQAS0060",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "6000",
+                    "tax": 75,
+                    "amountIncludingTax": 75,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-8",
+                  "fareId": "HQAS0400",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "40000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-9",
+                  "fareId": "ZQAS1850",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "185000",
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic"
+                    },
+                    "flightNumber": "VS46",
+                    "operatingFlightNumber": "VS46",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H15M",
+                    "departure": "2025-05-27T21:00:00",
+                    "arrival": "2025-05-28T09:15:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H15M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T21:00:00",
+                "arrival": "2025-05-28T09:15:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-10",
+                  "fareId": "OQAS0060",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "6000",
+                    "tax": 75,
+                    "amountIncludingTax": 75,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-11",
+                  "fareId": "HQAS0620",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "62000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-12",
+                  "fareId": "DQAS3500",
                   "content": null,
                   "price": {
                     "awardPoints": "350000",
-                    "tax": 496.3,
-                    "amountIncludingTax": 496.3,
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic"
+                    },
+                    "flightNumber": "VS4",
+                    "operatingFlightNumber": "VS4",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H25M",
+                    "departure": "2025-05-27T18:00:00",
+                    "arrival": "2025-05-28T06:25:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H25M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T18:00:00",
+                "arrival": "2025-05-28T06:25:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-13",
+                  "fareId": "OQAS0060",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "6000",
+                    "tax": 75,
+                    "amountIncludingTax": 75,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-14",
+                  "fareId": "HQAS0480",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "48000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-15",
+                  "fareId": "ZQAS2100",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "210000",
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "VS",
+                      "name": "Virgin Atlantic"
+                    },
+                    "flightNumber": "VS154",
+                    "operatingFlightNumber": "VS154",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H30M",
+                    "departure": "2025-05-27T21:30:00",
+                    "arrival": "2025-05-28T10:00:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H30M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T21:30:00",
+                "arrival": "2025-05-28T10:00:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-16",
+                  "fareId": "OQAS0060",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "6000",
+                    "tax": 75,
+                    "amountIncludingTax": 75,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-17",
+                  "fareId": "HQAS0560",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "56000",
+                    "tax": 188,
+                    "amountIncludingTax": 188,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-18",
+                  "fareId": "ZQAS2450",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "245000",
+                    "tax": 493.7,
+                    "amountIncludingTax": 493.7,
                     "amount": 0,
                     "currency": "USD"
                   }
@@ -116,72 +531,308 @@
                       "code": "DL",
                       "name": "Delta Air Lines"
                     },
-                    "flightNumber": "DL2366",
-                    "operatingFlightNumber": "DL2366",
+                    "flightNumber": "DL1",
+                    "operatingFlightNumber": "DL1",
                     "origin": {
-                      "code": "SFO",
-                      "cityName": "San Francisco",
-                      "airportName": "San Francisco International"
-                    },
-                    "destination": {
-                      "code": "SEA",
-                      "cityName": "Seattle",
-                      "airportName": "Tacoma International"
-                    },
-                    "duration": "PT2H22M",
-                    "departure": "2025-04-27T13:45:00",
-                    "arrival": "2025-04-27T16:07:00",
-                    "bookingClass": null,
-                    "fareBasisCode": null
-                  },
-                  {
-                    "airline": {
-                      "code": "VS",
-                      "name": "Virgin Atlantic"
-                    },
-                    "flightNumber": "VS106",
-                    "operatingFlightNumber": "VS106",
-                    "origin": {
-                      "code": "SEA",
-                      "cityName": "Seattle",
-                      "airportName": "Tacoma International"
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
                     },
                     "destination": {
                       "code": "LHR",
                       "cityName": "London",
                       "airportName": "Heathrow Airport"
                     },
-                    "duration": "PT9H45M",
-                    "departure": "2025-04-27T17:35:00",
-                    "arrival": "2025-04-28T11:20:00",
+                    "duration": "PT7H25M",
+                    "departure": "2025-05-27T20:25:00",
+                    "arrival": "2025-05-28T08:50:00",
                     "bookingClass": null,
                     "fareBasisCode": null
                   }
                 ],
-                "duration": "PT13H35M",
+                "duration": "PT7H25M",
                 "origin": {
-                  "code": "SFO",
-                  "cityName": "San Francisco",
-                  "airportName": "San Francisco International"
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
                 },
                 "destination": {
                   "code": "LHR",
                   "cityName": "London",
                   "airportName": "Heathrow Airport"
                 },
-                "departure": "2025-04-27T13:45:00",
-                "arrival": "2025-04-28T11:20:00"
+                "departure": "2025-05-27T20:25:00",
+                "arrival": "2025-05-28T08:50:00"
               },
               "fares": [
                 {
                   "availability": null,
-                  "id": "596f0272-8dce-465a-aec7-be84890b77b6|9433cf1f-d6e3-4b84-93cb-5616788672da-FL-4",
-                  "fareId": "YSM110",
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-19",
+                  "fareId": "YLSM100",
                   "content": null,
                   "price": {
-                    "awardPoints": "41000",
-                    "tax": 95.3,
-                    "amountIncludingTax": 95.3,
+                    "awardPoints": "10000",
+                    "tax": 228.5,
+                    "amountIncludingTax": 228.5,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "DL",
+                      "name": "Delta Air Lines"
+                    },
+                    "flightNumber": "DL3",
+                    "operatingFlightNumber": "DL3",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT7H30M",
+                    "departure": "2025-05-27T22:30:00",
+                    "arrival": "2025-05-28T11:00:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT7H30M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T22:30:00",
+                "arrival": "2025-05-28T11:00:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-22",
+                  "fareId": "YLSM100",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "10000",
+                    "tax": 228.5,
+                    "amountIncludingTax": 228.5,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "KL",
+                      "name": "KLM"
+                    },
+                    "flightNumber": "KL646",
+                    "operatingFlightNumber": "KL646",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "AMS",
+                      "cityName": "Amsterdam",
+                      "airportName": "Schiphol Airport"
+                    },
+                    "duration": "PT7H20M",
+                    "departure": "2025-05-27T00:50:00",
+                    "arrival": "2025-05-27T14:10:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  },
+                  {
+                    "airline": {
+                      "code": "KL",
+                      "name": "KLM"
+                    },
+                    "flightNumber": "KL1011",
+                    "operatingFlightNumber": "KL1011",
+                    "origin": {
+                      "code": "AMS",
+                      "cityName": "Amsterdam",
+                      "airportName": "Schiphol Airport"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT1H20M",
+                    "departure": "2025-05-27T15:55:00",
+                    "arrival": "2025-05-27T16:15:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT10H25M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T00:50:00",
+                "arrival": "2025-05-27T16:15:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-25",
+                  "fareId": "XLBP120",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "12000",
+                    "tax": 192.4,
+                    "amountIncludingTax": 192.4,
+                    "amount": 0,
+                    "currency": "USD"
+                  }
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                },
+                {
+                  "availability": "SOLD_OUT",
+                  "id": null,
+                  "fareId": null,
+                  "content": null,
+                  "price": null
+                }
+              ]
+            },
+            {
+              "flight": {
+                "segments": [
+                  {
+                    "airline": {
+                      "code": "KL",
+                      "name": "KLM"
+                    },
+                    "flightNumber": "KL646",
+                    "operatingFlightNumber": "KL646",
+                    "origin": {
+                      "code": "JFK",
+                      "cityName": "New York",
+                      "airportName": "John F Kennedy International"
+                    },
+                    "destination": {
+                      "code": "AMS",
+                      "cityName": "Amsterdam",
+                      "airportName": "Schiphol Airport"
+                    },
+                    "duration": "PT7H20M",
+                    "departure": "2025-05-27T00:50:00",
+                    "arrival": "2025-05-27T14:10:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  },
+                  {
+                    "airline": {
+                      "code": "KL",
+                      "name": "KLM"
+                    },
+                    "flightNumber": "KL1013",
+                    "operatingFlightNumber": "KL1013",
+                    "origin": {
+                      "code": "AMS",
+                      "cityName": "Amsterdam",
+                      "airportName": "Schiphol Airport"
+                    },
+                    "destination": {
+                      "code": "LHR",
+                      "cityName": "London",
+                      "airportName": "Heathrow Airport"
+                    },
+                    "duration": "PT1H20M",
+                    "departure": "2025-05-27T17:15:00",
+                    "arrival": "2025-05-27T17:35:00",
+                    "bookingClass": null,
+                    "fareBasisCode": null
+                  }
+                ],
+                "duration": "PT11H45M",
+                "origin": {
+                  "code": "JFK",
+                  "cityName": "New York",
+                  "airportName": "John F Kennedy International"
+                },
+                "destination": {
+                  "code": "LHR",
+                  "cityName": "London",
+                  "airportName": "Heathrow Airport"
+                },
+                "departure": "2025-05-27T00:50:00",
+                "arrival": "2025-05-27T17:35:00"
+              },
+              "fares": [
+                {
+                  "availability": null,
+                  "id": "3bc65fa2-7068-4e95-b9d1-c19de1033d2c|adff019a-4255-4dff-a3df-86fe4af8b3cb-FL-28",
+                  "fareId": "XLBP120",
+                  "content": null,
+                  "price": {
+                    "awardPoints": "12000",
+                    "tax": 192.4,
+                    "amountIncludingTax": 192.4,
                     "amount": 0,
                     "currency": "USD"
                   }
@@ -209,7 +860,7 @@
           "totalAwardPoints": null,
           "totalPrice": 0
         },
-        "basketId": "eeb568a2-c166-4837-a120-fe22fa8a332f"
+        "basketId": "0c418843-f9bc-4cbd-bed8-ab4463e70dab"
       }
     }
   }
